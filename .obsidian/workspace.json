@@ -1,0 +1,249 @@
+{
+  "main": {
+    "id": "ebead40fd4b97828",
+    "type": "split",
+    "children": [
+      {
+        "id": "65ff1941fec0fffc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6107d82aebb12147",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/Data Structure/树.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "983dd7c260e38f75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d6601c26352f4a4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/Data Structure/栈.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dcfc2d24ecaed02b",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ec0a99fb1cbb518",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "25aaecce91915af9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b22d46d99905bca0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "upper",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c1fd3e3a0633510e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 298.50110244750977
+  },
+  "right": {
+    "id": "a997df58287d8353",
+    "type": "split",
+    "children": [
+      {
+        "id": "2232a297e6778064",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ddae9ea0b1a1b34a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "52653569c693b1de",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Git.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "15b4a21c677ada7e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "a7c406a5dd6ba2f1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Git.md"
+              }
+            }
+          },
+          {
+            "id": "b5ef3fe5cc0a03ac",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "32585c0a1cf28745",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 256.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "audio-recorder:开始/结束录音": false,
+      "random-note:开始漫游笔记": false,
+      "publish:发布更改": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "983dd7c260e38f75",
+  "lastOpenFiles": [
+    "01 attachment/Git的结构示意图.png",
+    "C++/Data Structure/树.md",
+    "Git.md",
+    "C++/Data Structure/栈.md",
+    "01 attachment/使用二叉树计算表达式2.png",
+    "01 attachment/使用二叉树计算表达式.png",
+    "01 attachment/中序遍历的非递归实现2.png",
+    "01 attachment/中序遍历的非递归实现.png",
+    "C++/Data Structure/字符串.md",
+    "C++/Data Structure/线性表.md",
+    "LaTeX.md",
+    "01 attachment/三叉链表存储结构.png",
+    "01 attachment/广义标准存储结构的节点结构.png",
+    "01 attachment/标准存储结构的节点结构.png",
+    "01 attachment/二叉链表存储结构.png",
+    "01 attachment/二叉树顺序存储.png",
+    "01 attachment/二叉树的前序遍历.png",
+    "C++/Grammars/标准数据类型/字符串.md",
+    "C++/Grammars/Function/函数.md",
+    "01 conference/运算符优先级.md",
+    "C++/Grammars/标准数据类型/浮点数.md",
+    "MATLAB/未命名.md",
+    "C++/Grammars/异常.md",
+    "MATLAB",
+    "Python/Grammars/基本类型/列表.md",
+    "Python/Grammars/输入输出.md",
+    "Python/Grammars/基本类型/字符串.md",
+    "C++/Grammars/多文件程序/单独编译.md",
+    "C++/Algorithm/排序.md",
+    "01 e-books/算法导论 第三版 可复制 有目录 (Thmos.H.Cormen ,Charles E. Leiserson etc.) (Z-Library).pdf",
+    "C++/Algorithm/分治.md",
+    "01 e-books",
+    "新建文件夹",
+    "00 uncompleted/STL Algorithm.md",
+    "00 uncompleted",
+    "00 uncompleted/迭代与递归.md",
+    "C++/OOP/类.md",
+    "Python/Grammars/单独编译.md",
+    "C++/Data Structure/队列.md",
+    "C++/Grammars/In&out put/cout & cin.md",
+    "Python/Grammars/Program Structures.md",
+    "01 attachment/desktop.ini",
+    "01 E-books/Python编程_从入门到实践.pdf",
+    "01 E-books",
+    "Study Plan.canvas",
+    "C++/STL",
+    "Python/Grammars/基本类型"
+  ]
+}
