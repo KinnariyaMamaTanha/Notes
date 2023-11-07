@@ -1,0 +1,18 @@
+{
+  "editor:insert-codeblock": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ],
+  "editor:insert-mathblock": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ]
+}
