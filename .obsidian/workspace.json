@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git.md",
+                "file": "C++/Grammars/异常.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git.md",
+                "file": "C++/Grammars/异常.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git.md",
+                "file": "C++/Grammars/异常.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git.md"
+                "file": "C++/Grammars/异常.md"
               }
             }
           },
@@ -196,11 +196,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "983dd7c260e38f75",
+  "active": "25aaecce91915af9",
   "lastOpenFiles": [
+    "Git.md",
     "01 attachment/Git的结构示意图.png",
     "C++/Data Structure/树.md",
-    "Git.md",
     "C++/Data Structure/栈.md",
     "01 attachment/使用二叉树计算表达式2.png",
     "01 attachment/使用二叉树计算表达式.png",
@@ -214,7 +214,6 @@
     "01 attachment/标准存储结构的节点结构.png",
     "01 attachment/二叉链表存储结构.png",
     "01 attachment/二叉树顺序存储.png",
-    "01 attachment/二叉树的前序遍历.png",
     "C++/Grammars/标准数据类型/字符串.md",
     "C++/Grammars/Function/函数.md",
     "01 conference/运算符优先级.md",

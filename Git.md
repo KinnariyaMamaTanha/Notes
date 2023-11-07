@@ -2,7 +2,9 @@
 # Account setting
 
 use fellow commands to set your accounts before doing anything else:
+
 `git config --global user.name "userName"`
+
 `git config --global user.email "emailAddress"`
 
 # Local directories and files
@@ -76,12 +78,16 @@ Now let's stop our foot to learn something more about git and review what we do 
 Now we are going to learn how to clone a repository.
 
 First come to the directory where you are going to clone the remote repository, and open git bash here.
+
 Then use command `git clone address`, `address` has been mentioned above, which is the location of the remote repository in github, having a format such as `git@github.com:ownerName/repoName.git`.
 
 There are some differences of `pull` and `clone`:
 1. `git pull`: must be linked with the remote repository if to be used. Download complete codes and update the local codes.
 2. `git clone`: only for downloading the codes in remote repository, doesn't need to be linked with the remote, doesn't apply to update the local codes. 
 
-## 6. branches
+# Branches
+
+>*Very important!!!*
+
 If you want to `push` directly to a certain branch, use following command
 `git branch -M main` (take main for example, master is also OK)
