@@ -18,10 +18,13 @@ use fellow commands to set your accounts before doing anything else:
 3. enter and withdraw from specific directory:
 	1. using command `cd` like: `cd d:/git/gitRepository/rep1`, or line by line like: `cd d` then `cd git` then `cd gitRepository` finally `cd rep1`
 	2. `cd ..`: withdraw from the current directory
+	3. `cd ~`: Enter your home directory
 4. check the directories and files in recent directory
 	1. `ls`: check what's in the current directory
 	2. `pwd`: check which directory you are currently in
-
+5. Unzip files: `unzip file.zip`
+6. Move files: `mv c:/users/username/filename d:/desktop/dirname`, move the file `filename` from `c:/users/username` to `d:/desktop/dirname`
+7. Open the current directory: `start .`(on Windows)
 # Repository
 
 ## 1. create a repository
