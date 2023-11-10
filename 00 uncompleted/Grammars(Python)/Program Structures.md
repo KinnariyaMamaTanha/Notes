@@ -49,3 +49,4 @@ while statement:
 ……
 ```
 statement可以是一个列表名，当且仅当列表为空时返回False
+

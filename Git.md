@@ -25,6 +25,7 @@ use fellow commands to set your accounts before doing anything else:
 5. Unzip files: `unzip file.zip`
 6. Move files: `mv c:/users/username/filename d:/desktop/dirname`, move the file `filename` from `c:/users/username` to `d:/desktop/dirname`
 7. Open the current directory: `start .`(on Windows)
+8. The directory name with blank space should be enclosed by single quotes `''`
 # Repository
 
 ## 1. create a repository

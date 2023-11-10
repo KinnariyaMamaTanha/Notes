@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Grammars/单独编译.md",
+                "file": "Python/Grammar/Basic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d9e9249a8e52865",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Grammars/单独编译.md",
+                "file": "Python/Grammar/Basic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Grammars/单独编译.md",
+                "file": "Python/Grammar/Basic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Grammars/单独编译.md"
+                "file": "Python/Grammar/Basic.md"
               }
             }
           },
@@ -171,11 +183,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1f2fe8551262fe89",
+  "active": "25aaecce91915af9",
   "lastOpenFiles": [
-    "Python/Grammars/函数.md",
-    "Python/Grammars/杂.md",
+    "01 attachment/Frame and Environment.png",
+    "Python/Grammar/Functions.md",
+    "Python/Grammar/Basic.md",
     "Git.md",
+    "Python/Grammar/Input and Output.md",
+    "00 uncompleted/Grammars(Python)/基本类型/列表.md",
+    "Python/Grammar",
+    "00 uncompleted/Grammars(Python)/杂.md",
+    "00 uncompleted/Grammars(Python)/输入输出.md",
+    "00 uncompleted/Grammars(Python)/类.md",
+    "00 uncompleted/Grammars(Python)/函数.md",
+    "00 uncompleted/Grammars(Python)/Program Structures.md",
+    "Python/Grammer/未命名.md",
+    "Python/Grammar",
+    "00 uncompleted/Grammars(Python)/单独编译.md",
     "C++/Data Structure/优先队列.md",
     "01 attachment/二叉堆实例.png",
     "C++/Data Structure/树.md",
@@ -199,17 +223,7 @@
     "01 attachment/使用二叉树计算表达式2.png",
     "01 attachment/使用二叉树计算表达式.png",
     "C++/Data Structure/字符串.md",
-    "C++/Data Structure/线性表.md",
-    "C++/Grammars/标准数据类型/字符串.md",
-    "01 conference/运算符优先级.md",
-    "C++/Grammars/标准数据类型/浮点数.md",
-    "MATLAB/未命名.md",
     "MATLAB",
-    "Python/Grammars/基本类型/列表.md",
-    "Python/Grammars/输入输出.md",
-    "Python/Grammars/基本类型/字符串.md",
-    "C++/Grammars/多文件程序/单独编译.md",
-    "C++/Algorithm/排序.md",
     "01 e-books/算法导论 第三版 可复制 有目录 (Thmos.H.Cormen ,Charles E. Leiserson etc.) (Z-Library).pdf",
     "01 e-books",
     "新建文件夹",
@@ -217,8 +231,6 @@
     "01 attachment/desktop.ini",
     "01 E-books/Python编程_从入门到实践.pdf",
     "01 E-books",
-    "Study Plan.canvas",
-    "C++/STL",
-    "Python/Grammars/基本类型"
+    "Study Plan.canvas"
   ]
 }
