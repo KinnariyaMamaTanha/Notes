@@ -20,6 +20,7 @@ def g(x, y):
 This is different from the function overloads in C++, which means after the redefinition, you can only use `g(x, y)`.
 
 4. **Function signatures**: a description of the formal parameters of a function.
+5. **Default argument values**: you can set the default argument value just like that in C++.
 
 # Importing Functions
 
@@ -28,3 +29,23 @@ This is different from the function overloads in C++, which means after the rede
 `from <LibraryName> import <functionName> as <abbreviationName>`
 
 e.g: `from math import pi as p`
+
+# Docstring
+
+>*Docstring is used to describe the function, useful!!!*
+
+e.g: 
+```python
+def pressure(v, t, n):
+        """Compute the pressure in pascals of an ideal gas.
+
+        Applies the ideal gas law: http://en.wikipedia.org/wiki/Ideal_gas_law
+
+        v -- volume of gas, in cubic meters
+        t -- absolute temperature in degrees kelvin
+        n -- particles of gas
+        """
+        k = 1.38e-23  # Boltzmann's constant
+        return n * k * t / v
+```
+The comments enclosed by three double quotations marks is docstring. When using command `help(pressure)` in Python interpreter, it will show the docstring on the string.
