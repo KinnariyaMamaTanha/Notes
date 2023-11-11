@@ -8,4 +8,4 @@ If you want to contact with me, e-mailing to the address 2823324228@qq.com is a 
 
 Anyway, nice to meet you, stranger but my friend, god bless.
 
-(Some errors still remain here, if you want to see the pictures in the notes, try to clone this repository to your own PC, then open it in softwares like Obsidian or others.)
+(Some errors still remain here. So I highly recommend you to clone this repository to your PC and open it as a vault in the Obsidian for I use obsidian to take notes. That might be a little troublesome. Thanks for your forgiveness.)
