@@ -1,4 +1,4 @@
->*Refer to [a blog in CSDN]([Git教程 Git Bash详细教程-CSDN博客](https://blog.csdn.net/qq_36667170/article/details/79085301?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169926696716800185843905%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=169926696716800185843905&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-79085301-null-null.142^v96^pc_search_result_base2&utm_term=git%20bash&spm=1018.2226.3001.4187))*
+>*Partly refer to [a blog in CSDN]([Git教程 Git Bash详细教程-CSDN博客](https://blog.csdn.net/qq_36667170/article/details/79085301?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169926696716800185843905%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=169926696716800185843905&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-79085301-null-null.142^v96^pc_search_result_base2&utm_term=git%20bash&spm=1018.2226.3001.4187))*
 # Account setting
 
 use fellow commands to set your accounts before doing anything else:

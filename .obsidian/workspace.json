@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git.md",
+                "file": "C++/Data Structure/树.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "upper",
+                "query": "标准存储",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git.md",
+                "file": "C++/Data Structure/树.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git.md",
+                "file": "C++/Data Structure/树.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git.md"
+                "file": "C++/Data Structure/树.md"
               }
             }
           },
@@ -185,12 +186,17 @@
   },
   "active": "1f2fe8551262fe89",
   "lastOpenFiles": [
+    "C++/Data Structure/优先队列.md",
+    "01 attachment/左堆示例.png",
+    "C++/OOP/类模板.md",
+    "01 attachment/优先队列的出队.png",
+    "01 attachment/优先队列入队.png",
+    "Git.md",
     "LaTeX.md",
     "Python/Grammar/Functions.md",
     "Python/Grammar/Basic.md",
     "Python/The Zen of Python.md",
     "01 attachment/Frame and Environment.png",
-    "Git.md",
     "Python/Grammar/Input and Output.md",
     "00 uncompleted/Grammars(Python)/基本类型/列表.md",
     "Python/Grammar",
@@ -202,12 +208,10 @@
     "Python/Grammer/未命名.md",
     "Python/Grammar",
     "00 uncompleted/Grammars(Python)/单独编译.md",
-    "C++/Data Structure/优先队列.md",
     "01 attachment/二叉堆实例.png",
     "C++/Data Structure/树.md",
     "Markdown.md",
     "README.md",
-    "C++/OOP/类模板.md",
     "C++/OOP/友元.md",
     "C++/OOP/类.md",
     "C++/Grammars/Function/重载解析.md",
@@ -217,12 +221,8 @@
     "01 attachment/树的双亲表示法.png",
     "01 attachment/树的孩子兄弟链表示法.png",
     "01 attachment/家谱树.png",
-    "01 attachment/孩子链表示法.png",
     "C++/Grammars/异常.md",
     "C++/Data Structure/栈.md",
-    "01 attachment/Git的结构示意图.png",
-    "01 attachment/使用二叉树计算表达式2.png",
-    "C++/Data Structure/字符串.md",
     "MATLAB",
     "01 e-books/算法导论 第三版 可复制 有目录 (Thmos.H.Cormen ,Charles E. Leiserson etc.) (Z-Library).pdf",
     "01 e-books",
