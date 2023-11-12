@@ -21,6 +21,26 @@ This is different from the function overloads in C++, which means after the rede
 
 4. **Function signatures**: a description of the formal parameters of a function.
 5. **Default argument values**: you can set the default argument value just like that in C++.
+6. The formal parameter could be function, too.
+```python
+square = lambda x: x ** 2
+cube = lambda x: x ** 3
+
+def sum(x, term):
+	ans = 0
+	for i in range(1, x + 1):
+		ans += term(i)
+	return ans
+
+print(sum(5, square))
+print(sum(5, cube))
+```
+
+output:
+```python
+55
+225
+```
 
 # Importing Functions
 
@@ -48,4 +68,20 @@ def pressure(v, t, n):
         k = 1.38e-23  # Boltzmann's constant
         return n * k * t / v
 ```
-The comments enclosed by three double quotations marks is docstring. When using command `help(pressure)` in Python interpreter, it will show the docstring on the string.
+The comments enclosed by three double quotations marks is docstring. When using command `help(pressure)` in Python interpreter, it will show the docstring on the screen.
+
+# Lambda
+
+>*To create a anonymous function, use lambda*
+
+Syntax:
+```python
+lambda argument-list: expression
+```
+
+e.g
+```python
+square = lambda x: x * x
+add = lambda x, y: x + y
+sub = lambda x, y: x - y
+```

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Data Structure/集合.md",
+                "file": "Python/Grammar/Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Data Structure/集合.md",
+                "file": "Python/Grammar/Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Data Structure/集合.md",
+                "file": "Python/Grammar/Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Data Structure/集合.md"
+                "file": "Python/Grammar/Functions.md"
               }
             }
           },
@@ -173,8 +173,11 @@
   },
   "active": "1f2fe8551262fe89",
   "lastOpenFiles": [
-    "C++/Data Structure/树.md",
+    "00 uncompleted/Grammars(Python)/基本类型/列表.md",
+    "Python/Grammar/Functions.md",
+    "Python/The Zen of Python.md",
     "C++/Data Structure/集合.md",
+    "C++/Data Structure/树.md",
     "C++/Data Structure/优先队列.md",
     "01 attachment/二项堆归并.png",
     "01 attachment/两个二项堆.png",
@@ -186,12 +189,9 @@
     "01 attachment/优先队列的出队.png",
     "01 attachment/优先队列入队.png",
     "LaTeX.md",
-    "Python/Grammar/Functions.md",
     "Python/Grammar/Basic.md",
-    "Python/The Zen of Python.md",
     "01 attachment/Frame and Environment.png",
     "Python/Grammar/Input and Output.md",
-    "00 uncompleted/Grammars(Python)/基本类型/列表.md",
     "Python/Grammar",
     "00 uncompleted/Grammars(Python)/杂.md",
     "00 uncompleted/Grammars(Python)/输入输出.md",

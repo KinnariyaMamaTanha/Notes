@@ -1,4 +1,4 @@
-The Zen of Python, by Tim Peters  
+ ---by Tim Peters
 
 Beautiful is better than ugly.  
 
@@ -20,8 +20,8 @@ Although practicality beats purity.
 Errors should never pass silently.  
 Unless explicitly silenced.  
 
-In the face of [ambiguity](https://www.zhihu.com/search?q=ambiguity&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A1579975164%7D), refuse the temptation to guess.  
-There should be one-- and preferably only one --[obvious way](https://www.zhihu.com/search?q=obvious%20way&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A1579975164%7D) to do it.  
+In the face of ambiguity, refuse the temptation to guess.  
+There should be one-- and preferably only one --obvious way to do it.  
 
 Although that way may not be obvious at first unless you're Dutch.  
 
