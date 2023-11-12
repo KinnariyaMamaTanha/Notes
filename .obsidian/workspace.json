@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Grammar/Functions.md",
+                "file": "C++/Grammars/标准数据类型/char.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Grammar/Functions.md",
+                "file": "C++/Grammars/标准数据类型/char.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Grammar/Functions.md",
+                "file": "C++/Grammars/标准数据类型/char.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Grammar/Functions.md"
+                "file": "C++/Grammars/标准数据类型/char.md"
               }
             }
           },
@@ -173,12 +173,13 @@
   },
   "active": "1f2fe8551262fe89",
   "lastOpenFiles": [
-    "00 uncompleted/Grammars(Python)/基本类型/列表.md",
+    "C++/Grammars/标准数据类型/浮点数.md",
+    "C++/Data Structure/优先队列.md",
     "Python/Grammar/Functions.md",
+    "00 uncompleted/Grammars(Python)/基本类型/列表.md",
     "Python/The Zen of Python.md",
     "C++/Data Structure/集合.md",
     "C++/Data Structure/树.md",
-    "C++/Data Structure/优先队列.md",
     "01 attachment/二项堆归并.png",
     "01 attachment/两个二项堆.png",
     "01 attachment/二项树的结构.png",
@@ -210,7 +211,6 @@
     "01 attachment/森林到二叉树的转换方法.png",
     "01 attachment/树到二叉树的转换.png",
     "C++/Grammars/异常.md",
-    "C++/Data Structure/栈.md",
     "MATLAB",
     "01 e-books/算法导论 第三版 可复制 有目录 (Thmos.H.Cormen ,Charles E. Leiserson etc.) (Z-Library).pdf",
     "01 e-books",
