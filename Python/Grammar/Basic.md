@@ -29,3 +29,32 @@ And if a function is called for two times in the same environment, it will creat
 
 3. **Name Evaluation.** A name evaluates to the value bound to that name in the earliest frame of the current environment in which that name is found.
 4. **Scope**: The parameter names of a function must remain local to the body of the function and the _scope_ of a local name is limited to the body of the user-defined function that defines it.
+
+# None
+
+None in Python is a special value which means "nothing". When a function doesn't explicitly have a return value, it returns None.
+
+Take `print()` for example, when you run the following codes:
+```python
+print(print(1), print(2))
+```
+you will get the output:
+```python
+1
+2
+None None
+```
+Because the function `print()` implicitly returns the value **None**
+
+The same is for user-defined functions, like:
+```python
+def square(x):
+	x * x
+
+print(square(4))
+```
+You will not get the result 16, instead, the output is:
+```python
+None
+```
+for the function `square` returns **None** implicitly.

@@ -42,6 +42,13 @@ output:
 225
 ```
 
+7. A function can return two values:
+```python
+def func(x, y):
+	return x // y, x % y 
+```
+
+
 # Importing Functions
 
 1. syntax:
