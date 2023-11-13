@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shell/shell.md",
+                "file": "Vim.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.50110244750977
+    "width": 298.50110244750977,
+    "collapsed": true
   },
   "right": {
     "id": "a997df58287d8353",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Shell/shell.md",
+                "file": "Vim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Shell/shell.md",
+                "file": "Vim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Shell/shell.md"
+                "file": "Vim.md"
               }
             }
           },
@@ -177,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 256.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,15 +200,15 @@
   },
   "active": "e42c90803bf07c77",
   "lastOpenFiles": [
+    "Python/Grammar/Functions.md",
+    "shell.md",
     "Git.md",
     "LaTeX.md",
     "Vim.md",
     "Markdown.md",
-    "Shell/shell.md",
     "README.md",
     "Python/Command line.md",
     "未命名",
-    "Python/Grammar/Functions.md",
     "Python/Grammar/Basic.md",
     "C++/Grammars/标准数据类型/char.md",
     "C++/Grammars/标准数据类型/浮点数.md",

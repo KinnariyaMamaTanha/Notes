@@ -21,7 +21,7 @@ This is different from the function overloads in C++, which means after the rede
 
 4. **Function signatures**: a description of the formal parameters of a function.
 5. **Default argument values**: you can set the default argument value just like that in C++.
-6. The formal parameter could be function, too.
+6. The formal parameter could be function, too.(**Higher-order Function**)
 ```python
 square = lambda x: x ** 2
 cube = lambda x: x ** 3
@@ -48,6 +48,21 @@ def func(x, y):
 	return x // y, x % y 
 ```
 
+8. You can define a function inside another function:
+```python
+def A(x)；
+	i = 0
+	def AA(y):
+		return y + x
+	……
+```
+And you can use the formal parameter of the outer function straightly in the inner function, like the `x` above. (Just like a new global environment)
+
+Another thing to pay attention to is that you can write the following code outside the function `A` above:
+```python
+A(a)(b)
+```
+It's a call expression in which the operator is a call expression. Actually, it equals to `AA(b)` with x bounded to a, and it will return x+y for sure.
 
 # Importing Functions
 
@@ -92,3 +107,21 @@ square = lambda x: x * x
 add = lambda x, y: x + y
 sub = lambda x, y: x - y
 ```
+
+# Errors
+
+1. Using `assert` to give a warning and break the current code block:
+
+```python
+assert boolean-statement: expression
+```
+When the boolean statement is **true**, nothing will happen, or it will return the value of the `expression`
+
+```python
+def div(x, y):
+	assert y != 0: 'The divisor couldn\'t be 0'
+	return x / y
+```
+
+Then  when you use the function wrongly with x = 1 and y = 0, it will return an error statement: 'The divisor couldn't be 0'
+
