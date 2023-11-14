@@ -4,7 +4,7 @@
 
 C++ 中通过 `cout` 来实现格式输出，就类似于 C 语言中通过 `printf()` 来实现格式输出。`cout.setf()` 的作用是通过设置格式标志来控制输出形式，其中`ios_base::fixed`表示：用正常的记数方法显示[浮点数](https://so.csdn.net/so/search?q=%E6%B5%AE%E7%82%B9%E6%95%B0&spm=1001.2101.3001.7020) (与科学计数法相对应)；`ios_base::floatfield`表示小数点后保留 6 位小数。
 
-该问题中调用的是 `setf()` 函数的第二个原型，`setf()` 函数有两个原型，分别是：
+`setf()` 函数有两个原型，分别是：
 
 ```c++
 fmtflags setf(fmtflage) //第一原型
@@ -107,7 +107,7 @@ cout << setiosflags(ios_base::scientific) << 255.255 << endl;
 cout << setiosflags(ios_base::scientific); //启用scientific标志
 cout << resetiosflags(ios_base::scientific); //关闭scientific标志
 cout << setprecision(4) << 255.255 << endl; //设置输出数值的精度为4位
-//输出： 255.3
+//输出： 255.3, 注意要四舍五入
 ```
 
 # **`setf()` 的第二原型：**  
