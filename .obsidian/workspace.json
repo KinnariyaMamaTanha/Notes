@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.50110244750977
+    "width": 272.50110244750977
   },
   "right": {
     "id": "a997df58287d8353",
@@ -196,16 +196,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "25aaecce91915af9",
+  "active": "e42c90803bf07c77",
   "lastOpenFiles": [
+    "01 attachment/二叉查找树的删除.png",
+    "01 attachment/二叉查找树的插入.png",
+    "C++/Data Structure/树.md",
+    "LaTeX.md",
+    "C++/Data Structure/集合.md",
+    "Python/Grammar/Functions.md",
     "01 attachment/二叉查找树.png",
     "C++/Data Structure/线性表.md",
     "01 conference/cout.setf().md",
     "Vim.md",
-    "Python/Grammar/Functions.md",
     "Shell.md",
     "Git.md",
-    "LaTeX.md",
     "Markdown.md",
     "README.md",
     "Python/Command line.md",
@@ -216,8 +220,6 @@
     "C++/Data Structure/优先队列.md",
     "00 uncompleted/Grammars(Python)/基本类型/列表.md",
     "Python/The Zen of Python.md",
-    "C++/Data Structure/集合.md",
-    "C++/Data Structure/树.md",
     "01 attachment/二项堆归并.png",
     "01 attachment/两个二项堆.png",
     "01 attachment/二项树的结构.png",
@@ -235,8 +237,6 @@
     "00 uncompleted/Grammars(Python)/函数.md",
     "Python/Grammar",
     "01 attachment/二叉堆实例.png",
-    "01 attachment/森林到二叉树的转换方法.png",
-    "01 attachment/树到二叉树的转换.png",
     "MATLAB",
     "01 e-books/算法导论 第三版 可复制 有目录 (Thmos.H.Cormen ,Charles E. Leiserson etc.) (Z-Library).pdf",
     "01 e-books",
