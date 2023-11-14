@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Data Structure/集合.md",
+                "file": "Vim.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Data Structure/集合.md",
+                "file": "Vim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Data Structure/集合.md",
+                "file": "Vim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Data Structure/集合.md"
+                "file": "Vim.md"
               }
             }
           },
@@ -198,19 +198,19 @@
   },
   "active": "e42c90803bf07c77",
   "lastOpenFiles": [
+    "Shell.md",
+    "Vim.md",
+    "Markdown.md",
+    "C++/Data Structure/集合.md",
     "01 attachment/二叉查找树的删除.png",
     "01 attachment/二叉查找树的插入.png",
     "C++/Data Structure/树.md",
     "LaTeX.md",
-    "C++/Data Structure/集合.md",
     "Python/Grammar/Functions.md",
     "01 attachment/二叉查找树.png",
     "C++/Data Structure/线性表.md",
     "01 conference/cout.setf().md",
-    "Vim.md",
-    "Shell.md",
     "Git.md",
-    "Markdown.md",
     "README.md",
     "Python/Command line.md",
     "未命名",
@@ -236,7 +236,6 @@
     "00 uncompleted/Grammars(Python)/类.md",
     "00 uncompleted/Grammars(Python)/函数.md",
     "Python/Grammar",
-    "01 attachment/二叉堆实例.png",
     "MATLAB",
     "01 e-books/算法导论 第三版 可复制 有目录 (Thmos.H.Cormen ,Charles E. Leiserson etc.) (Z-Library).pdf",
     "01 e-books",

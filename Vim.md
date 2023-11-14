@@ -6,7 +6,7 @@
 4. **Replace mode**: enter `r` to change into (In this mode, it will overwrite the text, instead of inserting text)
 5. **Visual mode**: enter `v` to change into, and enter `shift + v` to change into line visual mode, enter `ctrl + v` to change into block visual mode
 
-# Files
+# Command mode
 
 1. Enter a certain file in the current directory: `vim fileName.xxx`
 2. Open more than one windows: `:sp`
@@ -14,6 +14,7 @@
 	1. Close the current window: `:q`
 	2. Force to close the current window: `:q!`
 	3. Close all the windows: `:qa`
+4. Search: use `/ + <ThingsToSearch>` to jump to where the string in the `<>` first appears. And enter `n` after that to get to the next place.
 
 # Normal mode
 
@@ -45,14 +46,20 @@
 	5. `d + 0`: delete from the cursor to the beginning of the line.
 	6. `d + $`: delete from the cursor to the end of the line.
 	7. `x`: delete the letter where your cursor is.
+	8. `s`: equals to `x + i`(delete the current letter and enter the insert mode)
 4. Change: 
 	1. use `c` key to delete and enter the insert mode, just like the `d` key.
 	2. use `r + x`  to replace the letter where your cursor is with `x`
 5. Undo:
 	1. `u`: to undo the last step
+	2. `ctrl + r`: redo the last undo
 6. Copy: use `y` key, act like `d` and `c`
 7. Paste: use `p` key to paste what you have copied
 8. Counts: enter a number before other commands to operate the command for a certain time, like `3 + d + d` will delete 3 whole lines at a time
+9. Modifier commands: 
+	1. `i`: when inside the parentheses or square brackets, using `x + i + y` means use the command `x` inside the parentheses or square brackets.(like `c + i + [` means using `c` inside the square brackets, and `c + i + w` means change inside the word)
+	2. 
+10. Repeat: after using a certain command, move to another place and then press key `.` to repeat the same command.
 
 # Insert mode
 
