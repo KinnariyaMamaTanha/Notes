@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0eb65eee74329e6a",
+        "id": "f81e36ea44555f28",
         "type": "tabs",
         "children": [
           {
-            "id": "288755f085338285",
+            "id": "9979cdaf88d34a1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -171,10 +171,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "288755f085338285",
+  "active": "25aaecce91915af9",
   "lastOpenFiles": [
-    "新建 Text Document.txt",
+    "01 attachment/红黑树示例.png",
+    "C++/Data Structure/树.md",
     "C++/Data Structure/集合.md",
+    "Vim.md",
+    "C++/Algorithm/排序.md",
+    "Algorithm",
+    "C++/Algorithm/分治.md",
+    "新建 Text Document.txt",
     "01 attachment/AVL树 删除.png",
     "01 attachment/Screenshot 2023-11-15 143604.png",
     "01 attachment/AVL树 双旋转.png",
@@ -185,18 +191,15 @@
     "01 attachment/LL情况和LR情况.png",
     "Python/Grammar/Functions.md",
     "Python/Command line.md",
-    "Vim.md",
     "Shell.md",
     "Markdown.md",
     "01 attachment/二叉查找树的删除.png",
     "01 attachment/二叉查找树的插入.png",
-    "C++/Data Structure/树.md",
     "LaTeX.md",
     "C++/Data Structure/线性表.md",
     "01 conference/cout.setf().md",
     "Git.md",
     "README.md",
-    "未命名",
     "Python/Grammar/Basic.md",
     "C++/Grammars/标准数据类型/char.md",
     "C++/Grammars/标准数据类型/浮点数.md",
@@ -209,8 +212,6 @@
     "Python/Grammar",
     "00 uncompleted/Grammars(Python)/杂.md",
     "00 uncompleted/Grammars(Python)/输入输出.md",
-    "00 uncompleted/Grammars(Python)/类.md",
-    "00 uncompleted/Grammars(Python)/函数.md",
     "Python/Grammar",
     "MATLAB",
     "01 e-books/算法导论 第三版 可复制 有目录 (Thmos.H.Cormen ,Charles E. Leiserson etc.) (Z-Library).pdf",
@@ -218,7 +219,6 @@
     "新建文件夹",
     "00 uncompleted",
     "01 attachment/desktop.ini",
-    "01 E-books/Python编程_从入门到实践.pdf",
     "Study Plan.canvas"
   ]
 }
