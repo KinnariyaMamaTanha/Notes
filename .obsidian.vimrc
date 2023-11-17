@@ -1,0 +1,20 @@
+map H ^
+map L $
+map Y 0
+inoremap JJ <Esc>
+vmap JJ <Esc> 
+inoremap ( ()<LEFT>
+inoremap [ []<LEFT>
+inoremap { {}<LEFT>
+inoremap ' ''<LEFT>
+inoremap " ""<LEFT>
+map <C-l> <C-w>l
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+noremap - :-tabnext<CR>
+noremap = :+tabnext<CR>
+noremap s <nop>
+noremap j gj
+noremap k gk
+

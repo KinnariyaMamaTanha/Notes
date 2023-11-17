@@ -8,7 +8,7 @@
 
 # Command mode
 
-1. Enter a certain file in the current directory: `vim fileName.xxx`
+1. Enter a certain file in the current directory(in command line): `vim fileName.xxx`
 2. Open more than one windows: `:sp`
 3. Close windows:
 	1. Close the current window: `:q`
@@ -27,6 +27,8 @@
 	1. Open a new tab: `:tabe`
 	2. Move to the left tab: `:-tabnext`
 	3. Move to the right tab: `:+tabnext`
+9. Open other files:
+	1. `:e + <file>`, using tab to release your burden.
 
 # Normal mode
 
@@ -93,4 +95,4 @@
 4. There is also a visual block mode, which you can enter by pressing `ctrl + v`. In this visual mode, you will select the whole lines at a time.
 5. Some commands:
 	1. `~`: after selecting a block, press `~` key to flip the whole block. You can also just press `~` without selecting, and it will only change the letter where the cursor is.
-	2. `: + normal + <normal-mode-commands>`: select lines of text and use this command can do the command repeatedly in every line
+	2. `: + normal + <normal-mode-commands>`: select lines of text and use this command can do the command repeatedly in every line.

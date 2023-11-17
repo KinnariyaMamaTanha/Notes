@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f81e36ea44555f28",
+        "id": "8c4c8f83f348fb10",
         "type": "tabs",
         "children": [
           {
-            "id": "9979cdaf88d34a1b",
+            "id": "1918ea23fafb255c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Data Structure/集合.md",
+                "file": "Algorithm/Sort/Insertion sort.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Data Structure/集合.md",
+                "file": "Algorithm/Sort/Insertion sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Data Structure/集合.md",
+                "file": "Algorithm/Sort/Insertion sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Data Structure/集合.md"
+                "file": "Algorithm/Sort/Insertion sort.md"
               }
             }
           },
@@ -171,16 +171,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "25aaecce91915af9",
+  "active": "1918ea23fafb255c",
   "lastOpenFiles": [
-    "01 attachment/红黑树示例.png",
-    "C++/Data Structure/树.md",
+    "Shell.md",
+    "Algorithm/Sort/Insertion sort.md",
+    "新建 Text Document.txt",
+    "Algorithm/Sort",
     "C++/Data Structure/集合.md",
     "Vim.md",
+    "01 attachment/红黑树示例.png",
+    "C++/Data Structure/树.md",
     "C++/Algorithm/排序.md",
     "Algorithm",
     "C++/Algorithm/分治.md",
-    "新建 Text Document.txt",
     "01 attachment/AVL树 删除.png",
     "01 attachment/Screenshot 2023-11-15 143604.png",
     "01 attachment/AVL树 双旋转.png",
@@ -191,10 +194,8 @@
     "01 attachment/LL情况和LR情况.png",
     "Python/Grammar/Functions.md",
     "Python/Command line.md",
-    "Shell.md",
     "Markdown.md",
     "01 attachment/二叉查找树的删除.png",
-    "01 attachment/二叉查找树的插入.png",
     "LaTeX.md",
     "C++/Data Structure/线性表.md",
     "01 conference/cout.setf().md",
@@ -211,14 +212,12 @@
     "Python/Grammar/Input and Output.md",
     "Python/Grammar",
     "00 uncompleted/Grammars(Python)/杂.md",
-    "00 uncompleted/Grammars(Python)/输入输出.md",
     "Python/Grammar",
     "MATLAB",
     "01 e-books/算法导论 第三版 可复制 有目录 (Thmos.H.Cormen ,Charles E. Leiserson etc.) (Z-Library).pdf",
     "01 e-books",
     "新建文件夹",
     "00 uncompleted",
-    "01 attachment/desktop.ini",
     "Study Plan.canvas"
   ]
 }
