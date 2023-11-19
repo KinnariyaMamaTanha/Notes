@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Grammar/Basic classes/序列/列表.md",
+                "file": "Algorithm/Concepts.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Grammar/Basic classes/序列/列表.md",
+                "file": "Algorithm/Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Grammar/Basic classes/序列/列表.md",
+                "file": "Algorithm/Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Grammar/Basic classes/序列/列表.md"
+                "file": "Algorithm/Concepts.md"
               }
             }
           },
@@ -171,11 +171,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "25aaecce91915af9",
+  "active": "1fa5ad71773d9d7c",
   "lastOpenFiles": [
+    "Algorithm/Sort/Insertion sort.md",
+    "Python/Grammar/Basic classes/序列/列表.md",
     "Python/Grammar/Basic classes/序列/0 序列.md",
     "Python/Grammar/Function/内置函数.md",
-    "Python/Grammar/Basic classes/序列/列表.md",
     "Python/Grammar/Basic classes/序列/字符串.md",
     "Python/Grammar/Basic classes/序列",
     "Python/Modules/math.md",
@@ -198,7 +199,6 @@
     "Python/Grammars/Program Structures.md",
     "Python/CS61A/Basic.md",
     "Python/CS61A/Functions.md",
-    "Algorithm/Sort/Insertion sort.md",
     "01 attachment/插入排序.png",
     "Linux.md",
     "C++/Grammars/异常.md",
