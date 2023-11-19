@@ -49,6 +49,7 @@
     14. `ctrl + h`: move to the highest line on the screen.
     15. `{`: move to the first blank line above
     16. `}`: move to the first blank line below
+    17. `A`：move to the end of the line and change into insert mode
 2. Find:
     1. `f + x`: move to the first  afterward character x.
     2. `shift + f + x`: move to the first forward character x.

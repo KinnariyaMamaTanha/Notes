@@ -30,3 +30,5 @@ def insertion_sort(a, size):
 			i -= 1
 		a[i + 1] = key
 ```
+![[插入排序.png]]
+

@@ -8,6 +8,8 @@ inoremap [ []<LEFT>
 inoremap { {}<LEFT>
 inoremap ' ''<LEFT>
 inoremap " ""<LEFT>
+inoremap （ （）<LEFT>
+inoremap 《 《》<LEFT>
 map <C-l> <C-w>l
 map <C-h> <C-w>h
 map <C-j> <C-w>j
@@ -17,4 +19,7 @@ noremap = :+tabnext<CR>
 noremap s <nop>
 noremap j gj
 noremap k gk
-
+noremap T H
+noremap F M
+noremap B L
+noremap M :nohlsearch<CR>
