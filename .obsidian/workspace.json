@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Grammar/Basic data structures/序列/3 字符串.md",
+                "file": "C++/Data Structure/集合.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Grammar/Basic data structures/序列/3 字符串.md",
+                "file": "C++/Data Structure/集合.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Grammar/Basic data structures/序列/3 字符串.md",
+                "file": "C++/Data Structure/集合.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Grammar/Basic data structures/序列/3 字符串.md"
+                "file": "C++/Data Structure/集合.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -173,13 +173,18 @@
   },
   "active": "1fa5ad71773d9d7c",
   "lastOpenFiles": [
+    "C++/Grammars/Function/函数.md",
+    "C++/Data Structure/集合.md",
+    "C++/Grammars/标准数据类型/指针.md",
+    "01 attachment/红黑树插入.png",
+    "01 attachment/红黑树LRb旋转.png",
+    "01 attachment/红黑树LLb情况.png",
+    "Python/Grammar/Basic data structures/序列/3 字符串.md",
     "Python/Modules/string.md",
     "Python/Modules/cmath.md",
     "Python/Modules/math.md",
-    "Python/Grammar/Basic data structures/序列/3 字符串.md",
     "Python/Grammar/Basic data structures/序列/1 列表.md",
     "Python/Grammar/Basic data structures/序列/2 元组.md",
-    "C++/Data Structure/集合.md",
     "Algorithm/Concepts.md",
     "Algorithm/Sort/Insertion sort.md",
     "Python/Grammar/Basic data structures/序列/0 序列.md",
@@ -191,7 +196,6 @@
     "Python/Grammar/Function/Function.md",
     "Python/Modules",
     "Python/Grammar/Function",
-    "C++/Grammars/Function/函数.md",
     "Python/Grammar/Operators & Priority.md",
     "Python/The Zen of Python.md",
     "Python/Grammar",
@@ -203,8 +207,6 @@
     "Python/CS61A/Basic.md",
     "Python/CS61A/Functions.md",
     "01 attachment/插入排序.png",
-    "Linux.md",
-    "C++/Grammars/异常.md",
     "新建 Text Document.txt",
     "Algorithm/Sort",
     "01 attachment/红黑树示例.png",
@@ -214,9 +216,6 @@
     "01 attachment/AVL树 双旋转.png",
     "01 attachment/双旋转.png",
     "01 attachment/AVL树插入示例.png",
-    "01 attachment/AVL树示例.png",
-    "01 attachment/AVL树 单旋转.png",
-    "01 attachment/LL情况和LR情况.png",
     "Python/CS61A",
     "Python/CS61A",
     "Study Plan.canvas"

@@ -1,6 +1,6 @@
-map H ^
-map L $
-map Y 0
+map H g^
+map L g$
+map Y g0
 inoremap JJ <Esc>
 vmap JJ <Esc> 
 inoremap ( ()<LEFT>
@@ -20,6 +20,5 @@ noremap s <nop>
 noremap j gj
 noremap k gk
 noremap T H
-noremap F M
 noremap B L
 noremap M :nohlsearch<CR>
