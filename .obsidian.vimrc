@@ -19,6 +19,7 @@ noremap = :+tabnext<CR>
 noremap s <nop>
 noremap j gj
 noremap k gk
-noremap T H
-noremap B L
+noremap <C-H> H
+noremap <C-M> M
+noremap <C-L> L
 noremap M :nohlsearch<CR>
