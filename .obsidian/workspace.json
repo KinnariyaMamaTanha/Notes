@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8c4c8f83f348fb10",
+        "id": "dcbe02029de97702",
         "type": "tabs",
         "children": [
           {
-            "id": "1fa5ad71773d9d7c",
+            "id": "e8b16a468b79c19e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Grammar/Basic data structures/序列/3 字符串.md",
+                "file": "C++/Data Structure/集合.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Grammar/Basic data structures/序列/3 字符串.md",
+                "file": "C++/Data Structure/集合.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Grammar/Basic data structures/序列/3 字符串.md",
+                "file": "C++/Data Structure/集合.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Grammar/Basic data structures/序列/3 字符串.md"
+                "file": "C++/Data Structure/集合.md"
               }
             }
           },
@@ -171,10 +171,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1fa5ad71773d9d7c",
+  "active": "25aaecce91915af9",
   "lastOpenFiles": [
-    "Python/Modules/string.md",
+    "01 attachment/红黑树插入1.png",
     "Python/Grammar/Basic data structures/序列/3 字符串.md",
+    "Python/Modules/string.md",
     "Python/Modules/math.md",
     "C++/Data Structure/集合.md",
     "C++/Grammars/Function/函数.md",
