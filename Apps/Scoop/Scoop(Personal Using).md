@@ -83,7 +83,7 @@ Notes
 Allow applications and third-party installers to find python by running:
 "D:\Scoop\apps\python\current\install-pep-514.reg"
 ```
-As you can see, the scoop installed "dark" first and then Python. Pay attention to the last line -- It shows where you can find Python.
+As you can see, the scoop installed "dark" first and then Python. Pay attention to the last line!!!
 
 ### Git
 
