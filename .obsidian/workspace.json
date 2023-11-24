@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "dcbe02029de97702",
+        "id": "f80697f78a62891e",
         "type": "tabs",
         "children": [
           {
-            "id": "e8b16a468b79c19e",
+            "id": "ddb981d0ac5f4b3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Data Structure/集合.md",
+                "file": "Apps/Scoop/Scoop(Personal Using).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bbcb0270e1e02c97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apps/Git.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Data Structure/集合.md",
+                "file": "Apps/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Data Structure/集合.md",
+                "file": "Apps/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Data Structure/集合.md"
+                "file": "Apps/Git.md"
               }
             }
           },
@@ -171,54 +184,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "25aaecce91915af9",
+  "active": "bbcb0270e1e02c97",
   "lastOpenFiles": [
+    "Apps/Scoop/Scoop(Personal Using).md",
+    "Apps/PowerShell in Windows Terminal.md",
+    "Apps/Scoop/官方文档(2023年11月24日).md",
+    "Apps/Scoop",
+    "Operating Systems",
+    "Apps",
+    "Coding Languages",
+    "Coding Languages/Python/Grammar/Basic data structures/序列/3 字符串.md",
+    "Coding Languages/Python/Modules/string.md",
+    "Coding Languages/C++/Data Structure/集合.md",
     "01 attachment/散列表的数字分析法.png",
     "01 attachment/红黑树插入1.png",
-    "Python/Grammar/Basic data structures/序列/3 字符串.md",
-    "Python/Modules/string.md",
-    "Python/Modules/math.md",
-    "C++/Data Structure/集合.md",
-    "C++/Grammars/Function/函数.md",
-    "C++/Grammars/标准数据类型/指针.md",
+    "Coding Languages/Python/Modules/math.md",
+    "Coding Languages/C++/Grammars/Function/函数.md",
+    "Coding Languages/C++/Grammars/标准数据类型/指针.md",
     "01 attachment/红黑树插入.png",
     "01 attachment/红黑树LRb旋转.png",
     "01 attachment/红黑树LLb情况.png",
-    "Python/Modules/cmath.md",
-    "Python/Grammar/Basic data structures/序列/1 列表.md",
-    "Python/Grammar/Basic data structures/序列/2 元组.md",
-    "Algorithm/Concepts.md",
-    "Algorithm/Sort/Insertion sort.md",
-    "Python/Grammar/Basic data structures/序列/0 序列.md",
-    "Python/Grammar/Function/内置函数.md",
-    "Python/Grammar/Basic data structures/序列",
-    "Vim.md",
-    "Python/Grammar/Basic data structures",
-    "Python/Modules/turtle.md",
-    "Python/Grammar/Function/Function.md",
-    "Python/Modules",
-    "Python/Grammar/Function",
-    "Python/Grammar/Operators & Priority.md",
-    "Python/The Zen of Python.md",
-    "Python/Grammar",
-    "Python/Command line.md",
+    "Coding Languages/Python/Modules/cmath.md",
+    "Coding Languages/Python/Grammar/Basic data structures/序列/1 列表.md",
+    "Coding Languages/Python/Grammar/Basic data structures/序列/2 元组.md",
+    "Coding Languages/Algorithm/Concepts.md",
+    "Coding Languages/Algorithm/Sort/Insertion sort.md",
+    "Coding Languages/Python/Grammar/Basic data structures/序列/0 序列.md",
+    "Coding Languages/Python/Grammar/Function/内置函数.md",
+    "Coding Languages/Python/Grammar/Basic data structures/序列",
+    "Apps/Vim.md",
+    "Coding Languages/Python/Grammar/Basic data structures",
+    "Coding Languages/Python/Modules/turtle.md",
+    "Coding Languages/Python/Grammar/Function/Function.md",
+    "Coding Languages/Python/Modules",
+    "Coding Languages/Python/Grammar/Function",
+    "Coding Languages/Python/Grammar/Operators & Priority.md",
+    "Coding Languages/Python/The Zen of Python.md",
+    "Coding Languages/Python/Grammar",
+    "Coding Languages/Python/Command line.md",
     "Python/Grammars/基本类型/列表.md",
     "Python/Grammars/单独编译.md",
     "Python/Grammars/杂.md",
     "Python/Grammars/Program Structures.md",
-    "Python/CS61A/Basic.md",
-    "Python/CS61A/Functions.md",
     "01 attachment/插入排序.png",
     "新建 Text Document.txt",
-    "Algorithm/Sort",
     "01 attachment/红黑树示例.png",
-    "Algorithm",
     "01 attachment/AVL树 删除.png",
     "01 attachment/Screenshot 2023-11-15 143604.png",
     "01 attachment/AVL树 双旋转.png",
-    "01 attachment/双旋转.png",
-    "Python/CS61A",
-    "Python/CS61A",
     "Study Plan.canvas"
   ]
 }

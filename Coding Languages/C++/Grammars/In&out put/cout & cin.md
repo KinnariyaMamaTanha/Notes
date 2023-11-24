@@ -7,7 +7,7 @@ cout << "Now you have "
 	 << endl;
 ```
 2. `cin`输入时忽略空格`\0`和换行符
-3. `cin`出现在需要bool值的地方时，会被转换得到一个bool值，若最后一次读取成功，则得到`true`，否则得到`false`，可见于[[C++/Grammars/Program Structures/循环#^55f0c9|读入若干数的方法]]
+3. `cin`出现在需要bool值的地方时，会被转换得到一个bool值，若最后一次读取成功，则得到`true`，否则得到`false`，可见于[[循环#^55f0c9|读入若干数的方法]]
 
 ---
 # 二、高级用法
@@ -42,7 +42,7 @@ cin.getline(name1, size1).getline(name2, size2);
 
 4. 当使用`cin`输入数据后，行末的换行符会被保留，因此需要先用`cin.get()`读取后才能使用`get()`或者`getline()`来继续读取
 
-5. 检测文件尾：检测到文件尾`EOF`之后，`cin`将两位（`eofbit`和`failbit`）都设置为1，可通过函数`eof()`或`fail()`来查看(返回`bool`值)，详见[[C++/Grammars/Program Structures/循环#^3832a6|读取若干数的方法]]
+5. 检测文件尾：检测到文件尾`EOF`之后，`cin`将两位（`eofbit`和`failbit`）都设置为1，可通过函数`eof()`或`fail()`来查看(返回`bool`值)，详见[[循环#^3832a6|读取若干数的方法]]
 
 6. 用`cin`检测到`EOF`后，将设置`cin`对象中一个指示`EOF`条件的标记，之后`cin`将不再读取输入，不能再次调用`cin`，可以使用`cin.clear()`来清除标记
 

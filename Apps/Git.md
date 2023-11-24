@@ -7,6 +7,8 @@ use fellow commands to set your accounts before doing anything else:
 
 `git config --global user.email "emailAddress"`
 
+Using `git config --list` to the the configs
+
 # Local directories and files
 
 1. create new files or directories:

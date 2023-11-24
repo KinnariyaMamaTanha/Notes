@@ -7,3 +7,4 @@
 | ascii_uppercase | 包含所有ASCII大写字母的字符串 |
 | printable       | 包含所有可打印的字符的字符串  |
 | punctuation     | 包含所有ASCII标点字符的字符串 |
+| capwords()      | 将词首字母大写                              |
