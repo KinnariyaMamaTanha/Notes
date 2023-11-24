@@ -48,7 +48,8 @@ winpython 3.11.5.0 main
 ```
 ## Install
 
-1. Downloading Python:
+### Python
+
 ```scoop
 scoop install <app-name>
 scoop install python
@@ -84,7 +85,8 @@ Allow applications and third-party installers to find python by running:
 ```
 As you can see, the scoop installed "dark" first and then Python. Pay attention to the last line -- It shows where you can find Python.
 
-2. Install git
+### Git
+
 ```scoop
 scoop install git
 ```
@@ -132,3 +134,7 @@ To add context menu entries, run 'D:\Scoop\apps\git\current\install-context.reg'
 
 To create file-associations for .git* and .sh files, run 'D:\Scoop\apps\git\current\install-file-associations.reg'
 ```
+
+>[!attention]
+>*Using the "Notes" to add context menu entries and create file-association for .git* and .sh files! Very important!!!*
+
