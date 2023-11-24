@@ -83,6 +83,7 @@ Now let's stop our foot to learn something more about git and review what we do 
 	2. Or we can also use commands `git fetch` and `git merge` to do the same thing.
 
 ## 5. clone
+
 Now we are going to learn how to clone a repository.
 
 First come to the directory where you are going to clone the remote repository, and open git bash here.

@@ -138,3 +138,13 @@ To create file-associations for .git* and .sh files, run 'D:\Scoop\apps\git\curr
 >[!attention]
 >*Using the "Notes" to add context menu entries and create file-association for .git* and .sh files! Very important!!!*
 
+## Bucket
+
+1. Using `scoop bucket add <bucket-name>` or `scoop bucket add <bucket-name> <url>` to add a new bucket
+```scoop
+scoop bucket add extras
+scoop bucket add dorados https://github.com/chawyehsu/dorado
+```
+2. Using `scoop bucket known` to view the bucket that can be searched.
+
+3. Define your own bucket:
