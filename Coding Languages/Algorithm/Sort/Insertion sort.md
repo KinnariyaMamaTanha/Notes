@@ -32,3 +32,7 @@ def insertion_sort(a, size):
 ```
 ![[插入排序.png]]
 
+# Using Binary Search
+
+>*Similar to the insertion sort using linear search*
+

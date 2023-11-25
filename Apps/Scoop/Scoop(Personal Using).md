@@ -34,13 +34,13 @@
 ## Search
 
 Show available apps:
-```scoop
+```shell
 scoop search <name>
 scoop search python
 ```
 
 Then it will show something like:
-```scoop
+```shell
 Name      Version  Source Binaries
 ----      -------  ------ --------
 python    3.12.0   main
@@ -50,13 +50,13 @@ winpython 3.11.5.0 main
 
 ### Python
 
-```scoop
+```sehll
 scoop install <app-name>
 scoop install python
 ```
 
 Then it will show something like:
-```scoop
+```shell
 Installing 'dark' (3.11.2) [64bit] from main bucket
 dark-3.11.2.zip (3.5 MB) [====================================================================================] 100%
 Checking hash of dark-3.11.2.zip ... ok.
@@ -87,12 +87,12 @@ As you can see, the scoop installed "dark" first and then Python. Pay attention 
 
 ### Git
 
-```scoop
+```shell
 scoop install git
 ```
 
 Then it will show something like:
-```scoop
+```shell
 Installing '7zip' (23.01) [64bit] from main bucket
 7z2301-x64.msi (1.8 MB) [=====================================================================================] 100%
 Checking hash of 7z2301-x64.msi ... ok.
@@ -138,10 +138,61 @@ To create file-associations for .git* and .sh files, run 'D:\Scoop\apps\git\curr
 >[!attention]
 >*Using the "Notes" to add context menu entries and create file-association for .git* and .sh files! Very important!!!*
 
+### Powershell
+
+```shell
+scoop install powershell
+```
+
+```shell
+Installing 'powershell' (7.4.0) [64bit] from dorado bucket
+PowerShell-7.4.0-win-x64.zip (105.4 MB) [=====================================================================] 100%
+Checking hash of PowerShell-7.4.0-win-x64.zip ... ok.
+Extracting PowerShell-7.4.0-win-x64.zip ... done.
+Linking D:\Scoop\apps\powershell\current => D:\Scoop\apps\powershell\7.4.0
+Creating shim for 'pwsh'.
+Creating shortcut for PowerShell (pwsh.exe)
+'powershell' (7.4.0) was installed successfully!
+```
+
+### Oh-my-posh
+
+```shell
+scoop install oh-my-posh
+Installing 'oh-my-posh' (18.26.1) [64bit] from main bucket
+themes.zip (127.5 KB) [================================================================================================] 100%
+Checking hash of themes.zip ... ok.
+posh-windows-amd64.exe (16.1 MB) [=====================================================================================] 100%
+Checking hash of posh-windows-amd64.exe ... ok.
+Extracting themes.zip ... done.
+Linking D:\Scoop\apps\oh-my-posh\current => D:\Scoop\apps\oh-my-posh\18.26.1
+Creating shim for 'oh-my-posh'.
+'oh-my-posh' (18.26.1) was installed successfully!
+Notes
+-----
+Refer to 'https://ohmyposh.dev/docs/installation/prompt' for shell specific configurations.
+```
+
+### posh-git
+
+```shell
+PS C:\Users\Username> scoop install posh-git
+Installing 'posh-git' (1.1.0) [64bit] from extras bucket
+posh-git.1.1.0.nupkg (44.3 KB) [=======================================================================================] 100%
+Checking hash of posh-git.1.1.0.nupkg ... ok.
+Extracting posh-git.1.1.0.nupkg ... done.
+Running pre_install script...
+Linking D:\Scoop\apps\posh-git\current => D:\Scoop\apps\posh-git\1.1.0
+Adding D:\Scoop\modules to your PowerShell module path.
+Installing PowerShell module 'posh-git'
+Linking D:\Scoop\modules\posh-git => D:\Scoop\apps\posh-git\current
+'posh-git' (1.1.0) was installed successfully!
+```
+
 ## Bucket
 
 1. Using `scoop bucket add <bucket-name>` or `scoop bucket add <bucket-name> <url>` to add a new bucket
-```scoop
+```shell
 scoop bucket add extras
 scoop bucket add dorados https://github.com/chawyehsu/dorado
 ```
