@@ -10,6 +10,7 @@ inoremap ' ''<LEFT>
 inoremap " ""<LEFT>
 inoremap （ （）<LEFT>
 inoremap 《 《》<LEFT>
+inoremap $ $$<LEFT>
 map <C-l> <C-w>l
 map <C-h> <C-w>h
 map <C-j> <C-w>j
