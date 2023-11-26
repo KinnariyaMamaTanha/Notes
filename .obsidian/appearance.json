@@ -1,7 +1,10 @@
 {
-  "accentColor": "",
+  "accentColor": "#8a5cf5",
   "theme": "obsidian",
-  "monospaceFontFamily": "",
+  "monospaceFontFamily": "Consolas",
   "translucency": true,
-  "baseFontSize": 19
+  "baseFontSize": 17.5,
+  "cssTheme": "Minimal",
+  "textFontFamily": "Cambria Math",
+  "interfaceFontFamily": "Lucida Fax"
 }

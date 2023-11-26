@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4b22a7d76048ca05",
+        "id": "ce307cda0b19cfa0",
         "type": "tabs",
         "children": [
           {
-            "id": "248e84e88f0760d1",
+            "id": "cc0f6a0b69f1aa2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Languages/C++/Data Structure/Graph.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9babd9ea66e357c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study Record.md",
+                "file": "Coding Languages/C++/Data Structure/Set/Search Table.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study Record.md",
+                "file": "Coding Languages/C++/Data Structure/Set/Search Table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study Record.md",
+                "file": "Coding Languages/C++/Data Structure/Set/Search Table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study Record.md"
+                "file": "Coding Languages/C++/Data Structure/Set/Search Table.md"
               }
             }
           },
@@ -184,9 +171,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9babd9ea66e357c8",
+  "active": "cc0f6a0b69f1aa2c",
   "lastOpenFiles": [
+    "Coding Languages/C++/Data Structure/Set/Union-Find.md",
+    "Coding Languages/C++/Data Structure/Tree/Tree.md",
     "Coding Languages/C++/Data Structure/Graph.md",
+    "Coding Languages/Markdown.md",
+    "Coding Languages/C++/Data Structure/Set/Search Table.md",
+    "Algorithm/Concepts.md",
+    "Algorithm/Search/Block Search.md",
+    "Algorithm/Search/Linear Search.md",
+    "Algorithm/Search/Binary Search.md",
+    "Algorithm/Search/Interpolation Search.md",
+    "Algorithm/Search",
+    "Coding Languages/C++/Data Structure/Tree/Priority Queue.md",
+    "Coding Languages/C++/Data Structure/STL/array.md",
+    "Coding Languages/C++/Data Structure/Linear Data Structure/String.md",
+    "Coding Languages/C++/Data Structure/dynamic array.md",
+    "Coding Languages/C++/Data Structure/Linear Data Structure/Stack.md",
+    "Coding Languages/C++/Data Structure/Tree",
+    "Coding Languages/C++/Data Structure/未命名.md",
+    "Coding Languages/C++/Data Structure/STL",
+    "Coding Languages/C++/Data Structure/Linear Data Structure/Queue.md",
+    "Coding Languages/C++/Data Structure/Linear Data Structure/Linear Table.md",
     "Study Record.md",
     "01 attachment/极小生成树示例.png",
     "Algorithm/Graph/Minimal Spanning Tree/Kruskal.md",
@@ -194,43 +201,23 @@
     "Algorithm/Sort/Topological sort.md",
     "Algorithm/Graph/Minimal Spanning Tree",
     "Coding Languages/C++/Data Structure/Gragh/极小生成树.md",
-    "Coding Languages/C++/Data Structure/Priority Queue.md",
     "Coding Languages/C++/Data Structure/Gragh",
     "Algorithm/Graph/Critical Path.md",
     "Algorithm/Graph",
     "01 attachment/邻接表.png",
     "Coding Languages/LaTeX.md",
-    "Coding Languages/C++/Data Structure/Set/Union-Find.md",
     "01 attachment/并查集路径压缩.png",
-    "Coding Languages/C++/Data Structure/Tree.md",
     "01 attachment/并查集存储.png",
     "01 attachment/屏幕截图 2023-11-26 135738.png",
     "Coding Languages/C++/Data Structure/Linear Data Structure",
     "Coding Languages/C++/Data Structure/Set",
-    "Coding Languages/C++/Data Structure/Set/SearchTable.md",
-    "Coding Languages/C++/Data Structure/Linear Data Structure/队列.md",
     "01 attachment/B树的定义.png",
     "Algorithm/Sort/0 Summary.md",
-    "Algorithm/Sort/Insertion sort.md",
-    "Algorithm/Sort/Base sort.md",
-    "Algorithm/Sort/Merging sort.md",
-    "Algorithm/Sort/Exchange sort.md",
-    "Algorithm/Sort/Selection sort.md",
-    "Algorithm/Sort/Hill sort.md",
     "01 attachment/希尔排序示例.png",
-    "Coding Languages/C++/Grammars/Function/函数.md",
     "01 attachment/Frame and Environment.png",
     "01 attachment/二次探测法定理1.png",
-    "Apps/Shell/PowerShell.md",
-    "Apps/Shell/Shell.md",
     "Apps/Shell",
-    "Coding Languages/C++/Grammars/In&out put/cout & cin.md",
-    "Apps/Scoop/Scoop(Personal Using).md",
-    "Coding Languages/C++/OOP/类.md",
     "Apps/Scoop",
-    "Operating Systems",
-    "Apps",
-    "Coding Languages",
     "01 attachment/散列表的数字分析法.png",
     "Study Plan.canvas"
   ]

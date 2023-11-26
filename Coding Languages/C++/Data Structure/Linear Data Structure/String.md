@@ -4,7 +4,7 @@
 字符串的基本方法
 - `length()`：返回字符串长度
 - `disp()`：输出所有字符
-- `equal(s1, s2), greater(s1, s2), lesser(s1, s2)`：按字母序判断两个字符串的大小
+- `equal(s1, s2), greater(s1, s2), lesser(s1, s2)`：按字母序(或ASCII码)判断两个字符串的大小
 - `copy(s1, s2)`：将$s_2$的值复制给$s_1$
 - `cat(s1, s2)`：将$s_2$连接到$s_1$的末尾
 - `substr(s, start, len)`：取子串
@@ -23,8 +23,8 @@ private:
 public:
 	seqString(const char* s = "");
 	seqString(const seqString& s);
-	~seqString();
-	int length() const;
+	~seqString() { delete[] data; }
+	int length() const { return len; }
 	const seqString& operator=(const seqString& s);
 	seqString substr(int start, int num) const;
 	void insert(int start, const seqString& s);
@@ -62,22 +62,6 @@ seqString::seqString(const seqString& s)
 	for(int i = 0; i < len; ++i)
 		data[i] = s.data[i];
 	data[len] = '\0';
-}
-```
-
-`~seqString()`
-```c++
-seqString::~seqString()
-{
-	delete[] data;
-}
-```
-
-`length()`
-```c++
-int seqString::length() const
-{
-	return len;
 }
 ```
 
@@ -156,10 +140,13 @@ void seqString::remove(int start, int num)
 # 二、链接实现
 
 ![[字符串的链接存储.png]]
+
 这种方式使得insert和remove方法易于实现，但浪费空间（因为数据本身只占用一个字节，但指针却要占多个字节），可以使用块状链接存储
 
 ![[字符串的块状链接存储.png]]
+
 块状链表提高了空间的利用率，但insert和remove方法都会引起大量的数据移动，为提高insert和remove方法的效率，可以为每个块多分配一些空闲空间
+
 ![[块状链表.png]]
 
 ![[块状链接字符串的分裂节点.png]]
@@ -215,7 +202,7 @@ public:
 ```c++
 linkString::linkString(const char* s = "")
 {
-	for(len = 0; s[len] != '\0'; ++len);
+	for(len = 0; s[len] != '\0'; ++len); // 计算长度
 	
 	nodeSize = sqrt(len); // 为每个块分配合适的大小
 	head = new node(1);
@@ -298,7 +285,6 @@ linkString& linkString::operator=(const linkString& s)
 }
 ```
 
-
 `fingPos()`
 ```c++
 void linkString::findPos(int start, int& pos, node* &p) const
@@ -351,14 +337,6 @@ linkString linkString::substr(int start, int num) const
 		}
 	}
 	return tmp;
-}
-```
-
-`insert()`
-```c++
-void linkString::insert(int start, const linkString& s)
-{
-	
 }
 ```
 

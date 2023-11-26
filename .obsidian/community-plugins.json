@@ -1,6 +1,7 @@
 [
-  "obsidian-mind-map",
   "table-editor-obsidian",
-  "discordian-plugin",
-  "obsidian-vimrc-support"
+  "obsidian-vimrc-support",
+  "obsidian-style-settings",
+  "obsidian-minimal-settings",
+  "obsidian-hider"
 ]
