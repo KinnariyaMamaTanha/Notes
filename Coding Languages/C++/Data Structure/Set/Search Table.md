@@ -504,7 +504,7 @@ bool avlTree<Key, Other>::remove(const Key& x, node*& t)
 		else
 		{
 			node* tmp = t;
-			t = (t->left != nullptr) ? t->left : t->right; // 这里用了指针的引用的性质
+			t = (t->left) ? t->left : t->right; // 这里用了指针的引用的性质
 			delete tmp;
 			return false; // 肯定变矮了，需要检查父结点平衡
 		}
@@ -1053,3 +1053,4 @@ B树是一种平衡度m叉查找树，定义：
 ## 3.9 B+树
 
 >*B树在进行顺序访问时，效率极其低下*
+

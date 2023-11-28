@@ -114,5 +114,9 @@
   "minimal-style@@file-header-justify": "center",
   "minimal-style@@window-title-off": false,
   "minimal-mobile@@mobile-toolbar-off": false,
-  "minimal-advanced@@cursor": "default"
+  "minimal-advanced@@cursor": "default",
+  "minimal-style@@image-radius": 8,
+  "minimal-style@@blockquote-border-color@@dark": "#8F2CFF",
+  "minimal-style@@blockquote-border-thickness": 2,
+  "minimal-style@@folding-offset": 0
 }

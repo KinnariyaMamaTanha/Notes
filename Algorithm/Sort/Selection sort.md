@@ -1,13 +1,43 @@
-# 一、直接选择排序
-
 >*采用顺序查找最小元素，时间复杂度为平方级别*
 
-# 二、堆排序
+Pseudo code
+```text
+for i from 1 to A.length
+	min_pos = i
+	for j from j to A.length
+		if A[min_pos] > A[j]
+			min_pos = j
+	A[i], A[min_pos] = A[min_pos], A[min]
+```
 
->*采用[[Priority Queue#^c94db2|二叉堆]]，让总时间复杂度降到$O(NlogN)$*
+C++ code
+```c++
+// 对数组array的[begin, end)范围内元素进行排序
+template <class T>
+void Selection_sort(T* array, int begin, int end)
+{
+	for(int i = begin; i < end; ++i)
+	{
+		int min_pos = i;
+		for(int j = i; j < end; ++j)
+			if(array[min_pos] > array[j])
+				min_pos = j
+		T tmp = array[i];
+		array[i] = array[min_pos];
+		array[min_pos] = tmp;
+	}
+}
+```
 
-唯一需要注意的是，如果使用一个数组保存二叉堆，一个数组保存从堆中弹出的元素，则空间复杂度将达到$O(2N)$
-
-改进方案：每次出堆后，都会空下一个多余位置，可以用来存储结果，就把空间复杂度降到了$O(N)$
-
-堆排序是不稳定的排序
+Python code
+```python
+def Selection_sort(array, begin, end):
+	"""将数组array的[begin, end)范围中的数据进行排序"""
+	for i in range(begin, end):
+		min_pos = i
+		for j in range(i, end):
+			if array[min_pos] > array[j]:
+				min_pos = j
+		array[i], array[min_pos] = array[min_pos], array[i]
+	return array
+```
