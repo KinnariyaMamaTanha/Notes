@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/Sort/Heap sort.md",
+                "file": "Algorithm/0 Concepts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5729a21bc8cc52e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coding Languages/LaTeX.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/Sort/Heap sort.md",
+                "file": "Algorithm/0 Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/Sort/Heap sort.md",
+                "file": "Algorithm/0 Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/Sort/Heap sort.md"
+                "file": "Algorithm/0 Concepts.md"
               }
             }
           },
@@ -173,32 +185,33 @@
   },
   "active": "7602676b4ad7da58",
   "lastOpenFiles": [
+    "Algorithm/Sort/Merge sort.md",
+    "Algorithm/Sort/Insertion sort.md",
+    "Algorithm/Sort/Shell sort.md",
+    "Algorithm/Polynomial/Horner's  Rule.md",
+    "Algorithm/Polynomial",
+    "Algorithm/Sort/Bubble Sort.md",
+    "Algorithm/Sort/0 Summary.md",
+    "Algorithm/0 Concepts.md",
+    "Algorithm/Algorithm Design And Analysis.md",
+    "Coding Languages/LaTeX.md",
+    "Coding Languages/C++/Data Structure/Graph.md",
+    "Coding Languages/C++/Data Structure/Tree/Tree.md",
+    "Coding Languages/C++/Data Structure/Tree/Priority Queue.md",
+    "Algorithm/1 Pseudo Code Standard.md",
+    "Algorithm/Sort/Hill sort.md",
+    "Algorithm/Sort/Heap sort.md",
+    "Algorithm/Sort/Base sort.md",
+    "Algorithm/Sort/Exchange sort.md",
+    "Coding Languages/C++/Data Structure/Set/Search Table.md",
+    "Coding Languages/C++/Data Structure/Set/Union-Find.md",
     "Coding Languages/Python/Grammar/Function/内置函数.md",
     "Coding Languages/Python/Grammar/Function/Function.md",
     "Coding Languages/Python/Grammar/Basic data structures/序列/0 序列.md",
     "Coding Languages/Python/Grammar/Basic data structures/序列/1 列表.md",
-    "Algorithm/Sort/Heap sort.md",
     "Coding Languages/Python/Grammar/Basic data structures/序列/2 元组.md",
     "Coding Languages/Python/Grammar/Basic data structures/序列/3 字符串.md",
     "Coding Languages/Python/Modules/turtle.md",
-    "Coding Languages/Python/Modules/string.md",
-    "Coding Languages/Python/Modules/math.md",
-    "Coding Languages/Python/Modules/cmath.md",
-    "Coding Languages/C++/Data Structure/Tree/Priority Queue.md",
-    "Algorithm/Sort/Selection sort.md",
-    "Algorithm/Sort/Insertion sort.md",
-    "Algorithm/0 Concepts.md",
-    "Algorithm/1 Pseudo Code Standard.md",
-    "Coding Languages/C++/Data Structure/Set/Union-Find.md",
-    "Coding Languages/MATLAB/未命名.md",
-    "未命名看板.md",
-    "Coding Languages/C++/Data Structure/Set/Search Table.md",
-    "Coding Languages/Markdown.md",
-    "Coding Languages/C++/Data Structure/Tree/Tree.md",
-    "Coding Languages/C++/Data Structure/Graph.md",
-    "Algorithm/Search/Block Search.md",
-    "Algorithm/Search/Linear Search.md",
-    "Algorithm/Search/Binary Search.md",
     "Algorithm/Search",
     "Coding Languages/C++/Data Structure/Tree",
     "Coding Languages/C++/Data Structure/STL",
@@ -217,7 +230,6 @@
     "01 attachment/Frame and Environment.png",
     "01 attachment/二次探测法定理1.png",
     "Apps/Shell",
-    "Apps/Scoop",
     "01 attachment/散列表的数字分析法.png",
     "Study Plan.canvas"
   ]

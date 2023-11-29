@@ -44,6 +44,8 @@ def insertion_sort(a, size):
 ```
 ![[插入排序.png]]
 
+时间复杂度和**逆序对**相关（交换总次数 = 逆序数）
+
 # Using Binary Search
 
 >*Similar to the insertion sort using linear search*
