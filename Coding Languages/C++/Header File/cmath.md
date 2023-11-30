@@ -1,1 +1,1 @@
-详见[[01 conference/cmath|cmath库详解]]
+详见[[01 reference/cmath|cmath库详解]]

@@ -1,0 +1,83 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Statements",
+      "path": "Coding Languages/Python/Grammar/Statements.md"
+    },
+    {
+      "basename": "内置函数",
+      "path": "Coding Languages/Python/Grammar/Function/内置函数.md"
+    },
+    {
+      "basename": "初始化",
+      "path": "Coding Languages/C++/Grammars/初始化.md"
+    },
+    {
+      "basename": "单独编译",
+      "path": "Coding Languages/C++/Grammars/多文件程序/单独编译.md"
+    },
+    {
+      "basename": "Search Table",
+      "path": "Coding Languages/C++/Data Structure/Set/Search Table.md"
+    },
+    {
+      "basename": "itertools",
+      "path": "Coding Languages/Python/Modules/itertools.md"
+    },
+    {
+      "basename": "字符",
+      "path": "Coding Languages/Python/Grammar/Basic data structures/字符.md"
+    },
+    {
+      "basename": "Bool",
+      "path": "Coding Languages/Python/Grammar/Basic data structures/Bool.md"
+    },
+    {
+      "basename": "运算符优先级",
+      "path": "Coding Languages/C++/Grammars/运算符优先级.md"
+    },
+    {
+      "basename": "异常",
+      "path": "Coding Languages/C++/Grammars/异常.md"
+    },
+    {
+      "basename": "函数",
+      "path": "Coding Languages/C++/Grammars/Function/函数.md"
+    },
+    {
+      "basename": "4 字典",
+      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/4 字典.md"
+    },
+    {
+      "basename": "Function",
+      "path": "Coding Languages/Python/Grammar/Function/Function.md"
+    },
+    {
+      "basename": "Operators & Priority",
+      "path": "Coding Languages/Python/Grammar/Operators & Priority.md"
+    },
+    {
+      "basename": "3 字符串",
+      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/3 字符串.md"
+    },
+    {
+      "basename": "Horner's  Rule",
+      "path": "Algorithm/Polynomial/Horner's  Rule.md"
+    },
+    {
+      "basename": "类",
+      "path": "Coding Languages/C++/OOP/类.md"
+    },
+    {
+      "basename": "1 列表",
+      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/1 列表.md"
+    },
+    {
+      "basename": "array",
+      "path": "01 reference/array.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
+}

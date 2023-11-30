@@ -1,1 +1,1 @@
-详见[[01 conference/array]]
+详见[[01 reference/array]]
