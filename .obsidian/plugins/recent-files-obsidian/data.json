@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Matrix Multiplication",
+      "path": "Algorithm/Matrix/Matrix Multiplication.md"
+    },
+    {
+      "basename": "最大子数组",
+      "path": "Algorithm/Search/最大子数组.md"
+    },
+    {
+      "basename": "0 Concepts",
+      "path": "Algorithm/0 Concepts.md"
+    },
+    {
+      "basename": "函数的增长",
+      "path": "Algorithm/函数的增长.md"
+    },
+    {
+      "basename": "1 Pseudo Code Standard",
+      "path": "Algorithm/1 Pseudo Code Standard.md"
+    },
+    {
+      "basename": "分治",
+      "path": "Algorithm/分治.md"
+    },
+    {
       "basename": "Statements",
       "path": "Coding Languages/Python/Grammar/Statements.md"
     },

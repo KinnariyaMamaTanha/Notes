@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Languages/Python/Grammar/Statements.md",
+                "file": "Algorithm/Matrix/Matrix Multiplication.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Languages/Python/Grammar/Statements.md",
+                "file": "Algorithm/Matrix/Matrix Multiplication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Languages/Python/Grammar/Statements.md",
+                "file": "Algorithm/Matrix/Matrix Multiplication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding Languages/Python/Grammar/Statements.md"
+                "file": "Algorithm/Matrix/Matrix Multiplication.md"
               }
             }
           },
@@ -181,8 +181,16 @@
   },
   "active": "5121bd8887773769",
   "lastOpenFiles": [
-    "Coding Languages/Python/Grammar/Function/内置函数.md",
+    "Algorithm/Search/最大子数组.md",
+    "Algorithm/Matrix/Matrix Multiplication.md",
+    "Algorithm/Matrix",
+    "Algorithm/0 Concepts.md",
+    "Algorithm/函数的增长.md",
+    "Algorithm/1 Pseudo Code Standard.md",
+    "Algorithm/分治.md",
+    "Algorithm/Algorithm Design And Analysis.md",
     "Coding Languages/Python/Grammar/Statements.md",
+    "Coding Languages/Python/Grammar/Function/内置函数.md",
     "Coding Languages/C++/Grammars/初始化.md",
     "Coding Languages/C++/Grammars/多文件程序/单独编译.md",
     "Coding Languages/C++/Data Structure/Set/Search Table.md",
@@ -200,13 +208,6 @@
     "Coding Languages/C++/OOP/类.md",
     "Coding Languages/Python/Grammar/Basic data structures/Sequence/1 列表.md",
     "01 reference/array.md",
-    "2023-11-29.md",
-    "Home.md",
-    "Algorithm/1 Pseudo Code Standard.md",
-    "Coding Languages/LaTeX.md",
-    "Algorithm/0 Concepts.md",
-    "Algorithm/Sort/Merge sort.md",
-    "Algorithm/Sort/Insertion sort.md",
     "Algorithm/Polynomial",
     "Algorithm/Search",
     "Coding Languages/C++/Data Structure/Tree",
@@ -225,7 +226,6 @@
     "01 attachment/希尔排序示例.png",
     "01 attachment/Frame and Environment.png",
     "01 attachment/二次探测法定理1.png",
-    "Apps/Shell",
     "01 attachment/散列表的数字分析法.png",
     "Study Plan.canvas"
   ]

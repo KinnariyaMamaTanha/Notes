@@ -14,5 +14,15 @@
       ],
       "key": "M"
     }
+  ],
+  "editor:insert-link": [],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
   ]
 }

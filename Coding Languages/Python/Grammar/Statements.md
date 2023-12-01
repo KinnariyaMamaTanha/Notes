@@ -112,3 +112,15 @@ for index, string in enumerate(strings):
 	print(index, string)
 ```
 这将返回一个enumerate类型的元素，可以同时遍历index和数据
+
+3. 获得逆序或排序后的序列
+```python
+>>> list(reversed([1, 2, 3, 4]))
+[4, 3, 2, 1]
+>>> type(reversed([1, 2, 3, 4]))
+class 'list_reverseiterator'
+>>> sorted([1, 3, 2, 4])
+[1, 2, 3, 4]
+>>> type(sorted([1, 3, 2, 4]))
+class 'list'
+```
