@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Statements",
-      "path": "Coding Languages/Python/Grammar/Statements.md"
+      "basename": "Function",
+      "path": "Coding Languages/Python/Grammar/Function/Function.md"
+    },
+    {
+      "basename": "内置函数",
+      "path": "Coding Languages/Python/Grammar/Function/内置函数.md"
     },
     {
       "basename": "4 字典",
       "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/4 字典.md"
+    },
+    {
+      "basename": "Operators & Priority",
+      "path": "Coding Languages/Python/Grammar/Operators & Priority.md"
+    },
+    {
+      "basename": "Statements",
+      "path": "Coding Languages/Python/Grammar/Statements.md"
+    },
+    {
+      "basename": "1 列表",
+      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/1 列表.md"
     },
     {
       "basename": "Insertion sort",
@@ -39,10 +55,6 @@
     {
       "basename": "分治",
       "path": "Algorithm/分治.md"
-    },
-    {
-      "basename": "内置函数",
-      "path": "Coding Languages/Python/Grammar/Function/内置函数.md"
     },
     {
       "basename": "初始化",
@@ -81,14 +93,6 @@
       "path": "Coding Languages/C++/Grammars/Function/函数.md"
     },
     {
-      "basename": "Function",
-      "path": "Coding Languages/Python/Grammar/Function/Function.md"
-    },
-    {
-      "basename": "Operators & Priority",
-      "path": "Coding Languages/Python/Grammar/Operators & Priority.md"
-    },
-    {
       "basename": "3 字符串",
       "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/3 字符串.md"
     },
@@ -99,10 +103,6 @@
     {
       "basename": "类",
       "path": "Coding Languages/C++/OOP/类.md"
-    },
-    {
-      "basename": "1 列表",
-      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/1 列表.md"
     },
     {
       "basename": "array",
