@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/Matrix/Matrix Multiplication.md",
+                "file": "Coding Languages/Python/Grammar/Statements.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8a6a462f2e138eba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coding Languages/Python/Grammar/Basic data structures/Sequence/4 字典.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/Matrix/Matrix Multiplication.md",
+                "file": "Coding Languages/Python/Grammar/Statements.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/Matrix/Matrix Multiplication.md",
+                "file": "Coding Languages/Python/Grammar/Statements.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/Matrix/Matrix Multiplication.md"
+                "file": "Coding Languages/Python/Grammar/Statements.md"
               }
             }
           },
@@ -181,15 +193,19 @@
   },
   "active": "5121bd8887773769",
   "lastOpenFiles": [
-    "Algorithm/Search/最大子数组.md",
+    "01 attachment/屏幕截图 2023-12-02 172050.png",
+    "Coding Languages/Python/Grammar/Basic data structures/Sequence/4 字典.md",
+    "Coding Languages/Python/Grammar/Statements.md",
+    "Algorithm/Sort/Insertion sort.md",
+    "Coding Languages/C++/OOP/运算符重载.md",
     "Algorithm/Matrix/Matrix Multiplication.md",
+    "Algorithm/Search/最大子数组.md",
     "Algorithm/Matrix",
     "Algorithm/0 Concepts.md",
     "Algorithm/函数的增长.md",
     "Algorithm/1 Pseudo Code Standard.md",
     "Algorithm/分治.md",
     "Algorithm/Algorithm Design And Analysis.md",
-    "Coding Languages/Python/Grammar/Statements.md",
     "Coding Languages/Python/Grammar/Function/内置函数.md",
     "Coding Languages/C++/Grammars/初始化.md",
     "Coding Languages/C++/Grammars/多文件程序/单独编译.md",
@@ -200,14 +216,10 @@
     "Coding Languages/C++/Grammars/运算符优先级.md",
     "Coding Languages/C++/Grammars/异常.md",
     "Coding Languages/C++/Grammars/Function/函数.md",
-    "Coding Languages/Python/Grammar/Basic data structures/Sequence/4 字典.md",
     "Coding Languages/Python/Grammar/Function/Function.md",
     "Coding Languages/Python/Grammar/Operators & Priority.md",
     "Coding Languages/Python/Grammar/Basic data structures/Sequence/3 字符串.md",
     "Algorithm/Polynomial/Horner's  Rule.md",
-    "Coding Languages/C++/OOP/类.md",
-    "Coding Languages/Python/Grammar/Basic data structures/Sequence/1 列表.md",
-    "01 reference/array.md",
     "Algorithm/Polynomial",
     "Algorithm/Search",
     "Coding Languages/C++/Data Structure/Tree",

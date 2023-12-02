@@ -123,4 +123,100 @@ class 'list_reverseiterator'
 [1, 2, 3, 4]
 >>> type(sorted([1, 3, 2, 4]))
 class 'list'
+>>> sorted([1, 2, 3, 4], key = str.lower)
+[4, 3, 2, 1]
+```
+其中`sort`函数的完整形式是 `sorted(seq[,cmp][,key][,reverse])`
+
+
+4. 使用循环创建列表
+```python
+>>> [x * x for x in range(0, 7)]
+[0, 1, 4, 9, 16, 25, 36]
+>>> [x for x in range(0, 7) if x % 3 == 0]
+[0, 3, 6]
+>>> [(x, y) for x in range(2) for y in range(2)]
+[(0, 0), (0, 1), (1, 0), (1, 1)]
+```
+可以使用多个for语句和if语句。还可以完成配对的任务：
+```python
+>>> girls = ['alice', 'bernice', 'clarice'] 
+>>> boys = ['chris', 'arnold', 'bob']
+>>> pairs = [(b, g) for b in boys for g in girls]
+>>> pairs
+[('chirs', 'clarice'), ('arnold', 'alice'), ('bob', 'bernice')]
+```
+但这种效率太慢，时间复杂度为$O(n^2)$，一个改进是：
+```python
+>>> girls = ['alice', 'bernice', 'clarice'] 
+>>> boys = ['chris', 'arnold', 'bob']
+>>> letterGirls = {} 
+>>> for girl in girls: 
+...     letterGirls.setdefault(girl[0], []).append(girl) 
+>>> print([(b, g) for b in boys for g in letterGirls[b[0]]])
+```
+这种方法创建一个字典来存储首字母相同的girls，从而减少了不必要的比较
+
+另外还可以对字典用相同的语法（称为字典推导）
+```python
+>>> formats = {i:"{} squared is {}".format(i, i ** 2) for i in range(9)}
+>>> formats[8]
+'8 squared is 64'
+```
+但对元组使用这种语法，将生成**生成器**，而非元组
+
+# 四、其他
+
+1. `pass`语句：跳过当前代码块，当有代码块未完成时使用
+```python
+if statement1:
+	print('Great')
+elif statement2:
+	pass # 表示什么都不做
+else:
+	print("awful")
+```
+
+2. `del`语句：当任何内存块没有被指向或使用时，Python将直接将其自动删去（不同于C++中需要手动使用delete语句删除），也可以选择使用del语句手动删除（不仅会删除**对内存块的引用**，还会删除变量名称）
+```python
+>>> x = 1
+>>> del x
+>>> x
+Traceback (most recent call last):
+  File "<pyshell#255>", line 1, in ? 
+    x 
+NameError: name 'x' is not defined
+```
+注意使用del**不能**删除内存本身，内存本身只能够由Python解释器自动删除
+
+3. `exec`语句：`exec`函数将字符串作为代码运行
+```python
+>>> exec("print('Hello, world')")
+Hello, world
+```
+更安全的，应该为`exec`函数提供一个命名空间作为参数（可以选择使用一个字典作为命名空间）
+```python
+>>> from math import sqrt
+>>> scope = {}
+>>> exec("sqrt = 4", scope)
+>>> sqrt(4)
+2.0
+>>> scope['sqrt']
+4
+```
+否则在上述例子中，从math模块调用的sqrt函数将被修改为一个值为4的浮点数。在用户提供`exec`函数中的字符串参数中，很有可能无意识的进行了这种灾难性的调用（代码污染），因此提供一个命名空间是必要的
+
+4. `eval`函数：一个类似于`exec`的内置函数，计算用字符串表示的Python语句的值
+```python
+>>> eval(input("Enter an expression: "))
+1 + 2 * 5 # input
+11 # output
+```
+也可以向eval提供一个命名空间参数
+```python
+>>> scope = {}
+>>> scope['x'] = 2 # 向scope中添加变量
+>>> scope['y'] = 1
+>>> eval('x * y', scope)
+2
 ```
