@@ -189,6 +189,32 @@ Linking D:\Scoop\modules\posh-git => D:\Scoop\apps\posh-git\current
 'posh-git' (1.1.0) was installed successfully!
 ```
 
+### Anaconda
+
+```shell
+PS C:\Users\自驾游> scoop install anaconda3
+Installing 'anaconda3' (2022.05) [64bit] from dorado bucket
+Loading Anaconda3-2022.05-Windows-x86_64.exe from cache
+Checking hash of Anaconda3-2022.05-Windows-x86_64.exe ... ok.
+Running installer... done.
+Linking D:\Scoop\apps\anaconda3\current => D:\Scoop\apps\anaconda3\2022.05
+Creating shim for 'conda'.
+Running post_install script...
+'anaconda3' (2022.05) was installed successfully!
+Notes
+-----
+This variant does not add the default venv into your PATH unless you activate it with 'conda activate base'.
+You may choose to install the one from the official bucket if you do not care about python PATH pollution.
+
+Conda base env is not persisted by Scoop, packages installed to the base env will be removed when upgrading the app.
+We advice to setup 'envs_dirs' to use a seperated path like '~/.conda/envs' and avoid using the base env.
+https://conda.io/projects/conda/en/latest/user-guide/configuration/use-condarc.html#specify-environment-directories-envs-dirs
+
+To enable conda tab-completion autoload, you can add the following code to your PowerShell $PROFILE:
+(& conda 'shell.powershell' 'hook') | Out-String | Invoke-Expression
+```
+（用scoop下载不太好用，有些bug，又删掉了）
+
 ## Bucket
 
 1. Using `scoop bucket add <bucket-name>` or `scoop bucket add <bucket-name> <url>` to add a new bucket

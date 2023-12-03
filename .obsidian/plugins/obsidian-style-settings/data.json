@@ -77,7 +77,7 @@
   "minimal-style@@blockquote-font-style": "italic",
   "minimal-advanced@@styled-scrollbars": true,
   "minimal-style@@callouts-style": "callouts-default",
-  "minimal-style@@minimal-code-scroll": true,
+  "minimal-style@@minimal-code-scroll": false,
   "minimal-style@@h1-style": "italic",
   "minimal-style@@h1-weight": 600,
   "minimal-style@@h1-l": true,
