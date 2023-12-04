@@ -349,7 +349,7 @@ class dLinkList: public list
 		2. [[iterator]]可以修改、访问容器数据；`const_iterator`只能访问容器数据
 		3. 迭代器类一般作为容器类的公有类数据成员，便于外界访问、使用迭代器
 
-## 3.1 [[vector|vector类]]和[[list|list类]]
+## 3.1 [[vector|vector类]]和[[01 reference/list|list类]]
 
 >*vector类的实现类似于顺序表类*
 >*list类的实现类似于双链表类*

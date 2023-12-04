@@ -131,7 +131,7 @@ class 'list'
 其中`sort`函数的完整形式是 `sorted(seq[,cmp][,key][,reverse])`
 
 
-4. 使用循环创建列表
+4. 使用循环创建列表(**列表推导**)
 ```python
 >>> [x * x for x in range(0, 7)]
 [0, 1, 4, 9, 16, 25, 36]

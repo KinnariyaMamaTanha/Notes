@@ -4,7 +4,7 @@
 ```python
 print(math.pi) # 直接使用pi常量
 from math import pi # 只调用pi常量
-import math # 使math模块中所有函数、常量均可使用
+import math # 引入math模块中所有函数、常量
 from math import * # 引入math中所有函数
 import math as mt
 from math import pi as PI
@@ -167,11 +167,101 @@ Shrubberry
 >>> x = 1
 >>> def add_1():
 ...     global x
-...     x += 1
+...     x = x + 1
 ...
 >>> add_1()
 >>> x
 2
 ```
+使用global有几点注意
+- global后的变量可以没有事先声明，此时会在全局作用域中创建一个global变量
+- global可以在任何位置使用
+- 当局部作用域中不声明全局变量且不修改全局变量时，可以直接使用全局变量
+```python
+x = 10
+def f():
+	print(x)
+f()
+```
 
-3. 作用域**嵌套**：
+3. Python中作用域可以嵌套，即可以在函数中定义函数
+```python
+def func1():
+	def func2():
+		print("Function2")
+	func2()
+```
+可以返回一个函数
+```python
+def multiplier(factor): 
+	def multiplyByFactor(number): 
+		return number * factor 
+	return multiplyByFactor
+```
+然后利用这个函数定义其他函数
+```python
+>>> double = multiplier(2)
+>>> trible = multiplier(3)
+>>> double(4)
+8
+>>> trible(3)
+9
+>>> multiplier(5)(4)
+20
+```
+
+可以在嵌套函数中使用关键字 `nonlocal` 来声明上一级函数中的变量
+```python
+def f1():
+	x = 10
+	def f2():
+		nonlocal x
+		x *= 2
+		print(x)
+	print(x)
+	f2()
+	print(x)
+```
+输出为
+```python
+10
+20
+20
+```
+使用nonlocal的几点注意
+- nonlocal只能标识上一层函数中的变量
+- 当nonlocal标识的变量事先不存在时，将报错（和global不同）
+- nonlocal只能用于**嵌套函数**中
+
+## 1.4 lambda语句
+Format
+```python
+lambda [arg1, [arg2, ..., argn]]: expression
+```
+- 其中方括号内是参数，`expression` 是一条单行表达式，只能使用前面提供的参数
+- 使用lambda将创建一个无名函数
+- lambda函数功能一般非常简单
+
+示例
+```python
+>>> double = lambda x: x * 2
+>>> double(2)
+4
+>>> is_under10 = lambda x: 1 if x < 10 else 0
+>>> is_under10(9)
+1
+>>> sum1 = lambda *values: sum(values)
+>>> sum1(1, 2, 3)
+6
+>>> add = lambda x, y: x + y
+>>> add(1, 2)
+3
+```
+还可以使用lambda函数充当函数参数中的函数
+```python
+>>> map(lambda x: x ** 2, [1, 2, 3]) # map根据提供的函数对指定序列做映射
+[1, 4, 9]
+>>> map(lambda x, y: x + y, [1, 2, 3], [4, 5, 6])
+[5, 7, 9]
+```
+这样就不用在外部声明函数了，减少了重名的机会

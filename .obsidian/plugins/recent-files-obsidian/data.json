@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "class",
+      "path": "Coding Languages/Python/OOP/class.md"
+    },
+    {
+      "basename": "Function",
+      "path": "Coding Languages/Python/Grammar/Function/Function.md"
+    },
+    {
+      "basename": "内置函数",
+      "path": "Coding Languages/Python/Grammar/Function/内置函数.md"
+    },
+    {
+      "basename": "str",
+      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/str.md"
+    },
+    {
+      "basename": "0 序列",
+      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/0 序列.md"
+    },
+    {
+      "basename": "random",
+      "path": "Coding Languages/Python/Modules/random.md"
+    },
+    {
+      "basename": "functools",
+      "path": "Coding Languages/Python/Modules/functools.md"
+    },
+    {
+      "basename": "Statements",
+      "path": "Coding Languages/Python/Grammar/Statements.md"
+    },
+    {
+      "basename": "字符",
+      "path": "Coding Languages/Python/Grammar/Basic data structures/字符.md"
+    },
+    {
+      "basename": "bisect",
+      "path": "Coding Languages/Python/Modules/bisect.md"
+    },
+    {
+      "basename": "Anaconda",
+      "path": "Apps/Anaconda.md"
+    },
+    {
       "basename": "数据处理",
       "path": "AI/Deep Learning/数据处理.md"
     },
@@ -13,36 +57,20 @@
       "path": "Apps/Scoop/Scoop(Personal Using).md"
     },
     {
-      "basename": "Anaconda",
-      "path": "Apps/Anaconda.md"
-    },
-    {
       "basename": "Markdown",
       "path": "Coding Languages/Markdown.md"
     },
     {
-      "basename": "Function",
-      "path": "Coding Languages/Python/Grammar/Function/Function.md"
-    },
-    {
-      "basename": "内置函数",
-      "path": "Coding Languages/Python/Grammar/Function/内置函数.md"
-    },
-    {
-      "basename": "4 字典",
-      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/4 字典.md"
+      "basename": "dict",
+      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/dict.md"
     },
     {
       "basename": "Operators & Priority",
       "path": "Coding Languages/Python/Grammar/Operators & Priority.md"
     },
     {
-      "basename": "Statements",
-      "path": "Coding Languages/Python/Grammar/Statements.md"
-    },
-    {
-      "basename": "1 列表",
-      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/1 列表.md"
+      "basename": "list",
+      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/list.md"
     },
     {
       "basename": "Insertion sort",
@@ -93,10 +121,6 @@
       "path": "Coding Languages/Python/Modules/itertools.md"
     },
     {
-      "basename": "字符",
-      "path": "Coding Languages/Python/Grammar/Basic data structures/字符.md"
-    },
-    {
       "basename": "Bool",
       "path": "Coding Languages/Python/Grammar/Basic data structures/Bool.md"
     },
@@ -111,10 +135,6 @@
     {
       "basename": "函数",
       "path": "Coding Languages/C++/Grammars/Function/函数.md"
-    },
-    {
-      "basename": "3 字符串",
-      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/3 字符串.md"
     },
     {
       "basename": "Horner's  Rule",

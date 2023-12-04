@@ -21,6 +21,10 @@ conda deactivate
 ```shell
 conda env list
 ```
+或使用
+```shell
+conda info --env
+```
 6. 更新conda
 ```shell
 conda update conda
