@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "分治",
+      "path": "Algorithm/分治.md"
+    },
+    {
+      "basename": "Matrix Multiplication",
+      "path": "Algorithm/Matrix/Matrix Multiplication.md"
+    },
+    {
+      "basename": "LaTeX",
+      "path": "Coding Languages/LaTeX.md"
+    },
+    {
+      "basename": "Markdown",
+      "path": "Coding Languages/Markdown.md"
+    },
+    {
+      "basename": "Anaconda",
+      "path": "Apps/Anaconda.md"
+    },
+    {
       "basename": "class",
       "path": "Coding Languages/Python/OOP/class.md"
     },
@@ -41,10 +61,6 @@
       "path": "Coding Languages/Python/Modules/bisect.md"
     },
     {
-      "basename": "Anaconda",
-      "path": "Apps/Anaconda.md"
-    },
-    {
       "basename": "数据处理",
       "path": "AI/Deep Learning/数据处理.md"
     },
@@ -55,10 +71,6 @@
     {
       "basename": "Scoop(Personal Using)",
       "path": "Apps/Scoop/Scoop(Personal Using).md"
-    },
-    {
-      "basename": "Markdown",
-      "path": "Coding Languages/Markdown.md"
     },
     {
       "basename": "dict",
@@ -81,10 +93,6 @@
       "path": "Coding Languages/C++/OOP/运算符重载.md"
     },
     {
-      "basename": "Matrix Multiplication",
-      "path": "Algorithm/Matrix/Matrix Multiplication.md"
-    },
-    {
       "basename": "最大子数组",
       "path": "Algorithm/Search/最大子数组.md"
     },
@@ -99,10 +107,6 @@
     {
       "basename": "1 Pseudo Code Standard",
       "path": "Algorithm/1 Pseudo Code Standard.md"
-    },
-    {
-      "basename": "分治",
-      "path": "Algorithm/分治.md"
     },
     {
       "basename": "初始化",

@@ -1,8 +1,9 @@
 # Conda
+>*参考[conda official guide]([User guide — conda 23.11.1.dev2 documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html))*
 
 1. 激活环境：
 ```shell
-conda activate base # 激活base环境，这是默认的一个环境
+conda activate base # 激活base环境，这是默认的一个环境，base可以省略不写
 ```
 2. 查看conda版本
 ```shell
@@ -15,6 +16,7 @@ conda create --name <env_name> python=3.11 # 最后是版本号，可选
 4. 激活、退出环境
 ```shell
 conda activate <env_name>
+conda activate # 进入base环境
 conda deactivate
 ```
 5. 查看当前所有环境

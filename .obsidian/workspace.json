@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Languages/Python/OOP/class.md",
+                "file": "Algorithm/分治.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "745c1424b728d31d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coding Languages/LaTeX.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Languages/Python/OOP/class.md",
+                "file": "Algorithm/分治.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Languages/Python/OOP/class.md",
+                "file": "Algorithm/分治.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding Languages/Python/OOP/class.md"
+                "file": "Algorithm/分治.md"
               }
             }
           },
@@ -181,8 +193,12 @@
   },
   "active": "5121bd8887773769",
   "lastOpenFiles": [
-    "Coding Languages/Python/Grammar/Function/Function.md",
+    "Algorithm/Matrix/Matrix Multiplication.md",
+    "Coding Languages/LaTeX.md",
+    "Coding Languages/Markdown.md",
+    "Apps/Anaconda.md",
     "Coding Languages/Python/OOP/class.md",
+    "Coding Languages/Python/Grammar/Function/Function.md",
     "Coding Languages/Python/Grammar/Function/内置函数.md",
     "Coding Languages/Python/Grammar/Basic data structures/Sequence/str.md",
     "Coding Languages/Python/Grammar/Basic data structures/Sequence/0 序列.md",
@@ -193,7 +209,6 @@
     "Coding Languages/Python/Grammar/Basic data structures/字符.md",
     "Coding Languages/Python/Grammar/Basic data structures/Sequence/4 dict 1.md",
     "Coding Languages/Python/Modules/bisect.md",
-    "Apps/Anaconda.md",
     "AI/Deep Learning/数据处理.md",
     "AI/Deep Learning/未命名",
     "AI/Machine Learning/Introduction.md",
@@ -201,19 +216,16 @@
     "AI",
     "AI/Machine Learning",
     "Deep Learning/未命名",
-    "Coding Languages/Markdown.md",
     "Coding Languages/Python/Grammar/Basic data structures/Sequence/dict.md",
     "Coding Languages/Python/Grammar/Operators & Priority.md",
     "Coding Languages/Python/Grammar/Basic data structures/Sequence/list.md",
     "01 attachment/屏幕截图 2023-12-02 172050.png",
     "Algorithm/Sort/Insertion sort.md",
     "Coding Languages/C++/OOP/运算符重载.md",
-    "Algorithm/Matrix/Matrix Multiplication.md",
     "Algorithm/Search/最大子数组.md",
     "Algorithm/Matrix",
     "Algorithm/0 Concepts.md",
     "Algorithm/函数的增长.md",
-    "Algorithm/1 Pseudo Code Standard.md",
     "Algorithm/Polynomial",
     "Algorithm/Search",
     "Coding Languages/C++/Data Structure/Tree",

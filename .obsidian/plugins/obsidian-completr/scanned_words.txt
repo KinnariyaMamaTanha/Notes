@@ -24,6 +24,7 @@
 类比C
 类似于C
 类似方差中的处理
+类定义是要执行的代码段
 以数据成员的方式描述数据部分
 以成员函数
 以r为前缀
@@ -74,6 +75,9 @@
 的情况下预测标签
 的标签
 的学习
+的矩阵
+的矩阵积
+的细节
 描述如何实现类成员函数
 描述
 描述可能产生这些关系的原因
@@ -134,6 +138,8 @@ path
 posh
 point
 process
+package
+provides
 使用类对象的程序都可以访问public部分
 使用保护访问很有用
 使用protected访问控制定义一些成员函数
@@ -194,6 +200,7 @@ process
 使用global有几点注意
 使用nonlocal的几点注意
 使用lambda将创建一个无名函数
+使用了常数次矩阵乘法的代价减少了依次矩阵乘法
 但必须通过public部分的成员函数
 但值可以重复
 但就地修改副本中的值时
@@ -246,6 +253,7 @@ process
 但第一个冒号不可省略
 但是对元组而言只能返回一个新的元组
 但是仍然可以在外部调用私有方法
+但是遗憾的是时间复杂度仍然为
 来访问private部分的数据
 来处理不属于公共接口的实现细节
 来避免上述情况
@@ -468,6 +476,8 @@ process
 可以返回一个函数
 可以在嵌套函数中使用关键字
 可以使用单下划线
+可参考
+可以看出
 而类的默认访问类型为private
 而私有继承将对象作为一个未被命名的继承对象添加到类中
 而不是由指向
@@ -548,6 +558,10 @@ association
 agent
 action
 abd
+abstract
+automatic
+angle
+allow
 最好对
 最内层的
 最好直接写出定义
@@ -723,6 +737,7 @@ abd
 从而减少了不必要的比较
 从math模块调用的sqrt函数将被修改为一个值为
 从已知大量数据样本中随机选取一个子集
+从上易知
 这同时保证了外部无法使用这些函数来访问基类数据成员
 这种语法也可以用于表达式
 这里使用了一个原始字符串拼接上一个普通的字符串
@@ -764,6 +779,7 @@ abd
 这时如果有记忆能力
 这个奖励与原始监督学习问题的损失函数是一致的
 这样就不用在外部声明函数了
+这与C
 using声明重新定义访问权限
 using申明只能用于继承
 update
@@ -775,6 +791,10 @@ unhold
 uninstall
 url
 useful
+use
+unmunbered
+underscore
+unnumbered
 fda
 fromkeys
 func
@@ -789,6 +809,9 @@ file
 files
 features
 filter
+fractions
+functions
+figure
 如果要让基类方法在派生类的外面可用
 如函数的docstring就通常是一个长字符串
 如对二进制
@@ -842,6 +865,7 @@ filter
 如AlphaGo等
 如在分类问题中
 如果不希望名称被修改
+如赋值
 则可使用关键字using
 则此时使用模板创建了一个字符串
 则返回从左往右第一个字符串的第一个字符的索引
@@ -969,6 +993,7 @@ filter
 其次为多项分类
 其中第一个参数默认为
 其中方括号内是参数
+其中矩阵的划分如下
 浮点数
 创建字典
 创建外观普通的字符串版本
@@ -1138,6 +1163,8 @@ filter
 中一致
 中不同
 中的this指针类似
+中的基类
+中的两个子矩阵的和或差
 名称
 用途
 用于计算多项式的值
@@ -1150,6 +1177,7 @@ filter
 用scoop下载不太好用
 用于转换数据的模型
 用于量化模型的有效性
+用前两个步骤中的子矩阵
 clear
 copy
 code
@@ -1179,6 +1207,10 @@ com
 can
 context
 covariates
+comment
+characters
+caret
+common
 清空字典
 浅复制
 key
@@ -1204,6 +1236,7 @@ git
 globals
 global后的变量可以没有事先声明
 global可以在任何位置使用
+gerbil
 原件不受影响
 原件会受影响
 原始字符串
@@ -1237,6 +1270,7 @@ global可以在任何位置使用
 因此需要用目标函数
 因果关系和概率图模型问题
 因此需要使用self
+因此可以在类命名空间中进行一些操作
 深复制
 公式
 Pseudo
@@ -1261,6 +1295,8 @@ Python中作用域可以嵌套
 Python中的索引从第
 Python中可以直接对字符串常量
 Python中的私有方法
+Private
+Packages
 输入输出
 输入一个反引号
 输入一个backslash
@@ -1307,6 +1343,7 @@ Python中的私有方法
 并选择后续操作
 并且三个参数均可以使用负数
 并不完全私有
+并没有改进
 等特殊字符
 等被称为类型说明符
 等于运算符
@@ -1331,10 +1368,12 @@ Python中的私有方法
 只能通过成员函数重载
 只能使用前面提供的参数
 只需在方法名开头加上
+只需在类名后加上括号和超类名
 拼接
 打印字符串常量时
 打印函数func的docstring
 打印多个表达式并以sep分隔
+打印提示句等
 特殊字符
 特征标相同
 特征标和返回类型都不同
@@ -1357,6 +1396,7 @@ Uninstall
 Update
 URL
 Unsupervised
+Use
 bytes
 bytearray类型
 begin默认为
@@ -1364,6 +1404,8 @@ bounds
 bad
 bucket
 buckets
+begin
+big
 序列的所有标准操作都可以作用在字符串上
 序列解包
 序调用与返回
@@ -1447,6 +1489,7 @@ buckets
 分割线
 分类问题
 分类问题的常见损失函数被称为交叉熵
+分治法
 指定了输出的精度
 指向常量的指针
 指向第一个元素的地址
@@ -1459,6 +1502,7 @@ buckets
 指只有两种类别的分类
 指有多种类且分类错误的
 指有多种类且类之间拥有联系
+指明超类
 另外
 另外还可以对字典用相同的语法
 另一种方式
@@ -1500,6 +1544,8 @@ important
 instance
 iterator
 isinstance
+itemize
+image
 自动在科学计数法和定点表示法中选择
 自增自减运算符
 保持字符串格式不变
@@ -1614,6 +1660,9 @@ enable
 executable
 entries
 example
+equations
+environment
+equation
 合并一个
 合并
 列表
@@ -1692,12 +1741,18 @@ reset
 resolve
 reward
 reduce
+right
+referencing
+rotates
 ndigit
 not
 new
 nonlocal只能标识上一层函数中的变量
 nonlocal只能用于
 name
+notations
+numbering
+named
 四舍五入的指定的精度
 四级标题
 help
@@ -1714,6 +1769,9 @@ manifest
 menu
 model
 markov
+mark
+mathematics
+means
 list
 len
 length
@@ -1726,6 +1784,10 @@ loss
 locals
 lambda语句
 lambda函数功能一般非常简单
+left
+ldots
+letters
+learn
 调用模块中的函数
 调用
 调整平衡
@@ -1748,6 +1810,11 @@ Scoop
 Show
 Scoopfile
 Supervised
+Subclass
+Structure
+Structured
+Sections
+Subsections
 operators
 or
 out
@@ -1785,6 +1852,14 @@ searched
 sample
 self
 self代表了当前的对象
+side
+some
+special
+superscripts
+subscripts
+sequence
+sections
+surrounding
 division
 dict
 double类型替换为其他标准类型或者用户自定义的类
@@ -1800,6 +1875,9 @@ dark
 data
 dimensionality
 decision
+double
+display
+documents
 运算符
 运算实现
 运算符函数
@@ -1814,6 +1892,7 @@ decision
 按位异或
 按位非
 按值传递
+按照分治法中的划分方法将A
 取模
 取结果的中间几位作为散列地址
 取余
@@ -1869,6 +1948,7 @@ decision
 由上可知
 由于中间几位与每一位数字都有关系
 由于计算途中会出现一个临时列表
+由主方法知
 所以当需要使用高效的方式逐个删除并且处理每一个单项时
 所以在调用二维数组时有格外的要求
 所以有时不必把字符串长度作为参数传递给函数
@@ -1904,6 +1984,8 @@ decision
 每个数据集都由样本
 每个分类对应一个
 每一个类方法的第一个参数关联到其所属的对象
+每个分块矩阵长宽都是原矩阵的一半
+每个矩阵保存步骤
 都是一个指针
 都指向一个数组
 都是指针
@@ -2042,6 +2124,7 @@ decision
 重载限制
 重载的运算符有时不必是成员函数
 重载后的运算符必须至少有一个操作数是用户定义的类型
+重写超类方法也只需要在类命名空间中直接重写定义
 有些运算符可能并不能适用于所有数据类型
 有三种方式使这三者相关联
 有布尔语句
@@ -2074,6 +2157,7 @@ decision
 或协变量
 或使用
 或称作实例
+或许会想到使用分治法改进矩阵乘法
 需要
 需要包含头文件
 需要检查是否调整P的父结点
@@ -2123,6 +2207,7 @@ decision
 得到
 得到的结果作为散列地址
 得到散列地址
+得出C的
 直接命令编译器创建特定的实例
 直到找到一个位于try块
 直接添加一个结点就完成了插入任务
@@ -2194,6 +2279,10 @@ then
 that
 tensor
 type
+text
+take
+takes
+tabular
 依此类推
 现在假设函数由于出现异常
 控制权将转到块尾的异常处理程序
@@ -2290,6 +2379,7 @@ zip
 个结点
 个具有不同的关键字的数据映射到了同一个位置时
 个子结点
+个子矩阵
 无序表
 无论怎样选择等号左边的匿名函数
 无显示说明时
@@ -2322,6 +2412,9 @@ zip
 时间复杂度为为
 时间复杂度和
 时将会显示该字符串
+时间复杂度递推公式
+时间复杂度
+时间消耗的递推式为
 词典侧面一般会将不同首字母的单词所在的块标注出来
 块内的元素可以有序也可以无序
 块的每个元素必须大于第
@@ -2364,6 +2457,7 @@ AA树
 AVL树等都无法在外存储器中高效使用
 Algorithm
 Anaconda
+And
 苏联数学家G
 Velski和E
 Very
@@ -2376,6 +2470,8 @@ Look
 Locate
 Linux
 Learning
+Labels
+LaTeX
 年提出了AVL树的数据结构
 回溯
 回归问题
@@ -2390,6 +2486,8 @@ RAM模型中包含含真实计算机中常见的指令
 Returns
 Reset
 Reinforcement
+References
+Require
 单旋转和双旋转
 单旋转
 单旋转不能改变LR和RL的情况
@@ -2400,6 +2498,8 @@ B树在进行顺序访问时
 Binary
 Basic
 Bucket
+Bibliographies
+B和C分解为子矩阵
 且路径上的其他点的平衡度也随之纠正了
 且访问过程中没有一个单元会被探测两次
 双旋转
@@ -2498,6 +2598,7 @@ X的兄弟结点必然是黑色的
 递归式
 递归式是描述分治的等式或不等式
 递归树法
+递归地计算
 划分为规模更小的子问题
 解决
 求解递归式的方法
@@ -2514,6 +2615,9 @@ Install
 while
 which
 will
+with
+width
+where
 Java
 JSON
 视为指针
@@ -2548,6 +2652,8 @@ JSON
 跳过当前代码块
 Format
 Function
+Figures
+Floats
 添加元素
 甚至可以用于任意一个迭代的对象
 甚至像图像和音频这样复杂的非结构化数据
@@ -2558,13 +2664,18 @@ Cleanup
 Create
 Conda
 CUDA版本等选择
+Cross
 Manage
 Manipulate
 Markdown
 Model
 Methods
+Mathematics
 Get
 Git
+Grammars
+Greek
+Graphics
 Download
 Display
 Define
@@ -2574,7 +2685,10 @@ Errors
 Hold
 HTTP错误
 Then
+Title
+Tables
 Notes
+Namespace
 激活环境
 激活目标环境
 三级标题
@@ -2620,3 +2734,6 @@ Notes
 嵌套函数
 靠前时
 典型的例子是字符串的相加
+quotation
+省略号
+矩阵的不同组合进行加减计算
