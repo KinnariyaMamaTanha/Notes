@@ -1,4 +1,4 @@
 {
   "intervalMinutes": 20,
-  "keepDays": 7
+  "keepDays": 365
 }

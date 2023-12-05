@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "分治",
-      "path": "Algorithm/分治.md"
+      "basename": "数据处理",
+      "path": "AI/Deep Learning/数据处理.md"
+    },
+    {
+      "basename": "内置函数",
+      "path": "Coding Languages/Python/Grammar/Function/内置函数.md"
+    },
+    {
+      "basename": "类",
+      "path": "Coding Languages/C++/OOP/类.md"
+    },
+    {
+      "basename": "函数",
+      "path": "Coding Languages/C++/Grammars/Function/函数.md"
+    },
+    {
+      "basename": "运算符重载",
+      "path": "Coding Languages/C++/OOP/运算符重载.md"
+    },
+    {
+      "basename": "友元",
+      "path": "Coding Languages/C++/OOP/友元.md"
+    },
+    {
+      "basename": "类模板",
+      "path": "Coding Languages/C++/OOP/类模板.md"
     },
     {
       "basename": "Matrix Multiplication",
       "path": "Algorithm/Matrix/Matrix Multiplication.md"
+    },
+    {
+      "basename": "分治",
+      "path": "Algorithm/分治.md"
     },
     {
       "basename": "LaTeX",
@@ -27,10 +55,6 @@
     {
       "basename": "Function",
       "path": "Coding Languages/Python/Grammar/Function/Function.md"
-    },
-    {
-      "basename": "内置函数",
-      "path": "Coding Languages/Python/Grammar/Function/内置函数.md"
     },
     {
       "basename": "str",
@@ -61,10 +85,6 @@
       "path": "Coding Languages/Python/Modules/bisect.md"
     },
     {
-      "basename": "数据处理",
-      "path": "AI/Deep Learning/数据处理.md"
-    },
-    {
       "basename": "Introduction",
       "path": "AI/Machine Learning/Introduction.md"
     },
@@ -87,10 +107,6 @@
     {
       "basename": "Insertion sort",
       "path": "Algorithm/Sort/Insertion sort.md"
-    },
-    {
-      "basename": "运算符重载",
-      "path": "Coding Languages/C++/OOP/运算符重载.md"
     },
     {
       "basename": "最大子数组",
@@ -137,16 +153,8 @@
       "path": "Coding Languages/C++/Grammars/异常.md"
     },
     {
-      "basename": "函数",
-      "path": "Coding Languages/C++/Grammars/Function/函数.md"
-    },
-    {
       "basename": "Horner's  Rule",
       "path": "Algorithm/Polynomial/Horner's  Rule.md"
-    },
-    {
-      "basename": "类",
-      "path": "Coding Languages/C++/OOP/类.md"
     },
     {
       "basename": "array",
