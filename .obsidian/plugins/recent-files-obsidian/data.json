@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "分治",
-      "path": "Algorithm/分治.md"
-    },
-    {
       "basename": "Matrix Multiplication",
       "path": "Algorithm/Matrix/Matrix Multiplication.md"
     },
     {
-      "basename": "LaTeX",
-      "path": "Coding Languages/LaTeX.md"
-    },
-    {
       "basename": "函数的增长",
       "path": "Algorithm/函数的增长.md"
+    },
+    {
+      "basename": "1 Pseudo Code Standard",
+      "path": "Algorithm/1 Pseudo Code Standard.md"
+    },
+    {
+      "basename": "分治",
+      "path": "Algorithm/分治.md"
+    },
+    {
+      "basename": "LaTeX",
+      "path": "Coding Languages/LaTeX.md"
     },
     {
       "basename": "数据处理",
@@ -119,10 +123,6 @@
     {
       "basename": "0 Concepts",
       "path": "Algorithm/0 Concepts.md"
-    },
-    {
-      "basename": "1 Pseudo Code Standard",
-      "path": "Algorithm/1 Pseudo Code Standard.md"
     },
     {
       "basename": "初始化",
