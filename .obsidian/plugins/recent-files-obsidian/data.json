@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "单独编译",
-      "path": "Coding Languages/C++/Grammars/多文件程序/单独编译.md"
+      "basename": "数据处理",
+      "path": "AI/Deep Learning/数据处理.md"
+    },
+    {
+      "basename": "Python os 模块详解",
+      "path": "01 reference/Python os 模块详解.md"
+    },
+    {
+      "basename": "os",
+      "path": "Coding Languages/Python/Modules/os.md"
+    },
+    {
+      "basename": "class",
+      "path": "Coding Languages/Python/OOP/class.md"
+    },
+    {
+      "basename": "类",
+      "path": "Coding Languages/C++/OOP/类.md"
     },
     {
       "basename": "Abnormal",
       "path": "Coding Languages/Python/Grammar/Abnormal.md"
     },
     {
-      "basename": "类",
-      "path": "Coding Languages/C++/OOP/类.md"
+      "basename": "单独编译",
+      "path": "Coding Languages/C++/Grammars/多文件程序/单独编译.md"
     },
     {
       "basename": "异常",
@@ -19,10 +35,6 @@
     {
       "basename": "运算符重载",
       "path": "Coding Languages/C++/OOP/运算符重载.md"
-    },
-    {
-      "basename": "class",
-      "path": "Coding Languages/Python/OOP/class.md"
     },
     {
       "basename": "递归树",
@@ -55,10 +67,6 @@
     {
       "basename": "LaTeX",
       "path": "Coding Languages/LaTeX.md"
-    },
-    {
-      "basename": "数据处理",
-      "path": "AI/Deep Learning/数据处理.md"
     },
     {
       "basename": "内置函数",

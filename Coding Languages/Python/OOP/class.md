@@ -1,8 +1,21 @@
-#  一、类的定义
+#  一、类基础
 
-创建一个类的对象
+1. 创建一个类的对象
 ```python
 x = Class_name()
+```
+
+2. 旧式类和新式类：由于Python经历了较多的改变，因此存在两种类，建议使用新式类
+```python
+class old_class: # 声明旧式类
+	...
+
+class new_class(object): # 声明新式类
+	...
+```
+如果仍然采用旧式的写法，但希望定义的类是一个新式类，则在模块开头加上语句
+```python
+__metaclass__ = type # 将元类设置为type
 ```
 
 # 二、Members
@@ -81,6 +94,28 @@ inaccessible
 
 >[!note] 
 Python中的私有方法**并不完全私有**
+
+## 3.3 Constructor
+
+1. 格式：注意在两边的**双下划线**
+```python
+class A(object):
+	def __init__(self):
+		... # 进行初始化、赋值等操作
+```
+
+2. 构造函数的参数**只有且只能有** `self` 一个
+3. 在子类中通常需要[[class#^d54245|重写构造函数]]
+
+## 3.4 Destructor
+
+1. 格式：注意双下划线
+```python
+def __del__(self):
+	...
+```
+
+2. 在对象被销毁时自动被调用。若未提供析构函数，Python将自动提供一个析构函数
 
 #  四、Namespace
 
@@ -173,3 +208,37 @@ False
 True
 ```
 但此时抽象类提供的实例化保障就没有了
+
+## 5.4 构造函数
+
+^d54245
+
+>*类似于C++中，重写构造函数时需要调用基类的构造函数，或者使用Python中提供的函数super*
+
+1. 在较旧的代码中，往往使用调用基类构造函数的方式重写子类构造函数
+```python
+class bird(object)；
+	def __init__(self):
+		...
+
+class songbird(bird):
+	def __init__(self)；
+		bird.__init__(self)
+		...
+```
+和C++中极为类似，调用基类的构造函数是为了初始化基类数据成员，而其余代码是用来初始化子类中新增的数据成员
+
+2. 在较新的Python代码中，**更推荐**使用函数super来代替上述过程，且super函数只适用于新式类。不需要对super()提供任何参数
+```python
+class bird(object):
+	def __init__(self):
+		...
+
+class songbird(bird)；
+	def __init__(self):
+		super().__init__()
+		...
+```
+
+3. 当有多个基类时，也只用调用一次super函数（当所有基类的构造函数也使用super时）
+4. 当两个基类从同一个类派生而来时，如果使用旧方法，将导致新的类中将拥有两个相同的拷贝。此时，只需要使用一个super函数就能解决[[类#^6b5f6d|C++中的类似问题]]，更加方便
