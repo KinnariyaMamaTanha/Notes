@@ -1357,6 +1357,7 @@ aAHaWwXTEZiAAXJJ
 这个函数才是老大
 这个函数用于判断路径所指向的位置是否存在
 这两个函数分别判断传入路径是否是文件或路径
+这样在文件夹已存在时
 using声明重新定义访问权限
 using申明只能用于继承
 update
@@ -1687,6 +1688,7 @@ fMapBoksDeXRdEkuxMABzjIC
 就可使用隐式地自动类型转换和显式地强制类型转换
 就会抛出
 就连二者的具体实现都十分真实
+就不会报错了
 此后就可以直接使用min方法了
 此时次内层大括号还没有关键字调用
 此时
@@ -3025,6 +3027,7 @@ bXTdQhv
 还是参数中的类对象
 还可以进行求内积和矩阵乘法等
 还可以是一个广义的类路径
+还可以设置参数
 转换格式
 转换类型
 转换表见
@@ -3333,6 +3336,7 @@ xVqeo
 为了图调用省事儿而将
 为根节点的目录树中游走
 为避免重复创建某个文件
+为True
 相当于
 相似
 相比于加法而言
@@ -6640,6 +6644,7 @@ CUet
 CtjdJvguPENvHIucZUxyg
 CADngMc
 CevPegCzRUNzcLbQGVgWOQFUdWJ
+CSV文件参考
 Manage
 Manipulate
 Markdown

@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "329ce6e802bf2ffb",
+        "id": "16e02447c6dc4cb5",
         "type": "tabs",
         "children": [
           {
-            "id": "520c3d7bf8d15c12",
+            "id": "5cfc92c196d23331",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/Deep Learning/数据处理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c17ddf92025b061b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 reference/Python os 模块详解.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,8 +69,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -106,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/Deep Learning/数据处理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/Deep Learning/数据处理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "AI/Deep Learning/数据处理.md"
-              }
+              "state": {}
             }
           },
           {
@@ -192,12 +171,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "520c3d7bf8d15c12",
+  "active": "5cfc92c196d23331",
   "lastOpenFiles": [
     "01 reference/Python os 模块详解.md",
+    "Coding Languages/Python/OOP/class.md",
     "AI/Deep Learning/数据处理.md",
     "Coding Languages/Python/Modules/os.md",
-    "Coding Languages/Python/OOP/class.md",
     "Coding Languages/C++/OOP/类.md",
     "Coding Languages/Python/Grammar/Abnormal.md",
     "Coding Languages/C++/Grammars/多文件程序/单独编译.md",

@@ -242,3 +242,65 @@ class songbird(bird)；
 
 3. 当有多个基类时，也只用调用一次super函数（当所有基类的构造函数也使用super时）
 4. 当两个基类从同一个类派生而来时，如果使用旧方法，将导致新的类中将拥有两个相同的拷贝。此时，只需要使用一个super函数就能解决[[类#^6b5f6d|C++中的类似问题]]，更加方便
+
+## 5.5 协议与多态
+
+1. 在Python中，多态取决于**对象的行为**，而不是其祖先类（而C++中，取决于祖先类）
+2. **协议**指规范行为的准则（类似接口），指明应该实现哪些方法、这些方法应该做什么
+3. 在Python中，只要遵循一定的协议，就能够实现**多态**（鸭子类型）。如，要成为序列，则只需要遵守序列协议
+
+### 5.5.1 基本序列和映射协议
+
+不可变对象需要满足2条协议（基本行为），可变对象需要满足4条协议
+- `__len__(self)`：返回包含的项数。项数为0时，对象在boolean表达式中视为False
+- `__getitem__(self, key)`：返回与指定键对应的值
+- `__setitem__(self, key, value)`：以键值对的方式存储值（对可变对象）
+- `__delitem__(self, key)`：当对对象的组成部分使用 `__del__` 语句时被调用，删除与key相关的值（对可变对象）
+
+额外要求:
+- 对序列，当键为负数时，应该从后往前数
+- 当键的类型不合适时，引发TypeError异常
+- 对序列，当索引类型正确但不在合法范围内时，引发IndexError
+
+示例
+```python
+def check_key(key):
+	if not isinstance(key, int):
+		raise TypeError
+	if key < 0:
+		raise IndexError
+
+class ArithmeticSequence:
+	def __init__(self, start = 0, step = 1):
+		self.start = start
+		self.step = step
+		self.changed = {}
+	
+	def __getitem__(self, key):
+		chek_key(key)
+		try:
+			return self.changed[key]
+		except KeyError:
+			return self.start + self.step * key
+	
+	def __setitem__(self, key, value):
+		check_key(key)
+		self.changed[key] = value
+```
+此时由于没有实现 `__del__` 方法，不能够删除该类的对象
+
+### 5.5.2 派生
+
+>*当只想定制某些方法时，可以使用继承来减少代码量*
+
+如下，继承了列表类，并只额外实现了构造函数和`__getitem__`方法
+```python
+def CounterList(list):
+	def __init__(self):
+		super().__init__(self)
+		self.counter = 0
+	def __getitem__(self, index):
+		self.counter += 1
+		return super().__getitem__(index)
+```
+
