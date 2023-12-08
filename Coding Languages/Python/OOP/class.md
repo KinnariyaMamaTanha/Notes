@@ -117,6 +117,93 @@ def __del__(self):
 
 2. 在对象被销毁时自动被调用。若未提供析构函数，Python将自动提供一个析构函数
 
+## 3.5 property函数
+
+>*对于新式类型，应该使用porperty，而非存取函数*
+
+在Python中，如果想得到一个假想中的数据成员（如想实现一个矩形类，数据成员只有长a和宽b，但希望能通过数据成员的方式得到或修改它的规模(a, b)，可以采用引入**存取函数**
+```python
+class rectangle(object):
+	def __init__(self):
+		self.width = 0
+		self.height = 0
+	def set_size(self, size):
+		self.width, self.height = size
+	def get_size(self):
+		return self.width, self.height
+``` 
+这样就可以通过调用 `set_size` 方法来修改规模size，通过 `get_size` 方法来获取规模size
+
+但是这样会导致很多代码的重用，不优雅。可以选择使用 `property` 函数
+```python
+class rectangle(object):
+	def __init__(self):
+		self.width = 0
+		self.height = 0
+	def set_size(self, size):
+		self.width, self.height = size
+	def get_size(self):
+		return self.width, self.height
+	size = property(get_size, set_size)
+```
+注意**获取方法**(`get_size`)必须在参数列表的前面，**设置方法**(`set_size`)必须在参数列表的后面，这样，`size` 就可以像一般的数据成员一样使用了
+```python
+>>> r = rectangle()
+>>> r.size = 1, 23
+>>> r.width
+1
+>>> r.width = 21
+>>> r.size
+(21, 23)
+```
+
+`property()`函数可以设置0，1，2，3，4个参数
+1. 0个参数：设置的特性将不可读也不可写
+2. 1个参数：只能是**获取方法**，特性为只读的
+3. 2个参数：和和上面的一样
+4. 3个参数：第三个参数是可选的，用于指定删除属性的方法，且不接受任何参数
+5. 4个参数：第四个参数是可选的，指定一个文档字符串
+6. 上述四个参数名为`fget, fset, fdel, doc`，
+
+## 3.6 Static Method
+
+1. 静态方法没有参数`self`（可以参考C++中的静态方法理解）
+2. 静态方法可以**直接通过类来调用**
+3. 实现：包装在`staticmethod`类对象中
+```python
+class A(object):
+	def static_method():
+		...
+	static_method = staticmethod(static_method)
+```
+或者使用装饰器`@staticmethod`
+```python
+class A(object):
+	@staticmethod
+	def static_method():
+		... 
+```
+
+## 3.7 Class Method
+
+1. 类方法的参数中包括`cls`（一个类似于`self`的参数）
+2. 类方法可以**通过对象或类来调用**，但参数`cls`将自动关联到类
+3. 实现：包装在`classmethod`类对象中
+```python
+class A(object):
+	def class_method():
+		...
+	class_method = classmethod(class_method)
+```
+或使用装饰器`@classmethod`
+```python
+class A(object):
+	@classmethod
+	def class_method(cls):
+		...
+```
+
+
 #  四、Namespace
 
 1. 类定义是要执行的代码段（这与C++不同）

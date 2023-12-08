@@ -1,12 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "Python os 模块详解",
-      "path": "01 reference/Python os 模块详解.md"
+      "basename": "set",
+      "path": "Coding Languages/Python/Grammar/Basic data structures/set.md"
+    },
+    {
+      "basename": "dict",
+      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/dict.md"
+    },
+    {
+      "basename": "str",
+      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/str.md"
+    },
+    {
+      "basename": "list",
+      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/list.md"
+    },
+    {
+      "basename": "fileinput",
+      "path": "Coding Languages/Python/Module/modules/fileinput.md"
+    },
+    {
+      "basename": "Module",
+      "path": "Coding Languages/Python/Module/Module.md"
+    },
+    {
+      "basename": "Package",
+      "path": "Coding Languages/Python/Module/Package.md"
+    },
+    {
+      "basename": "多文件编译",
+      "path": "Coding Languages/Python/Module/多文件编译.md"
+    },
+    {
+      "basename": "pprint",
+      "path": "Coding Languages/Python/Module/modules/pprint.md"
+    },
+    {
+      "basename": "Iterator",
+      "path": "Coding Languages/Python/Grammar/Basic data structures/Iterator.md"
+    },
+    {
+      "basename": "sys",
+      "path": "Coding Languages/Python/Module/modules/sys.md"
+    },
+    {
+      "basename": "Generator",
+      "path": "Coding Languages/Python/Grammar/Basic data structures/Generator.md"
     },
     {
       "basename": "class",
       "path": "Coding Languages/Python/OOP/class.md"
+    },
+    {
+      "basename": "Python os 模块详解",
+      "path": "01 reference/Python os 模块详解.md"
     },
     {
       "basename": "数据处理",
@@ -14,7 +62,7 @@
     },
     {
       "basename": "os",
-      "path": "Coding Languages/Python/Modules/os.md"
+      "path": "Coding Languages/Python/Module/modules/os.md"
     },
     {
       "basename": "类",
@@ -93,20 +141,16 @@
       "path": "Coding Languages/Python/Grammar/Function/Function.md"
     },
     {
-      "basename": "str",
-      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/str.md"
-    },
-    {
       "basename": "0 序列",
       "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/0 序列.md"
     },
     {
       "basename": "random",
-      "path": "Coding Languages/Python/Modules/random.md"
+      "path": "Coding Languages/Python/Module/modules/random.md"
     },
     {
       "basename": "functools",
-      "path": "Coding Languages/Python/Modules/functools.md"
+      "path": "Coding Languages/Python/Module/modules/functools.md"
     },
     {
       "basename": "Statements",
@@ -118,7 +162,7 @@
     },
     {
       "basename": "bisect",
-      "path": "Coding Languages/Python/Modules/bisect.md"
+      "path": "Coding Languages/Python/Module/modules/bisect.md"
     },
     {
       "basename": "Introduction",
@@ -129,16 +173,8 @@
       "path": "Apps/Scoop/Scoop(Personal Using).md"
     },
     {
-      "basename": "dict",
-      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/dict.md"
-    },
-    {
       "basename": "Operators & Priority",
       "path": "Coding Languages/Python/Grammar/Operators & Priority.md"
-    },
-    {
-      "basename": "list",
-      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/list.md"
     },
     {
       "basename": "Insertion sort",
@@ -162,23 +198,7 @@
     },
     {
       "basename": "itertools",
-      "path": "Coding Languages/Python/Modules/itertools.md"
-    },
-    {
-      "basename": "Bool",
-      "path": "Coding Languages/Python/Grammar/Basic data structures/Bool.md"
-    },
-    {
-      "basename": "运算符优先级",
-      "path": "Coding Languages/C++/Grammars/运算符优先级.md"
-    },
-    {
-      "basename": "Horner's  Rule",
-      "path": "Algorithm/Polynomial/Horner's  Rule.md"
-    },
-    {
-      "basename": "array",
-      "path": "01 reference/array.md"
+      "path": "Coding Languages/Python/Module/modules/itertools.md"
     }
   ],
   "omittedPaths": [],

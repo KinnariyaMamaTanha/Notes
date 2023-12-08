@@ -346,7 +346,7 @@ class dLinkList: public list
 		2. 容器通常被设计为一个类模板
 	2. 迭代器：
 		1. 因为容器是抽象的，用户无法得知容器如何保存对象，所以需要定义迭代器来表示容器中对象的位置
-		2. [[iterator]]可以修改、访问容器数据；`const_iterator`只能访问容器数据
+		2. [[01 reference/iterator]]可以修改、访问容器数据；`const_iterator`只能访问容器数据
 		3. 迭代器类一般作为容器类的公有类数据成员，便于外界访问、使用迭代器
 
 ## 3.1 [[vector|vector类]]和[[01 reference/list|list类]]
