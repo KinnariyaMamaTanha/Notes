@@ -362,7 +362,7 @@ class dLinkList: public list
 
 ![[迭代器类的常用操作.png]]
 
-## 3.2 [[deque|deque类]]
+## 3.2 [[01 reference/deque|deque类]]
 
 1. deque类既可以通过下标访问，也可以通过迭代器访问
 2. 在两端操作的效率近似于list，访问数据的效率近似于vector；但在中间插入和删除的效率和vector一样低

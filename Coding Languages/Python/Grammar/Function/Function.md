@@ -41,6 +41,29 @@ func()
     The comments of the function
 ```
 
+4. 指定参数类型和返回值类型：
+```python
+def func(arg1: <type_name>, ...) -> <type_name>:
+	...
+```
+可用于指定基本类型，对于更复杂的类型，使用`typing`模块，导入其他类型（如列表、元组、字典、序列）
+```python
+>>> from typing import List, Tuple, Dict, Sequence
+>>> def func(arg1: <type_name>, ...) -> List[<type_name>]:
+...     ...
+```
+这样就可以指定返回的复杂类型；另外，当类型不正确时，**只会发出警告**，而不会报错
+
+对元组而言，由于是不可变的，所以要特殊一点
+```python
+from typing import Tuple
+def func(<args>) -> Tuple[str, str]:
+	...
+```
+此时该函数**只能返回一个具有两个str类型数据的元组**
+
+这种方法实际上是不可靠的，比如，对于指定了返回类型为`List[int]`的函数，只要返回的列表中有一个数据是int型的，就不会报错
+
 ## 1.1 返回值
 
 1. 当未指定函数返回值时，将自动返回None

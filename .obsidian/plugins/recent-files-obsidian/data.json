@@ -1,20 +1,84 @@
 {
   "recentFiles": [
     {
+      "basename": "class",
+      "path": "Coding Languages/Python/OOP/class.md"
+    },
+    {
+      "basename": "math",
+      "path": "Coding Languages/Python/Module/modules/math.md"
+    },
+    {
+      "basename": "collections",
+      "path": "Coding Languages/Python/Module/modules/collections.md"
+    },
+    {
+      "basename": "Function",
+      "path": "Coding Languages/Python/Grammar/Function/Function.md"
+    },
+    {
+      "basename": "Files",
+      "path": "Coding Languages/Python/Grammar/Files.md"
+    },
+    {
+      "basename": "re",
+      "path": "Coding Languages/Python/Module/modules/re.md"
+    },
+    {
+      "basename": "shelve",
+      "path": "Coding Languages/Python/Module/modules/shelve.md"
+    },
+    {
+      "basename": "random",
+      "path": "Coding Languages/Python/Module/modules/random.md"
+    },
+    {
+      "basename": "deque",
+      "path": "Coding Languages/Python/Grammar/Data structures/deque.md"
+    },
+    {
+      "basename": "heapq",
+      "path": "Coding Languages/Python/Module/modules/heapq.md"
+    },
+    {
+      "basename": "heap",
+      "path": "Coding Languages/Python/Grammar/Data structures/heap.md"
+    },
+    {
       "basename": "set",
-      "path": "Coding Languages/Python/Grammar/Basic data structures/set.md"
+      "path": "Coding Languages/Python/Grammar/Data structures/set.md"
+    },
+    {
+      "basename": "类",
+      "path": "Coding Languages/C++/OOP/类.md"
+    },
+    {
+      "basename": "cout.setf()",
+      "path": "01 reference/cout.setf().md"
+    },
+    {
+      "basename": "cout & cin",
+      "path": "Coding Languages/C++/Grammars/In&out put/cout & cin.md"
+    },
+    {
+      "basename": "文件输入输出",
+      "path": "Coding Languages/C++/Grammars/In&out put/文件输入输出.md"
+    },
+    {
+      "basename": "存储类型",
+      "path": "Coding Languages/C++/Grammars/多文件程序/存储类型.md"
     },
     {
       "basename": "dict",
-      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/dict.md"
+      "path": "Coding Languages/Python/Grammar/Data structures/Sequence/dict.md"
     },
     {
       "basename": "str",
-      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/str.md"
+      "path": "Coding Languages/Python/Grammar/Data structures/Sequence/str.md"
     },
     {
       "basename": "list",
-      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/list.md"
+      "path": "Coding Languages/Python/Grammar/Data structures/Sequence/list.md"
     },
     {
       "basename": "fileinput",
@@ -38,7 +102,7 @@
     },
     {
       "basename": "Iterator",
-      "path": "Coding Languages/Python/Grammar/Basic data structures/Iterator.md"
+      "path": "Coding Languages/Python/Grammar/Data structures/Iterator.md"
     },
     {
       "basename": "sys",
@@ -46,11 +110,7 @@
     },
     {
       "basename": "Generator",
-      "path": "Coding Languages/Python/Grammar/Basic data structures/Generator.md"
-    },
-    {
-      "basename": "class",
-      "path": "Coding Languages/Python/OOP/class.md"
+      "path": "Coding Languages/Python/Grammar/Data structures/Generator.md"
     },
     {
       "basename": "Python os 模块详解",
@@ -63,10 +123,6 @@
     {
       "basename": "os",
       "path": "Coding Languages/Python/Module/modules/os.md"
-    },
-    {
-      "basename": "类",
-      "path": "Coding Languages/C++/OOP/类.md"
     },
     {
       "basename": "Abnormal",
@@ -137,68 +193,12 @@
       "path": "Apps/Anaconda.md"
     },
     {
-      "basename": "Function",
-      "path": "Coding Languages/Python/Grammar/Function/Function.md"
-    },
-    {
       "basename": "0 序列",
-      "path": "Coding Languages/Python/Grammar/Basic data structures/Sequence/0 序列.md"
-    },
-    {
-      "basename": "random",
-      "path": "Coding Languages/Python/Module/modules/random.md"
+      "path": "Coding Languages/Python/Grammar/Data structures/Sequence/0 序列.md"
     },
     {
       "basename": "functools",
       "path": "Coding Languages/Python/Module/modules/functools.md"
-    },
-    {
-      "basename": "Statements",
-      "path": "Coding Languages/Python/Grammar/Statements.md"
-    },
-    {
-      "basename": "字符",
-      "path": "Coding Languages/Python/Grammar/Basic data structures/字符.md"
-    },
-    {
-      "basename": "bisect",
-      "path": "Coding Languages/Python/Module/modules/bisect.md"
-    },
-    {
-      "basename": "Introduction",
-      "path": "AI/Machine Learning/Introduction.md"
-    },
-    {
-      "basename": "Scoop(Personal Using)",
-      "path": "Apps/Scoop/Scoop(Personal Using).md"
-    },
-    {
-      "basename": "Operators & Priority",
-      "path": "Coding Languages/Python/Grammar/Operators & Priority.md"
-    },
-    {
-      "basename": "Insertion sort",
-      "path": "Algorithm/Sort/Insertion sort.md"
-    },
-    {
-      "basename": "最大子数组",
-      "path": "Algorithm/Search/最大子数组.md"
-    },
-    {
-      "basename": "0 Concepts",
-      "path": "Algorithm/0 Concepts.md"
-    },
-    {
-      "basename": "初始化",
-      "path": "Coding Languages/C++/Grammars/初始化.md"
-    },
-    {
-      "basename": "Search Table",
-      "path": "Coding Languages/C++/Data Structure/Set/Search Table.md"
-    },
-    {
-      "basename": "itertools",
-      "path": "Coding Languages/Python/Module/modules/itertools.md"
     }
   ],
   "omittedPaths": [],

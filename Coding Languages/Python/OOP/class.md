@@ -149,11 +149,11 @@ class rectangle(object):
 注意**获取方法**(`get_size`)必须在参数列表的前面，**设置方法**(`set_size`)必须在参数列表的后面，这样，`size` 就可以像一般的数据成员一样使用了
 ```python
 >>> r = rectangle()
->>> r.size = 1, 23
+>>> r.size = 1, 23 # 自动调用setter函数
 >>> r.width
 1
 >>> r.width = 21
->>> r.size
+>>> r.size # 自动调用getter函数
 (21, 23)
 ```
 
@@ -163,8 +163,36 @@ class rectangle(object):
 3. 2个参数：和和上面的一样
 4. 3个参数：第三个参数是可选的，用于指定删除属性的方法，且不接受任何参数
 5. 4个参数：第四个参数是可选的，指定一个文档字符串
-6. 上述四个参数名为`fget, fset, fdel, doc`，
+6. 上述四个参数名为`fget, fset, fdel, doc
 
+还可以使用修饰器来进行同样的操作
+```python
+class rectangle(object):
+	def __init__(self):
+		self.width = 0
+		self.height = 0
+	@property
+	def size(self):
+		return self.width, self.height
+	@name.setter
+	def size.get(self, width = self.width, height = self.height):
+		self.width, self.height = width, height
+```
+当不用向某个属性写入时（比如一个计算结果）可以不用写出对应的setter函数
+```python
+class rectangle(object):
+	def __init__(self, width = 0, height = 0):
+		self.width, self.height = width, height
+	@property
+	def area(self):
+		return self.width * self.height
+```
+这样就可以直接调用area属性了
+```python
+>>> r = rectangle(2, 3)
+>>> r.area
+6
+```
 ## 3.6 Static Method
 
 1. 静态方法没有参数`self`（可以参考C++中的静态方法理解）
@@ -391,3 +419,58 @@ def CounterList(list):
 		return super().__getitem__(index)
 ```
 
+### 5.5.3 Magic Methods
+
+>[!note] 
+>和上面的序列协议相同，只要满足对象拥有一些特定的方法（往往是magic method），就能够被当作是某种对象。另外，不要想当然的自己添加特殊方法（说不定哪天Python内部就会用一个同名的方法了）
+
+1. 和比较相关的magic methods（相当于C++中的运算符重载）
+
+| 方法名                | 使用          |
+| --------------------- | ------------- |
+| `__eq__`(self, other) | self == other |
+| `__ne__(self, other)` | self != other |
+| `__lt__(self, other)` | self < other  |
+| `__gt__(self, other)` | self > other  |
+| `__le__(self, other)` | self <= other |
+| `__ge__(self, other)` | self >= other |
+| `__bool__(self)`      | 在调用bool(self)时被调用              |
+
+2. 和数学相关的magic methods
+
+| 方法名(运算符)                      | 使用          |
+| --------------------------- | ------------- |
+| `__add__(self, other)`      | self + other  |
+| `__sub__(self, other)`      | self - other  |
+| `__mul__(self, other)`      | self * other  |
+| `__floordiv__(self, other)` | self // other |
+| `__truediv__(self, other)`  | self / other  |
+| `__mod__(self, other)`      | self % other  |
+| `__pow__(self, other)`      | self ** otehr |
+| `__abs__(self)`             | abs(self)     |
+| `__neg__(self)`             | -self         |
+| `__pos__(self)`             | +self              |
+
+| 方法名(数值转换)    | 使用 |
+| ------------------- | ---- |
+| `__abs__(self)`     |      |
+| `__bool__(self)`    |      |
+| `__complex__(self)` |      |
+| `__int__(self)`     |      |
+| `__float__(self)`   |      |
+| `__hash__(self)`    |      |
+| `__index__(self)`                    |      |
+
+3. 其他种类的magic methods
+
+| 方法名             | 使用                                   |
+| ------------------ | -------------------------------------- |
+| `__str__(self)`    | str(self)                              |
+| `__repr__(self)`   | repr(self)，得到类对象的字符串表示形式 |
+| `__len__(self)`    | len(self)                              |
+| `__format__(self)` |                                        |
+| `__bytes__(self)`  |                                        |
+
+![[Python特殊方法.png]]
+
+![[Python特殊方法2.png]]
