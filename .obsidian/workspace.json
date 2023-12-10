@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b544c400bd43be3e",
+        "id": "73d725f4c5e5f6ff",
         "type": "tabs",
         "children": [
           {
-            "id": "39adbb283d5168ea",
+            "id": "3ff4c1c56ca84532",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Languages/Python/OOP/class.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a997a046a561ca1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Coding Languages/Python/Module/modules/math.md",
+                "file": "Coding Languages/Python/Module/modules/sys.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "repr",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Languages/Python/OOP/class.md",
+                "file": "Coding Languages/Python/Module/modules/sys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Languages/Python/OOP/class.md",
+                "file": "Coding Languages/Python/Module/modules/sys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding Languages/Python/OOP/class.md"
+                "file": "Coding Languages/Python/Module/modules/sys.md"
               }
             }
           },
@@ -191,35 +179,41 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "25aaecce91915af9",
+  "active": "3ff4c1c56ca84532",
   "lastOpenFiles": [
+    "Coding Languages/Python/Module/modules/bisect.md",
+    "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列/list.md",
+    "Coding Languages/Python/Grammar/Data structure/Sequence/seq.md",
+    "Coding Languages/Python/Module/modules/bi.md",
+    "AI/Deep Learning/数据处理.md",
+    "Coding Languages/Python/Module/modules/collections.md",
+    "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列/tuple.md",
+    "01 attachment/列表和元组的对比2.png",
+    "01 attachment/列表和元组的对比.png",
+    "Coding Languages/Python/Grammar/Data structure/Generator.md",
+    "Coding Languages/Python/Grammar/Data structure/字符.md",
+    "Coding Languages/Python/OOP/class.md",
+    "Coding Languages/Python/Grammar/Statements.md",
+    "Coding Languages/Python/Grammar/Function/内置函数.md",
+    "Coding Languages/Python/Grammar/Function/Function.md",
+    "01 attachment/可变序列和不可变序列.png",
+    "Coding Languages/Python/Grammar/Data structure/Sequence/扁平序列",
+    "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列",
+    "Coding Languages/Python/Module/modules/math.md",
     "01 attachment/Python特殊方法2.png",
     "01 attachment/Python特殊方法.png",
-    "Coding Languages/Python/Module/modules/math.md",
-    "Coding Languages/Python/OOP/class.md",
-    "Coding Languages/Python/Module/modules/collections.md",
-    "Coding Languages/Python/Grammar/Function/Function.md",
     "Coding Languages/Python/Grammar/Files.md",
     "Coding Languages/Python/Module/modules/re.md",
     "Coding Languages/Python/Module/modules/shelve.md",
     "Coding Languages/Python/Module/modules/random.md",
-    "Coding Languages/Python/Grammar/Data structures/deque.md",
+    "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列/deque.md",
     "Coding Languages/Python/Module/modules/heapq.md",
-    "Coding Languages/Python/Grammar/Data structures/heap.md",
-    "Coding Languages/Python/Grammar/Data structures/set.md",
+    "Coding Languages/Python/Grammar/Data structure/heap.md",
+    "Coding Languages/Python/Grammar/Data structure/set.md",
     "Coding Languages/C++/OOP/类.md",
     "01 reference/cout.setf().md",
     "Coding Languages/C++/Grammars/In&out put/cout & cin.md",
     "Coding Languages/C++/Grammars/In&out put/文件输入输出.md",
-    "Coding Languages/C++/Grammars/多文件程序/存储类型.md",
-    "Coding Languages/Python/Grammar/Data structures/Sequence/dict.md",
-    "Coding Languages/Python/Grammar/Data structures/Sequence/str.md",
-    "Coding Languages/Python/Grammar/Data structures/Sequence/list.md",
-    "Coding Languages/Python/Module/modules/fileinput.md",
-    "Coding Languages/Python/Module/Module.md",
-    "Coding Languages/Python/Module/Package.md",
-    "Coding Languages/Python/Module/多文件编译.md",
-    "Coding Languages/Python/Module/modules/pprint.md",
     "Coding Languages/Python/Module/modules",
     "01 attachment/Python内置异常类.png",
     "01 attachment/递归树.png",
@@ -227,18 +221,12 @@
     "01 attachment/屏幕截图 2023-12-07 102847.png",
     "未命名",
     "01 attachment/屏幕截图 2023-12-06 124120.png",
-    "01 attachment/屏幕截图 2023-12-06 124007.png",
     "01 attachment/desktop.ini",
     "01 attachment1",
     "Coding Languages/Python/OOP",
     "AI/Deep Learning/未命名",
     "AI",
     "AI/Machine Learning",
-    "Deep Learning/未命名",
-    "01 attachment/屏幕截图 2023-12-02 172050.png",
-    "Algorithm/Matrix",
-    "01 attachment/极小生成树示例.png",
-    "01 attachment/邻接表.png",
     "Study Plan.canvas"
   ]
 }

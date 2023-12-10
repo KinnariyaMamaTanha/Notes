@@ -1,20 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "class",
-      "path": "Coding Languages/Python/OOP/class.md"
+      "basename": "sys",
+      "path": "Coding Languages/Python/Module/modules/sys.md"
     },
     {
-      "basename": "math",
-      "path": "Coding Languages/Python/Module/modules/math.md"
+      "basename": "bisect",
+      "path": "Coding Languages/Python/Module/modules/bisect.md"
+    },
+    {
+      "basename": "list",
+      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列/list.md"
+    },
+    {
+      "basename": "seq",
+      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/seq.md"
+    },
+    {
+      "basename": "数据处理",
+      "path": "AI/Deep Learning/数据处理.md"
     },
     {
       "basename": "collections",
       "path": "Coding Languages/Python/Module/modules/collections.md"
     },
     {
+      "basename": "tuple",
+      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列/tuple.md"
+    },
+    {
+      "basename": "Generator",
+      "path": "Coding Languages/Python/Grammar/Data structure/Generator.md"
+    },
+    {
+      "basename": "字符",
+      "path": "Coding Languages/Python/Grammar/Data structure/字符.md"
+    },
+    {
+      "basename": "class",
+      "path": "Coding Languages/Python/OOP/class.md"
+    },
+    {
+      "basename": "Statements",
+      "path": "Coding Languages/Python/Grammar/Statements.md"
+    },
+    {
+      "basename": "内置函数",
+      "path": "Coding Languages/Python/Grammar/Function/内置函数.md"
+    },
+    {
       "basename": "Function",
       "path": "Coding Languages/Python/Grammar/Function/Function.md"
+    },
+    {
+      "basename": "math",
+      "path": "Coding Languages/Python/Module/modules/math.md"
     },
     {
       "basename": "Files",
@@ -34,7 +74,7 @@
     },
     {
       "basename": "deque",
-      "path": "Coding Languages/Python/Grammar/Data structures/deque.md"
+      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列/deque.md"
     },
     {
       "basename": "heapq",
@@ -42,11 +82,11 @@
     },
     {
       "basename": "heap",
-      "path": "Coding Languages/Python/Grammar/Data structures/heap.md"
+      "path": "Coding Languages/Python/Grammar/Data structure/heap.md"
     },
     {
       "basename": "set",
-      "path": "Coding Languages/Python/Grammar/Data structures/set.md"
+      "path": "Coding Languages/Python/Grammar/Data structure/set.md"
     },
     {
       "basename": "类",
@@ -70,15 +110,11 @@
     },
     {
       "basename": "dict",
-      "path": "Coding Languages/Python/Grammar/Data structures/Sequence/dict.md"
+      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列/dict.md"
     },
     {
       "basename": "str",
-      "path": "Coding Languages/Python/Grammar/Data structures/Sequence/str.md"
-    },
-    {
-      "basename": "list",
-      "path": "Coding Languages/Python/Grammar/Data structures/Sequence/list.md"
+      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/str.md"
     },
     {
       "basename": "fileinput",
@@ -102,23 +138,11 @@
     },
     {
       "basename": "Iterator",
-      "path": "Coding Languages/Python/Grammar/Data structures/Iterator.md"
-    },
-    {
-      "basename": "sys",
-      "path": "Coding Languages/Python/Module/modules/sys.md"
-    },
-    {
-      "basename": "Generator",
-      "path": "Coding Languages/Python/Grammar/Data structures/Generator.md"
+      "path": "Coding Languages/Python/Grammar/Data structure/Iterator.md"
     },
     {
       "basename": "Python os 模块详解",
       "path": "01 reference/Python os 模块详解.md"
-    },
-    {
-      "basename": "数据处理",
-      "path": "AI/Deep Learning/数据处理.md"
     },
     {
       "basename": "os",
@@ -173,32 +197,8 @@
       "path": "Coding Languages/LaTeX.md"
     },
     {
-      "basename": "内置函数",
-      "path": "Coding Languages/Python/Grammar/Function/内置函数.md"
-    },
-    {
       "basename": "函数",
       "path": "Coding Languages/C++/Grammars/Function/函数.md"
-    },
-    {
-      "basename": "友元",
-      "path": "Coding Languages/C++/OOP/友元.md"
-    },
-    {
-      "basename": "类模板",
-      "path": "Coding Languages/C++/OOP/类模板.md"
-    },
-    {
-      "basename": "Anaconda",
-      "path": "Apps/Anaconda.md"
-    },
-    {
-      "basename": "0 序列",
-      "path": "Coding Languages/Python/Grammar/Data structures/Sequence/0 序列.md"
-    },
-    {
-      "basename": "functools",
-      "path": "Coding Languages/Python/Module/modules/functools.md"
     }
   ],
   "omittedPaths": [],

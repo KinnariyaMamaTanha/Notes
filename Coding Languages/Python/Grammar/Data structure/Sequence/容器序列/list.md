@@ -211,12 +211,16 @@ False
 ```
 
 3. `sort()`的高级用法：`sort()`函数接受两个参数`key`和`reverse`，其中
-	1. `key`：类似于C++的`sort()`中的`cmp`参数，接受一个用于比较大小的函数，但是工作原理是通过该函数来为每个元素创建一个键，并按照键值排序，如`len()`函数
+	1. `key`：接受一个函数，该函数接受列表中的对象并返回一个值，再利用该值进行排序，默认`key`为恒等函数
 	2. `reverse`被指定为`True`或者`False`，默认为`True`
 ```python
 >>>s = ['qwer', 'sd', 'asdfg', 'a']
->>>s.sort(len, reverse = True)
+>>>s.sort(key=len, reverse = True)
 >>>s
 ['asdfg', 'qwer', 'sd', 'a']
 ```
 `sorted()`函数也接受两个参数`key`和`reverse`
+
+## 2.7 列表查找
+
+1. 使用[[bisect|bisect模块]]中的函数`bisect`和`insert`，（利用二分查找）在有序序列中查找或删除元素
