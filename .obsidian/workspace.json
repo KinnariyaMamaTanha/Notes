@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating Systems/Linux.md",
+                "file": "Coding Languages/LaTeX.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating Systems/Linux.md",
+                "file": "Coding Languages/LaTeX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating Systems/Linux.md",
+                "file": "Coding Languages/LaTeX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating Systems/Linux.md"
+                "file": "Coding Languages/LaTeX.md"
               }
             }
           },
@@ -179,46 +179,46 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2425b6b14a5a548f",
+  "active": "25aaecce91915af9",
   "lastOpenFiles": [
+    "Coding Languages/Python/Command line.md",
+    "Coding Languages/LaTeX.md",
+    "Operating Systems/Linux.md",
     "Coding Languages/Python/Module/内置模块/asyncio.md",
     "Coding Languages/Python/Module/内置模块/multiprocessing.md",
     "Coding Languages/Python/Module/内置模块/queue.md",
-    "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列/deque.md",
+    "Coding Languages/Python/Data structure/Sequence/容器序列/deque.md",
     "01 attachment/列表和双向队列.png",
     "Coding Languages/Python/Module/内置模块/collections.md",
-    "Coding Languages/Python/Grammar/Data structure/Sequence/扁平序列/memoryview.md",
+    "Coding Languages/Python/Data structure/Sequence/扁平序列/memoryview.md",
     "Coding Languages/Python/Module/外部模块",
     "Coding Languages/Python/Module/外部模块/NumPy",
-    "Coding Languages/Python/Grammar/Data structure/Sequence/扁平序列/array.array.md",
-    "Coding Languages/Python/Grammar/Data structure/Generator.md",
+    "Coding Languages/Python/Data structure/Sequence/扁平序列/array.array.md",
+    "Coding Languages/Python/Data structure/Generator.md",
     "01 attachment/列表和数组2.png",
     "01 attachment/列表和数组.png",
-    "Coding Languages/Python/Grammar/Data structure/Sequence/seq.md",
+    "Coding Languages/Python/Data structure/Sequence/seq.md",
     "Coding Languages/Python/Module/内置模块/bisect.md",
-    "Coding Languages/Python/Command line.md",
     "Apps/Git.md",
     "Apps/Vim.md",
     "AI/Deep Learning/数据处理.md",
     "Coding Languages/Python/OOP/class.md",
     "Coding Languages/Python/The Zen of Python.md",
     "Coding Languages/Python/Module/内置模块/sys.md",
-    "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列/list.md",
+    "Coding Languages/Python/Data structure/Sequence/容器序列/list.md",
     "Coding Languages/Python/Module/modules/bi.md",
-    "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列/tuple.md",
+    "Coding Languages/Python/Data structure/Sequence/容器序列/tuple.md",
     "01 attachment/列表和元组的对比2.png",
     "01 attachment/列表和元组的对比.png",
-    "Coding Languages/Python/Grammar/Data structure/字符.md",
+    "Coding Languages/Python/Data structure/字符.md",
     "Coding Languages/Python/Grammar/Statements.md",
     "Coding Languages/Python/Grammar/Function/内置函数.md",
     "Coding Languages/Python/Grammar/Function/Function.md",
     "01 attachment/可变序列和不可变序列.png",
-    "Coding Languages/Python/Grammar/Data structure/Sequence/扁平序列",
-    "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列",
-    "Coding Languages/Python/Module/内置模块/math.md",
+    "Coding Languages/Python/Data structure/Sequence/扁平序列",
+    "Coding Languages/Python/Data structure/Sequence/容器序列",
     "01 attachment/Python特殊方法2.png",
     "01 attachment/Python特殊方法.png",
-    "Coding Languages/Python/Grammar/Files.md",
     "Coding Languages/Python/Module/内置模块",
     "01 attachment/Python内置异常类.png",
     "01 attachment/递归树.png",

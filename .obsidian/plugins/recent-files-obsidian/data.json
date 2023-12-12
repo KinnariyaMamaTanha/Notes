@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "LaTeX",
+      "path": "Coding Languages/LaTeX.md"
+    },
+    {
       "basename": "Linux",
       "path": "Operating Systems/Linux.md"
     },
@@ -18,7 +22,7 @@
     },
     {
       "basename": "deque",
-      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列/deque.md"
+      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/deque.md"
     },
     {
       "basename": "collections",
@@ -26,27 +30,23 @@
     },
     {
       "basename": "memoryview",
-      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/扁平序列/memoryview.md"
+      "path": "Coding Languages/Python/Data structure/Sequence/扁平序列/memoryview.md"
     },
     {
       "basename": "array.array",
-      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/扁平序列/array.array.md"
+      "path": "Coding Languages/Python/Data structure/Sequence/扁平序列/array.array.md"
     },
     {
       "basename": "Generator",
-      "path": "Coding Languages/Python/Grammar/Data structure/Generator.md"
+      "path": "Coding Languages/Python/Data structure/Generator.md"
     },
     {
       "basename": "seq",
-      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/seq.md"
+      "path": "Coding Languages/Python/Data structure/Sequence/seq.md"
     },
     {
       "basename": "bisect",
       "path": "Coding Languages/Python/Module/内置模块/bisect.md"
-    },
-    {
-      "basename": "Command line",
-      "path": "Coding Languages/Python/Command line.md"
     },
     {
       "basename": "Git",
@@ -65,24 +65,20 @@
       "path": "Coding Languages/Python/OOP/class.md"
     },
     {
-      "basename": "The Zen of Python",
-      "path": "Coding Languages/Python/The Zen of Python.md"
-    },
-    {
       "basename": "sys",
       "path": "Coding Languages/Python/Module/内置模块/sys.md"
     },
     {
       "basename": "list",
-      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列/list.md"
+      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/list.md"
     },
     {
       "basename": "tuple",
-      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列/tuple.md"
+      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/tuple.md"
     },
     {
       "basename": "字符",
-      "path": "Coding Languages/Python/Grammar/Data structure/字符.md"
+      "path": "Coding Languages/Python/Data structure/字符.md"
     },
     {
       "basename": "Statements",
@@ -122,11 +118,11 @@
     },
     {
       "basename": "heap",
-      "path": "Coding Languages/Python/Grammar/Data structure/heap.md"
+      "path": "Coding Languages/Python/Data structure/heap.md"
     },
     {
       "basename": "set",
-      "path": "Coding Languages/Python/Grammar/Data structure/set.md"
+      "path": "Coding Languages/Python/Data structure/set.md"
     },
     {
       "basename": "类",
@@ -150,11 +146,11 @@
     },
     {
       "basename": "dict",
-      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列/dict.md"
+      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/dict.md"
     },
     {
       "basename": "str",
-      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/str.md"
+      "path": "Coding Languages/Python/Data structure/Sequence/str.md"
     },
     {
       "basename": "fileinput",
@@ -178,7 +174,7 @@
     },
     {
       "basename": "Iterator",
-      "path": "Coding Languages/Python/Grammar/Data structure/Iterator.md"
+      "path": "Coding Languages/Python/Data structure/Iterator.md"
     },
     {
       "basename": "Python os 模块详解",
