@@ -1,44 +1,88 @@
 {
   "recentFiles": [
     {
-      "basename": "sys",
-      "path": "Coding Languages/Python/Module/modules/sys.md"
+      "basename": "Linux",
+      "path": "Operating Systems/Linux.md"
     },
     {
-      "basename": "bisect",
-      "path": "Coding Languages/Python/Module/modules/bisect.md"
+      "basename": "asyncio",
+      "path": "Coding Languages/Python/Module/内置模块/asyncio.md"
     },
     {
-      "basename": "list",
-      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列/list.md"
+      "basename": "multiprocessing",
+      "path": "Coding Languages/Python/Module/内置模块/multiprocessing.md"
     },
     {
-      "basename": "seq",
-      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/seq.md"
+      "basename": "queue",
+      "path": "Coding Languages/Python/Module/内置模块/queue.md"
     },
     {
-      "basename": "数据处理",
-      "path": "AI/Deep Learning/数据处理.md"
+      "basename": "deque",
+      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列/deque.md"
     },
     {
       "basename": "collections",
-      "path": "Coding Languages/Python/Module/modules/collections.md"
+      "path": "Coding Languages/Python/Module/内置模块/collections.md"
     },
     {
-      "basename": "tuple",
-      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列/tuple.md"
+      "basename": "memoryview",
+      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/扁平序列/memoryview.md"
+    },
+    {
+      "basename": "array.array",
+      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/扁平序列/array.array.md"
     },
     {
       "basename": "Generator",
       "path": "Coding Languages/Python/Grammar/Data structure/Generator.md"
     },
     {
-      "basename": "字符",
-      "path": "Coding Languages/Python/Grammar/Data structure/字符.md"
+      "basename": "seq",
+      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/seq.md"
+    },
+    {
+      "basename": "bisect",
+      "path": "Coding Languages/Python/Module/内置模块/bisect.md"
+    },
+    {
+      "basename": "Command line",
+      "path": "Coding Languages/Python/Command line.md"
+    },
+    {
+      "basename": "Git",
+      "path": "Apps/Git.md"
+    },
+    {
+      "basename": "Vim",
+      "path": "Apps/Vim.md"
+    },
+    {
+      "basename": "数据处理",
+      "path": "AI/Deep Learning/数据处理.md"
     },
     {
       "basename": "class",
       "path": "Coding Languages/Python/OOP/class.md"
+    },
+    {
+      "basename": "The Zen of Python",
+      "path": "Coding Languages/Python/The Zen of Python.md"
+    },
+    {
+      "basename": "sys",
+      "path": "Coding Languages/Python/Module/内置模块/sys.md"
+    },
+    {
+      "basename": "list",
+      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列/list.md"
+    },
+    {
+      "basename": "tuple",
+      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列/tuple.md"
+    },
+    {
+      "basename": "字符",
+      "path": "Coding Languages/Python/Grammar/Data structure/字符.md"
     },
     {
       "basename": "Statements",
@@ -54,7 +98,7 @@
     },
     {
       "basename": "math",
-      "path": "Coding Languages/Python/Module/modules/math.md"
+      "path": "Coding Languages/Python/Module/内置模块/math.md"
     },
     {
       "basename": "Files",
@@ -62,23 +106,19 @@
     },
     {
       "basename": "re",
-      "path": "Coding Languages/Python/Module/modules/re.md"
+      "path": "Coding Languages/Python/Module/内置模块/re.md"
     },
     {
       "basename": "shelve",
-      "path": "Coding Languages/Python/Module/modules/shelve.md"
+      "path": "Coding Languages/Python/Module/内置模块/shelve.md"
     },
     {
       "basename": "random",
-      "path": "Coding Languages/Python/Module/modules/random.md"
-    },
-    {
-      "basename": "deque",
-      "path": "Coding Languages/Python/Grammar/Data structure/Sequence/容器序列/deque.md"
+      "path": "Coding Languages/Python/Module/内置模块/random.md"
     },
     {
       "basename": "heapq",
-      "path": "Coding Languages/Python/Module/modules/heapq.md"
+      "path": "Coding Languages/Python/Module/内置模块/heapq.md"
     },
     {
       "basename": "heap",
@@ -118,7 +158,7 @@
     },
     {
       "basename": "fileinput",
-      "path": "Coding Languages/Python/Module/modules/fileinput.md"
+      "path": "Coding Languages/Python/Module/内置模块/fileinput.md"
     },
     {
       "basename": "Module",
@@ -134,7 +174,7 @@
     },
     {
       "basename": "pprint",
-      "path": "Coding Languages/Python/Module/modules/pprint.md"
+      "path": "Coding Languages/Python/Module/内置模块/pprint.md"
     },
     {
       "basename": "Iterator",
@@ -146,7 +186,7 @@
     },
     {
       "basename": "os",
-      "path": "Coding Languages/Python/Module/modules/os.md"
+      "path": "Coding Languages/Python/Module/内置模块/os.md"
     },
     {
       "basename": "Abnormal",
@@ -159,46 +199,6 @@
     {
       "basename": "异常",
       "path": "Coding Languages/C++/Grammars/异常.md"
-    },
-    {
-      "basename": "运算符重载",
-      "path": "Coding Languages/C++/OOP/运算符重载.md"
-    },
-    {
-      "basename": "递归树",
-      "path": "01 attachment/递归树.png"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "Markdown",
-      "path": "Coding Languages/Markdown.md"
-    },
-    {
-      "basename": "Matrix Multiplication",
-      "path": "Algorithm/Matrix/Matrix Multiplication.md"
-    },
-    {
-      "basename": "函数的增长",
-      "path": "Algorithm/函数的增长.md"
-    },
-    {
-      "basename": "1 Pseudo Code Standard",
-      "path": "Algorithm/1 Pseudo Code Standard.md"
-    },
-    {
-      "basename": "分治",
-      "path": "Algorithm/分治.md"
-    },
-    {
-      "basename": "LaTeX",
-      "path": "Coding Languages/LaTeX.md"
-    },
-    {
-      "basename": "函数",
-      "path": "Coding Languages/C++/Grammars/Function/函数.md"
     }
   ],
   "omittedPaths": [],

@@ -52,7 +52,7 @@ public:
 	T front() const;
 }
 ```
-这里的`queue<T>`参考[[Queue#^e4f955|这里]]
+这里的`queue<T>`参考[[Coding Languages/C++/Data Structure/Linear Data Structure/Queue#^e4f955|这里]]
 
 ## 2.2 方法实现
 `priorityQueue`

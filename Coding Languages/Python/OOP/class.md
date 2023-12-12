@@ -12,6 +12,8 @@ class old_class: # 声明旧式类
 
 class new_class(object): # 声明新式类
 	...
+class new_class2(new_class):
+	...
 ```
 如果仍然采用旧式的写法，但希望定义的类是一个新式类，则在模块开头加上语句
 ```python

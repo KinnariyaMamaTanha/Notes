@@ -1,8 +1,8 @@
 map H g^
 map L g$
 map Y g0
-inoremap JJ <Esc>
-vmap JJ <Esc> 
+inoremap JK <Esc>
+vmap JK <Esc> 
 inoremap ( ()<LEFT>
 inoremap [ []<LEFT>
 inoremap { {}<LEFT>
@@ -24,3 +24,4 @@ noremap <C-H> H
 noremap <C-M> M
 noremap <C-L> L
 noremap M :nohlsearch<CR>
+noremap 。 . 

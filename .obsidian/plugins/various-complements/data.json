@@ -1,7 +1,7 @@
 {
   "strategy": "default",
   "cedictPath": "./cedict_ts.u8",
-  "matchStrategy": "prefix",
+  "matchStrategy": "partial",
   "fuzzyMatch": true,
   "minFuzzyMatchScore": 0.3,
   "matchingWithoutEmoji": true,

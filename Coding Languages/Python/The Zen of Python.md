@@ -1,4 +1,4 @@
- ---by Tim Peters
+by Tim Peters
 
 Beautiful is better than ugly.  
 
