@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "其它映射类型",
+      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/映射/其它映射类型.md"
+    },
+    {
+      "basename": "dict",
+      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/映射/dict.md"
+    },
+    {
+      "basename": "Graph",
+      "path": "Coding Languages/C++/Data Structure/Graph.md"
+    },
+    {
+      "basename": "运算符重载",
+      "path": "Coding Languages/C++/OOP/运算符重载.md"
+    },
+    {
+      "basename": "友元",
+      "path": "Coding Languages/C++/OOP/友元.md"
+    },
+    {
+      "basename": "类",
+      "path": "Coding Languages/C++/OOP/类.md"
+    },
+    {
+      "basename": "类模板",
+      "path": "Coding Languages/C++/OOP/类模板.md"
+    },
+    {
       "basename": "LaTeX",
       "path": "Coding Languages/LaTeX.md"
     },
@@ -125,10 +153,6 @@
       "path": "Coding Languages/Python/Data structure/set.md"
     },
     {
-      "basename": "类",
-      "path": "Coding Languages/C++/OOP/类.md"
-    },
-    {
       "basename": "cout.setf()",
       "path": "01 reference/cout.setf().md"
     },
@@ -143,10 +167,6 @@
     {
       "basename": "存储类型",
       "path": "Coding Languages/C++/Grammars/多文件程序/存储类型.md"
-    },
-    {
-      "basename": "dict",
-      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/dict.md"
     },
     {
       "basename": "str",
@@ -179,22 +199,6 @@
     {
       "basename": "Python os 模块详解",
       "path": "01 reference/Python os 模块详解.md"
-    },
-    {
-      "basename": "os",
-      "path": "Coding Languages/Python/Module/内置模块/os.md"
-    },
-    {
-      "basename": "Abnormal",
-      "path": "Coding Languages/Python/Grammar/Abnormal.md"
-    },
-    {
-      "basename": "单独编译",
-      "path": "Coding Languages/C++/Grammars/多文件程序/单独编译.md"
-    },
-    {
-      "basename": "异常",
-      "path": "Coding Languages/C++/Grammars/异常.md"
     }
   ],
   "omittedPaths": [],

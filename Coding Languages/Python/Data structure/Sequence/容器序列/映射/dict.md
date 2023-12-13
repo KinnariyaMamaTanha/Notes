@@ -1,40 +1,77 @@
->*键 - 值对(称为项)，键可以是数、字符串、元组等，相当于散列表*
+>*键 - 值对(称为项)，键可以是数、字符串、元组等，相当于**散列表***
+
+`dict`和其他一些类型的形式接口为`Mapping`和`MutableMapping`
+
+![[Python mutablemapping.png]]
+
+如：
+```python
+>>> from collections import abc
+>>> my_dict = {}
+>>> isinstance(my_dict, abc.Mapping)
+True # 注意不是dict类型
+```
+但是非抽象映射类型一般不会直接继承这些抽象基类，它们会直接对` dict` 或是 `collections.UserDict`进行扩展. 
+
+标准库中的所有映射类型都是通过`dict`实现的，故只有**可散列的数据类型**才能作用这些映射中的键
+
+>[!tip] 
+>如果一个对象是可散列的，那么在这个对象的生命周期中，它的散列值是不变 的，而且这个对象需要实现 __hash__() 方法。另外可散列对象还要有 __eq__() 方法，这样才能跟其他键做比较。如果两个可散列对象是相等的，那么它们的散列值一定是一样的……
+
+常见可散列类型：
+1. 原子不可变类型（str, bytes, 数值类型）
+2. `frozenset`类型（因为定义，只能容纳可散列类型）
+3. 所有元素都是可散列的元组
+
+```python
+>>> a = (10, 20, (30, 40))
+>>> hash(a)
+-5945487036009767075
+>>> b = (10, 20, [30, 40])
+>>> hash(b)
+--------------------------------------------------------------------------- TypeError Traceback (most recent call last) Cell In[8], [line 1](vscode-notebook-cell:?execution_count=8&line=1) ----> [1](vscode-notebook-cell:?execution_count=8&line=1) hash(b) TypeError: unhashable type: 'list'
+```
+用户定义的类型一般是可散列的，散列值为`id()`返回值
 
 # 一、基本操作
 
 1. 格式：
 ```python
->>>phonebook = {'Alice': '2341', 'Beth': '9102', 'Cecil': '3258'}
->>>phonebook['Beth']
+>>> phonebook = {'Alice': '2341', 'Beth': '9102', 'Cecil': '3258'}
+>>> phonebook['Beth']
 '9102'
+>>> a = dict(one=1, two=2, three=3)
+>>> c = dict(zip(['one', 'two', 'three'], [1, 2, 3]))
+>>> d = dict([('two', 2), ('one', 1), ('three', 3)])
+>>> e = dict({'one': 1, 'two': 2, 'three': 3})
 ```
 其中键必须是唯一的，但值可以重复；键可以是任何不可变的类型（浮点数、字符串、元组等）
 
 2. 使用`dict`创建字典(其中`dict`是一种类)
 ```python
->>>items = [('name', 'Gumby'), ('age', '42')]
->>>d = dict(items)
->>>d
+>>> items = [('name', 'Gumby'), ('age', '42')]
+>>> d = dict(items)
+>>> d
 {'age': '42', 'name': 'Gumby'}
->>>d['name']
+>>> d['name']
 'Gumby'
 
->>>d = dict(name='Gumby', 'age'= '42')
->>>d
+>>> d = dict(name='Gumby', age='42')
+>>> d
 {'age': '42', 'name': 'Gumby'}
 ```
 
 基本操作：
-1. `d[k]`：返回键k对应的值
+1. `d[key]`：返回键key对应的值
 2. `len(d)`：返回键 - 值对的个数
-3. `d[k] = v`：将键k与值v关联（当键k原本不在字典中时，将自动创建一个键 - 值对）
-4. `del d[k]`：删除键为k的项
-5. `k in d`：检查键k是否在字典d中
+3. `d[key] = v`：将键key与值v关联（当键k原本不在字典中时，将自动创建一个键 - 值对）
+4. `del d[key]`：删除键为key的项
+5. `key in d`：检查键key是否在字典d中
 
 将字符串格式功能用于字典：
 ```python
->>>phonebook = {'Beth': '9102', 'Alice': '2341', 'Cecil': '3258'}
->>>"Cecil's phone number is {Cecil}.".format_map(phonebook) 
+>>> phonebook = {'Beth': '9102', 'Alice': '2341', 'Cecil': '3258'}
+>>> "Cecil's phone number is {Cecil}.".format_map(phonebook) 
 "Cecil's phone number is 3258."
 ```
 字符串中的`{}`中的值必须是字典中的键
@@ -65,7 +102,7 @@
 >>> x 
 {'username': 'admin', 'machines': ['foo', 'baz']}
 ```
-当替换副本中的值时，原件不受影响（因为相当于副本的指针指向了另一个单元），但就地修改副本中的值时，原件会受影响（因为相当于就在原指针指向的位置进行了修改）
+**由于容器序列中存储的是指针**，当替换副本中的值时，原件不受影响（因为相当于副本的指针指向了另一个单元），但**就地修改**副本中的值时，原件会受影响（因为相当于就在原指针指向的位置进行了修改）
 
 可以通过进行**深复制**来避免上述情况
 ```python
@@ -108,3 +145,15 @@ True
 ```
 
 `popitem()`：由于字典中的数据是无序的，所以当需要使用高效的方式逐个删除并且处理每一个单项时，可以使用，就不需要预先获取键列表
+
+# 三、字典推导
+
+格式和列表推导差不多：
+```python
+>>> codes = [1, 2, 3]
+>>> names = ['Alice', 'Bob', 'Clinton']
+>>> Dict = {name: code for name, code in zip(names, codes)}
+>>> Dict
+{'Alice': 1, 'Bob': 2, 'Clinton': 3}
+```
+
