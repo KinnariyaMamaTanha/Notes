@@ -21,4 +21,6 @@ noremap s <nop>
 noremap j gj
 noremap k gk
 noremap M :nohlsearch<CR>
-noremap 。 . 
+noremap T H
+noremap B L
+noremap F M

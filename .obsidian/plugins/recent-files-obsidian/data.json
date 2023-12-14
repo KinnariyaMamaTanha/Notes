@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "循环",
+      "path": "Coding Languages/C++/Grammars/Program Structures/循环.md"
+    },
+    {
+      "basename": "分支",
+      "path": "Coding Languages/C++/Grammars/Program Structures/分支.md"
+    },
+    {
+      "basename": "异常",
+      "path": "Coding Languages/C++/Grammars/异常.md"
+    },
+    {
+      "basename": "说明符和限定符",
+      "path": "Coding Languages/C++/Grammars/说明符和限定符.md"
+    },
+    {
+      "basename": "初始化",
+      "path": "Coding Languages/C++/Grammars/初始化.md"
+    },
+    {
+      "basename": "volatile详解",
+      "path": "01 reference/volatile详解.md"
+    },
+    {
       "basename": "其它映射类型",
       "path": "Coding Languages/Python/Data structure/Sequence/容器序列/映射/其它映射类型.md"
+    },
+    {
+      "basename": "运算符优先级",
+      "path": "Coding Languages/C++/Grammars/运算符优先级.md"
+    },
+    {
+      "basename": "运算符优先级",
+      "path": "01 reference/运算符优先级.md"
     },
     {
       "basename": "dict",
@@ -167,38 +199,6 @@
     {
       "basename": "存储类型",
       "path": "Coding Languages/C++/Grammars/多文件程序/存储类型.md"
-    },
-    {
-      "basename": "str",
-      "path": "Coding Languages/Python/Data structure/Sequence/str.md"
-    },
-    {
-      "basename": "fileinput",
-      "path": "Coding Languages/Python/Module/内置模块/fileinput.md"
-    },
-    {
-      "basename": "Module",
-      "path": "Coding Languages/Python/Module/Module.md"
-    },
-    {
-      "basename": "Package",
-      "path": "Coding Languages/Python/Module/Package.md"
-    },
-    {
-      "basename": "多文件编译",
-      "path": "Coding Languages/Python/Module/多文件编译.md"
-    },
-    {
-      "basename": "pprint",
-      "path": "Coding Languages/Python/Module/内置模块/pprint.md"
-    },
-    {
-      "basename": "Iterator",
-      "path": "Coding Languages/Python/Data structure/Iterator.md"
-    },
-    {
-      "basename": "Python os 模块详解",
-      "path": "01 reference/Python os 模块详解.md"
     }
   ],
   "omittedPaths": [],
