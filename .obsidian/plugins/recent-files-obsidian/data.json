@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "名称空间",
+      "path": "Coding Languages/C++/Grammars/多文件程序/名称空间.md"
+    },
+    {
+      "basename": "单独编译",
+      "path": "Coding Languages/C++/Grammars/多文件程序/单独编译.md"
+    },
+    {
+      "basename": "存储类型",
+      "path": "Coding Languages/C++/Grammars/多文件程序/存储类型.md"
+    },
+    {
+      "basename": "函数",
+      "path": "Coding Languages/C++/Grammars/Function/函数.md"
+    },
+    {
+      "basename": "cout & cin",
+      "path": "Coding Languages/C++/Grammars/In&out put/cout & cin.md"
+    },
+    {
+      "basename": "文件输入输出",
+      "path": "Coding Languages/C++/Grammars/In&out put/文件输入输出.md"
+    },
+    {
       "basename": "循环",
       "path": "Coding Languages/C++/Grammars/Program Structures/循环.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "heapq",
       "path": "Coding Languages/Python/Module/内置模块/heapq.md"
-    },
-    {
-      "basename": "heap",
-      "path": "Coding Languages/Python/Data structure/heap.md"
-    },
-    {
-      "basename": "set",
-      "path": "Coding Languages/Python/Data structure/set.md"
-    },
-    {
-      "basename": "cout.setf()",
-      "path": "01 reference/cout.setf().md"
-    },
-    {
-      "basename": "cout & cin",
-      "path": "Coding Languages/C++/Grammars/In&out put/cout & cin.md"
-    },
-    {
-      "basename": "文件输入输出",
-      "path": "Coding Languages/C++/Grammars/In&out put/文件输入输出.md"
-    },
-    {
-      "basename": "存储类型",
-      "path": "Coding Languages/C++/Grammars/多文件程序/存储类型.md"
     }
   ],
   "omittedPaths": [],

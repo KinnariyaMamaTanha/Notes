@@ -23,4 +23,3 @@ noremap k gk
 noremap M :nohlsearch<CR>
 noremap T H
 noremap B L
-noremap F M
