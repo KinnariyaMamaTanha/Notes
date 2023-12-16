@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Study Record",
+      "path": "Study Record.md"
+    },
+    {
+      "basename": "存储类型",
+      "path": "Coding Languages/C++/Grammars/多文件程序/存储类型.md"
+    },
+    {
       "basename": "名称空间",
       "path": "Coding Languages/C++/Grammars/多文件程序/名称空间.md"
     },
     {
       "basename": "单独编译",
       "path": "Coding Languages/C++/Grammars/多文件程序/单独编译.md"
-    },
-    {
-      "basename": "存储类型",
-      "path": "Coding Languages/C++/Grammars/多文件程序/存储类型.md"
     },
     {
       "basename": "函数",
@@ -195,10 +199,6 @@
     {
       "basename": "random",
       "path": "Coding Languages/Python/Module/内置模块/random.md"
-    },
-    {
-      "basename": "heapq",
-      "path": "Coding Languages/Python/Module/内置模块/heapq.md"
     }
   ],
   "omittedPaths": [],

@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "128e2fa2e5d769f7",
+        "id": "0fc8bbef34200480",
         "type": "tabs",
         "children": [
           {
-            "id": "2425b6b14a5a548f",
+            "id": "0018ff9f43b2bd6f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Coding Languages/C++/Grammars/多文件程序/名称空间.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Languages/C++/Grammars/多文件程序/名称空间.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Languages/C++/Grammars/多文件程序/名称空间.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Coding Languages/C++/Grammars/多文件程序/名称空间.md"
-              }
+              "state": {}
             }
           },
           {
@@ -179,10 +171,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2425b6b14a5a548f",
+  "active": "0018ff9f43b2bd6f",
   "lastOpenFiles": [
-    "Coding Languages/C++/Grammars/多文件程序/单独编译.md",
+    "Study Record.md",
     "Coding Languages/C++/Grammars/多文件程序/存储类型.md",
+    "Coding Languages/C++/Grammars/多文件程序/名称空间.md",
+    "Coding Languages/C++/Grammars/多文件程序/单独编译.md",
     "Coding Languages/C++/Grammars/Function/函数.md",
     "Coding Languages/C++/Grammars/In&out put/cout & cin.md",
     "Coding Languages/C++/Grammars/In&out put/文件输入输出.md",
@@ -209,8 +203,6 @@
     "Coding Languages/Python/Command line.md",
     "Operating Systems/Linux.md",
     "Coding Languages/Python/Module/内置模块/asyncio.md",
-    "Coding Languages/Python/Module/内置模块/multiprocessing.md",
-    "Coding Languages/Python/Module/内置模块/queue.md",
     "01 attachment/列表和双向队列.png",
     "Coding Languages/Python/Module/外部模块",
     "Coding Languages/Python/Module/外部模块/NumPy",
