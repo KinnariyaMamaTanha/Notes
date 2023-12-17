@@ -17,6 +17,7 @@ from math import * # 引入math中所有函数
 import math as mt
 from math import pi as PI
 ```
+
 当两个module中有同名函数时，使用第三行的语法分别导入两个modules，再分别用句点表示法表明使用哪一个
 ```python
 import module1, module2
@@ -51,8 +52,14 @@ func()
 
 4. 指定参数类型和返回值类型：
 ```python
-def func(arg1: <type_name>, ...) -> <type_name>:
-	...
+>>> def func(arg1: <type_name>, arg2: 'int > 0' = 8) -> <type_name>:
+>>>     """"A function""""
+>>>     pass
+>>>
+>>> func.__annotations__
+{'arg1': int, 'arg2': 'int > 0', 'return': int} # 
+>>> func.__doc__
+'A function'
 ```
 可用于指定基本类型，对于更复杂的类型，使用`typing`模块，导入其他类型（如列表、元组、字典、序列）
 ```python

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "内置函数",
+      "path": "Coding Languages/Python/Grammar/Function/内置函数.md"
+    },
+    {
+      "basename": "operator",
+      "path": "Coding Languages/Python/Module/内置模块/operator.md"
+    },
+    {
       "basename": "Function",
       "path": "Coding Languages/Python/Grammar/Function/Function.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "sys",
       "path": "Coding Languages/Python/Module/内置模块/sys.md"
-    },
-    {
-      "basename": "tuple",
-      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/tuple.md"
-    },
-    {
-      "basename": "Statements",
-      "path": "Coding Languages/Python/Grammar/Statements.md"
     }
   ],
   "omittedPaths": [],

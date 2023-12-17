@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Languages/Python/Grammar/Function/Function.md",
+                "file": "Coding Languages/Python/Grammar/Function/内置函数.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Languages/Python/Grammar/Function/Function.md",
+                "file": "Coding Languages/Python/Grammar/Function/内置函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Languages/Python/Grammar/Function/Function.md",
+                "file": "Coding Languages/Python/Grammar/Function/内置函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding Languages/Python/Grammar/Function/Function.md"
+                "file": "Coding Languages/Python/Grammar/Function/内置函数.md"
               }
             }
           },
@@ -181,10 +181,11 @@
   },
   "active": "0018ff9f43b2bd6f",
   "lastOpenFiles": [
+    "Coding Languages/Python/Module/内置模块/operator.md",
+    "Coding Languages/Python/Grammar/Function/Function.md",
     "01 attachment/Python函数特有方法2.png",
     "01 attachment/Python函数特有方法.png",
     "Coding Languages/Python/Data structure/Sequence/容器序列/list.md",
-    "Coding Languages/Python/Grammar/Function/Function.md",
     "Coding Languages/Python/Module/内置模块/random.md",
     "Coding Languages/Python/Grammar/Files.md",
     "Coding Languages/Python/Data structure/字符.md",
@@ -221,7 +222,6 @@
     "01 attachment/列表和数组2.png",
     "01 attachment/列表和数组.png",
     "01 attachment/列表和元组的对比2.png",
-    "01 attachment/列表和元组的对比.png",
     "Coding Languages/Python/Data structure/Sequence/扁平序列",
     "Coding Languages/Python/Data structure/Sequence/容器序列",
     "Coding Languages/Python/Module/内置模块",
