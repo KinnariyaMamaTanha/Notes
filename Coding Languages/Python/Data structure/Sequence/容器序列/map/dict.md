@@ -144,7 +144,9 @@ True
 [('phone', '12345'), ('name', 'Gumby')]
 ```
 
-`popitem()`：由于字典中的数据是无序的，所以当需要使用高效的方式逐个删除并且处理每一个单项时，可以使用，就不需要预先获取键列表
+`popitem()`：由于字典中的数据是无序的，所以当需要使用高效的方式逐个删除并且处理每一个单项时，可以使用，就不需要预先获取键列表；在`OrderedDict`中是先进后出的
+
+`__missing__`方法：当`__getitem__`方法碰到找不到的键时，如果有`__missing__`方法，就会调用它，而不引发`KeyError`异常
 
 # 三、字典推导
 
@@ -157,3 +159,68 @@ True
 {'Alice': 1, 'Bob': 2, 'Clinton': 3}
 ```
 
+# 四、自定义Dict
+
+>[!note] 
+>在自定义映射类型时，使用collections模块中的UserDict作为基类，比直接使用dict作为基类更好。因为dict中有些方法“走了捷径”，导致经常需要重写方法
+
+1. `UserDict`并不是`dict`的子类，只是拥有一个属性`data`是`dict`的实例，数据都存储在`data`中
+
+使用`dict`作为基类的一个示例
+```python
+class StrKeyDict(dict):
+	def __missing__(self, key):
+		if isinstance(key, str):
+			raise KeyError(key)
+		return self[str(key)]
+		
+	def get(self, key, default=None):
+		try:
+			return self[key]
+		except KeyError:
+			return default
+			
+	def __contains__(self, key):
+		return key in self.keys() or str(key) in self.keys()
+```
+该类将所有键都自动转化为字符串，然后进行查找
+1. 当`__getitem__`方法找不到查找的键时，将调用`__missing__`方法，首先检查传入的`key`是否为字符串，若否，则转换为字符串后再进行查找
+2. 在`get`方法中，使用`self[key]`将任务交给`__getitem__`方法，并且提供了再交给`__missing__`方法的可能，如果转化为字符串之后仍未找到，则返回默认值`default`
+3. `__contains__`方法也做了相应的调整
+
+使用`UserDict`作为基类的示例
+```python
+import collecitons
+class StrKeyDict(collections.UserDict):
+	def __missing__(self, key):
+		if isinstance(key, str):
+			raise KeyError(key)
+		return self[str(key)]
+		
+	def __contains__(self, key):
+		return str(key) in self.data
+		
+	def __setitem__(self, key, item):
+		self.data[str(key)] = item
+```
+1. 在`__contains__`和`__setitem__`中的具体实现都委托给了`data`，所以可以实现起来格外简洁
+2. `UserDict`继承自`MutableMapping`，因此拥有很多`MutableMapping`和`Mapping`中的好用方法
+	1. `MutableMapping.update`：在`__init__`中被使用，使得可以通过传入一个其他映射类型、键值对可迭代对象或键值参数来进行初始化
+	2. `Mapping.get`：这使得在上述例子中，使用`UserDict`作为基类时，不需要重写`get`方法了
+
+# 五、字典的[[Search Table#^5652cc|散列表]]
+
+^280811
+
+
+>[!note] 
+开头提到过，字典本质上是一个hash table，每次查询键值，实际上是通过键的hash值来查找到对应的表元（有可能出现散列冲突，但概率极小），然后读取其中的值。Python保证了每个hash table都至少有1/3的表元是空的。
+
+1. 字典的**键必须是可散列**的，即满足：
+	1. 支持`hash()`函数，并且通过`__hash__()`方法所得到的散列值是不变的
+	2. 支持通过`__eq__`方法来检查相等性
+	3. `a == b`蕴含`hash(a) == hash(b)`
+2. 所有用户自定义的对象默认都是可散列的（因为其散列值都是由函数`id()`来获取，而`id()`返回地址，必然互不相同）
+3. 由于使用了散列表，意味着字典的**空间消耗是巨大**的，所以在需要存储大量数据时，使用元组或具名元组更好
+4. 字典中查询键的速度极快
+5. 往字典中添加新键可能会改变原有键的顺序

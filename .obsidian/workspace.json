@@ -11,8 +11,12 @@
             "id": "0018ff9f43b2bd6f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Coding Languages/Python/Grammar/Function/Function.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Coding Languages/Python/Grammar/Function/Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Coding Languages/Python/Grammar/Function/Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Coding Languages/Python/Grammar/Function/Function.md"
+              }
             }
           },
           {
@@ -173,6 +181,22 @@
   },
   "active": "0018ff9f43b2bd6f",
   "lastOpenFiles": [
+    "01 attachment/Python函数特有方法2.png",
+    "01 attachment/Python函数特有方法.png",
+    "Coding Languages/Python/Data structure/Sequence/容器序列/list.md",
+    "Coding Languages/Python/Grammar/Function/Function.md",
+    "Coding Languages/Python/Module/内置模块/random.md",
+    "Coding Languages/Python/Grammar/Files.md",
+    "Coding Languages/Python/Data structure/字符.md",
+    "Coding Languages/Python/Data structure/Sequence/容器序列/map/set.md",
+    "Coding Languages/Python/Data structure/Sequence/容器序列/map/dict.md",
+    "README.md",
+    "01 attachment/Python set 继承关系.png",
+    "Coding Languages/Python/Data structure/Sequence/容器序列/map/其它映射类型.md",
+    "Data Analysis/IPython/Shell.md",
+    "Data Analysis/IPython",
+    "Data Analysis",
+    "Coding Languages/C++/Data Structure/Linear Data Structure/Queue.md",
     "Study Record.md",
     "Coding Languages/C++/Grammars/多文件程序/存储类型.md",
     "Coding Languages/C++/Grammars/多文件程序/名称空间.md",
@@ -186,23 +210,11 @@
     "Coding Languages/C++/Grammars/说明符和限定符.md",
     "Coding Languages/C++/Grammars/初始化.md",
     "01 reference/volatile详解.md",
-    "Coding Languages/Python/Data structure/Sequence/容器序列/映射/其它映射类型.md",
     "Coding Languages/C++/Grammars/运算符优先级.md",
-    "01 reference/运算符优先级.md",
-    "Coding Languages/Python/Data structure/Sequence/容器序列/映射/dict.md",
     "01 attachment/Python映射类型2.png",
     "01 attachment/Python映射类型.png",
-    "Coding Languages/Python/Data structure/Sequence/容器序列/映射",
-    "Coding Languages/C++/Data Structure/Graph.md",
-    "Coding Languages/C++/OOP/运算符重载.md",
+    "Coding Languages/Python/Data structure/Sequence/容器序列/map",
     "01 attachment/Python mutablemapping.png",
-    "Coding Languages/C++/OOP/友元.md",
-    "Coding Languages/C++/OOP/类.md",
-    "Coding Languages/C++/OOP/类模板.md",
-    "Coding Languages/LaTeX.md",
-    "Coding Languages/Python/Command line.md",
-    "Operating Systems/Linux.md",
-    "Coding Languages/Python/Module/内置模块/asyncio.md",
     "01 attachment/列表和双向队列.png",
     "Coding Languages/Python/Module/外部模块",
     "Coding Languages/Python/Module/外部模块/NumPy",
@@ -210,15 +222,11 @@
     "01 attachment/列表和数组.png",
     "01 attachment/列表和元组的对比2.png",
     "01 attachment/列表和元组的对比.png",
-    "01 attachment/可变序列和不可变序列.png",
     "Coding Languages/Python/Data structure/Sequence/扁平序列",
     "Coding Languages/Python/Data structure/Sequence/容器序列",
-    "01 attachment/Python特殊方法2.png",
     "Coding Languages/Python/Module/内置模块",
-    "未命名",
     "01 attachment/desktop.ini",
     "01 attachment1",
-    "Coding Languages/Python/OOP",
     "Study Plan.canvas"
   ]
 }

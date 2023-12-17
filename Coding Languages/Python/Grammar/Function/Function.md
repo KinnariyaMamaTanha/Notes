@@ -1,3 +1,11 @@
+>*Python中的函数是一种特殊的对象*
+
+```python
+>>> from math import add
+>>> type(add)
+<class 'function'> # function类
+```
+
 # 一、基础
 
 1. 调用模块中的函数：
@@ -288,3 +296,50 @@ lambda [arg1, [arg2, ..., argn]]: expression
 [5, 7, 9]
 ```
 这样就不用在外部声明函数了，减少了重名的机会
+
+# 二、可调用对象
+
+Python中的对象可分为**可调用的**和**不可调用的**，一些可调用的对象：
+1. 用户定义的函数（使用def或lambda）
+2. 内置函数（使用C语言实现的函数）
+3. 内置方法（使用C语言实现的方法）
+4. 方法
+5. 类（调用类时，会使用`__new__`方法创建一个实例，然后调用`__init__`方法来初始化该实例，最后把实例返回给调用方，因为Python没有new运算符，所以调用类相当于调用函数）
+6. 类的实例（当类定义了`__call__`方法时）
+7. 生成器函数
+使用`callable`函数来判断对象是否可以调用
+
+不仅Python中函数是对象，还可以让对象表现得像函数，只需要实现`__call__`方法
+```python
+import random, math
+class random_even_number(object):
+	def __init__(self, size):
+		self._items = tuple(range(0, size, 2))
+		self.size = size // 2 + 1
+	def __len__(self):
+		return size
+	def pick():
+		return self._items[math.floor(random() * (size // 2 + 1))]
+	def __call__(self):
+		return self.pick()
+```
+```python
+>>> random_even = random_even_number(24)
+>>> random_even()
+2
+>>> random_even()
+14
+```
+
+然而，函数会拥有一些对象所不拥有的方法（通常是magic methods）
+```python
+>>> class C(): pass
+>>> def func(): pass
+>>> sorted(set(dir(func)) - set(dir(C)))
+['__annotations__', '__call__', '__closure__', '__code__', '__defaults__', '__get__', '__globals__', '__kwdefaults__', '__name__', '__qualname__']
+```
+
+![[Python函数特有方法.png]]
+
+![[Python函数特有方法2.png]]
+

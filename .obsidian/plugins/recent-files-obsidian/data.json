@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "Function",
+      "path": "Coding Languages/Python/Grammar/Function/Function.md"
+    },
+    {
+      "basename": "list",
+      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/list.md"
+    },
+    {
+      "basename": "random",
+      "path": "Coding Languages/Python/Module/内置模块/random.md"
+    },
+    {
+      "basename": "Files",
+      "path": "Coding Languages/Python/Grammar/Files.md"
+    },
+    {
+      "basename": "字符",
+      "path": "Coding Languages/Python/Data structure/字符.md"
+    },
+    {
+      "basename": "set",
+      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/map/set.md"
+    },
+    {
+      "basename": "dict",
+      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/map/dict.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "其它映射类型",
+      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/map/其它映射类型.md"
+    },
+    {
+      "basename": "Shell",
+      "path": "Data Analysis/IPython/Shell.md"
+    },
+    {
+      "basename": "Queue",
+      "path": "Coding Languages/C++/Data Structure/Linear Data Structure/Queue.md"
+    },
+    {
       "basename": "Study Record",
       "path": "Study Record.md"
     },
@@ -53,20 +97,12 @@
       "path": "01 reference/volatile详解.md"
     },
     {
-      "basename": "其它映射类型",
-      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/映射/其它映射类型.md"
-    },
-    {
       "basename": "运算符优先级",
       "path": "Coding Languages/C++/Grammars/运算符优先级.md"
     },
     {
       "basename": "运算符优先级",
       "path": "01 reference/运算符优先级.md"
-    },
-    {
-      "basename": "dict",
-      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/映射/dict.md"
     },
     {
       "basename": "Graph",
@@ -157,48 +193,12 @@
       "path": "Coding Languages/Python/Module/内置模块/sys.md"
     },
     {
-      "basename": "list",
-      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/list.md"
-    },
-    {
       "basename": "tuple",
       "path": "Coding Languages/Python/Data structure/Sequence/容器序列/tuple.md"
     },
     {
-      "basename": "字符",
-      "path": "Coding Languages/Python/Data structure/字符.md"
-    },
-    {
       "basename": "Statements",
       "path": "Coding Languages/Python/Grammar/Statements.md"
-    },
-    {
-      "basename": "内置函数",
-      "path": "Coding Languages/Python/Grammar/Function/内置函数.md"
-    },
-    {
-      "basename": "Function",
-      "path": "Coding Languages/Python/Grammar/Function/Function.md"
-    },
-    {
-      "basename": "math",
-      "path": "Coding Languages/Python/Module/内置模块/math.md"
-    },
-    {
-      "basename": "Files",
-      "path": "Coding Languages/Python/Grammar/Files.md"
-    },
-    {
-      "basename": "re",
-      "path": "Coding Languages/Python/Module/内置模块/re.md"
-    },
-    {
-      "basename": "shelve",
-      "path": "Coding Languages/Python/Module/内置模块/shelve.md"
-    },
-    {
-      "basename": "random",
-      "path": "Coding Languages/Python/Module/内置模块/random.md"
     }
   ],
   "omittedPaths": [],
