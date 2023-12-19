@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "文件输入输出",
+      "path": "Coding Languages/C++/Grammars/In&out put/文件输入输出.md"
+    },
+    {
+      "basename": "重载解析",
+      "path": "Coding Languages/C++/Grammars/Function/重载解析.md"
+    },
+    {
+      "basename": "函数",
+      "path": "Coding Languages/C++/Grammars/Function/函数.md"
+    },
+    {
+      "basename": "单独编译",
+      "path": "Coding Languages/C++/Grammars/多文件程序/单独编译.md"
+    },
+    {
       "basename": "存储类型",
       "path": "Coding Languages/C++/Grammars/多文件程序/存储类型.md"
+    },
+    {
+      "basename": "NameSpace",
+      "path": "Coding Languages/C++/Grammars/多文件程序/NameSpace.md"
+    },
+    {
+      "basename": "Introduction",
+      "path": "AI/Machine Learning/Introduction.md"
+    },
+    {
+      "basename": "Shell",
+      "path": "Apps/Shell/Shell.md"
+    },
+    {
+      "basename": "PowerShell",
+      "path": "Apps/Shell/PowerShell.md"
     },
     {
       "basename": "char",
@@ -113,24 +145,8 @@
       "path": "Study Record.md"
     },
     {
-      "basename": "名称空间",
-      "path": "Coding Languages/C++/Grammars/多文件程序/名称空间.md"
-    },
-    {
-      "basename": "单独编译",
-      "path": "Coding Languages/C++/Grammars/多文件程序/单独编译.md"
-    },
-    {
-      "basename": "函数",
-      "path": "Coding Languages/C++/Grammars/Function/函数.md"
-    },
-    {
       "basename": "cout & cin",
       "path": "Coding Languages/C++/Grammars/In&out put/cout & cin.md"
-    },
-    {
-      "basename": "文件输入输出",
-      "path": "Coding Languages/C++/Grammars/In&out put/文件输入输出.md"
     },
     {
       "basename": "循环",
@@ -183,22 +199,6 @@
     {
       "basename": "类模板",
       "path": "Coding Languages/C++/OOP/类模板.md"
-    },
-    {
-      "basename": "LaTeX",
-      "path": "Coding Languages/LaTeX.md"
-    },
-    {
-      "basename": "Linux",
-      "path": "Operating Systems/Linux.md"
-    },
-    {
-      "basename": "asyncio",
-      "path": "Coding Languages/Python/Module/内置模块/asyncio.md"
-    },
-    {
-      "basename": "multiprocessing",
-      "path": "Coding Languages/Python/Module/内置模块/multiprocessing.md"
     }
   ],
   "omittedPaths": [],

@@ -5,7 +5,7 @@
 1. **声明区域**：可以在其中进行声明的区域
 	1. 每个声明区域都可以声明名称，这些名称独立于在其他声明区域的名称
 	2. 在一个函数中定义的局部变量不会与在另一个函数中声明的局部变量发生冲突
-2. **潜在作用域**：从声明点开始，到其声明区域的结尾。
+2. **潜在作用域**：从声明点开始，到其声明区域的结尾。 ^34613b
 	1. 变量并非在潜在作用域内的任何位置都是可见的（如被同名变量隐藏）
 3. **作用域**：变量对程序可见的范围被称为作用域
 4. 作用域 < 潜在作用域 < 声明区域
@@ -93,18 +93,18 @@ namespace elements
 using namespace elements::fire;
 ```
 
-2. 可以在名称空间中使用using编译指令和using声明：
+2. 可以在名称空间中使用using编译指令和using声明以共享变量函数等
 ```C++
 namespace myth
 {
-	using Jill::fetch;
+	using Jill::fetch; // 共享fetch
 	using namespace Jack;
 	using namespace elements;
 	using std::cout;
 }
 ```
 
-此时可以这样访问fetch:
+此时可以这样访问fetch
 ```c++
 std::cout << myth::fetch; // fetch已经在myth中出现过了
 std::cout << Jill::fetch; // fetch在Jill中也存在
@@ -132,7 +132,7 @@ namespace   // unnamed namespace
 }
 ```
 
-2. 在未命名的名称空间中的名称的潜在作用域为：从声明点到该声明区域末尾
+2. 在未命名的名称空间中的名称的[[NameSpace#^34613b|潜在作用域]]为：从声明点到该声明区域末尾
 3. 不能显式的使用using编译指令或using声明来使其在其他位置都可用，即，不能在未命名的名称空间所属文件之外的其他文件中，使用该名称空间中的名称
 
 # 三、统一的编程理念
