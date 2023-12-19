@@ -1,6 +1,62 @@
 {
   "recentFiles": [
     {
+      "basename": "存储类型",
+      "path": "Coding Languages/C++/Grammars/多文件程序/存储类型.md"
+    },
+    {
+      "basename": "char",
+      "path": "Coding Languages/C++/Grammars/标准数据类型/char.md"
+    },
+    {
+      "basename": "字符串",
+      "path": "Coding Languages/C++/Grammars/标准数据类型/字符串.md"
+    },
+    {
+      "basename": "指针",
+      "path": "Coding Languages/C++/Grammars/标准数据类型/指针.md"
+    },
+    {
+      "basename": "引用",
+      "path": "Coding Languages/C++/Grammars/标准数据类型/引用.md"
+    },
+    {
+      "basename": "枚举类型",
+      "path": "Coding Languages/C++/Grammars/标准数据类型/枚举类型.md"
+    },
+    {
+      "basename": "类型转换",
+      "path": "Coding Languages/C++/Grammars/标准数据类型/类型转换.md"
+    },
+    {
+      "basename": "类型别名",
+      "path": "Coding Languages/C++/Grammars/标准数据类型/类型别名.md"
+    },
+    {
+      "basename": "进制",
+      "path": "Coding Languages/C++/Grammars/标准数据类型/进制.md"
+    },
+    {
+      "basename": "结构体",
+      "path": "Coding Languages/C++/Grammars/标准数据类型/结构体.md"
+    },
+    {
+      "basename": "共用体",
+      "path": "Coding Languages/C++/Grammars/标准数据类型/共用体.md"
+    },
+    {
+      "basename": "浮点数",
+      "path": "Coding Languages/C++/Grammars/标准数据类型/浮点数.md"
+    },
+    {
+      "basename": "官方文档(2023年11月24日)",
+      "path": "Apps/Scoop/官方文档(2023年11月24日).md"
+    },
+    {
+      "basename": "Scoop(Personal Using)",
+      "path": "Apps/Scoop/Scoop(Personal Using).md"
+    },
+    {
       "basename": "内置函数",
       "path": "Coding Languages/Python/Grammar/Function/内置函数.md"
     },
@@ -55,10 +111,6 @@
     {
       "basename": "Study Record",
       "path": "Study Record.md"
-    },
-    {
-      "basename": "存储类型",
-      "path": "Coding Languages/C++/Grammars/多文件程序/存储类型.md"
     },
     {
       "basename": "名称空间",
@@ -147,58 +199,6 @@
     {
       "basename": "multiprocessing",
       "path": "Coding Languages/Python/Module/内置模块/multiprocessing.md"
-    },
-    {
-      "basename": "queue",
-      "path": "Coding Languages/Python/Module/内置模块/queue.md"
-    },
-    {
-      "basename": "deque",
-      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/deque.md"
-    },
-    {
-      "basename": "collections",
-      "path": "Coding Languages/Python/Module/内置模块/collections.md"
-    },
-    {
-      "basename": "memoryview",
-      "path": "Coding Languages/Python/Data structure/Sequence/扁平序列/memoryview.md"
-    },
-    {
-      "basename": "array.array",
-      "path": "Coding Languages/Python/Data structure/Sequence/扁平序列/array.array.md"
-    },
-    {
-      "basename": "Generator",
-      "path": "Coding Languages/Python/Data structure/Generator.md"
-    },
-    {
-      "basename": "seq",
-      "path": "Coding Languages/Python/Data structure/Sequence/seq.md"
-    },
-    {
-      "basename": "bisect",
-      "path": "Coding Languages/Python/Module/内置模块/bisect.md"
-    },
-    {
-      "basename": "Git",
-      "path": "Apps/Git.md"
-    },
-    {
-      "basename": "Vim",
-      "path": "Apps/Vim.md"
-    },
-    {
-      "basename": "数据处理",
-      "path": "AI/Deep Learning/数据处理.md"
-    },
-    {
-      "basename": "class",
-      "path": "Coding Languages/Python/OOP/class.md"
-    },
-    {
-      "basename": "sys",
-      "path": "Coding Languages/Python/Module/内置模块/sys.md"
     }
   ],
   "omittedPaths": [],

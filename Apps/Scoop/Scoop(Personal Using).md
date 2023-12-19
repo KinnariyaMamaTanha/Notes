@@ -215,6 +215,21 @@ To enable conda tab-completion autoload, you can add the following code to your 
 ```
 （用scoop下载不太好用，有些bug，又删掉了）
 
+### Neovim
+
+```shell
+Installing 'neovim' (0.9.4) [64bit] from main bucket
+nvim-win64.zip (40.8 MB) [=============================================================================================================================================================] 100%
+Checking hash of nvim-win64.zip ... ok.
+Extracting nvim-win64.zip ... done.
+Linking D:\Scoop\apps\neovim\current => D:\Scoop\apps\neovim\0.9.4
+Creating shim for 'nvim'.
+Creating shim for 'nvim-qt'.
+Creating shortcut for Neovim (nvim-qt.exe)
+'neovim' (0.9.4) was installed successfully!
+'neovim' suggests installing 'extras/vcredist2022'.
+```
+
 ## Bucket
 
 1. Using `scoop bucket add <bucket-name>` or `scoop bucket add <bucket-name> <url>` to add a new bucket
