@@ -230,6 +230,17 @@ Creating shortcut for Neovim (nvim-qt.exe)
 'neovim' suggests installing 'extras/vcredist2022'.
 ```
 
+### aria2
+
+```shell
+Installing 'aria2' (1.37.0-1) [64bit] from main bucket
+aria2-1.37.0-win-64bit-build1.zip (2.4 MB) [==================================================================] 100%
+Checking hash of aria2-1.37.0-win-64bit-build1.zip ... ok.
+Extracting aria2-1.37.0-win-64bit-build1.zip ... done.
+Linking D:\Scoop\apps\aria2\current => D:\Scoop\apps\aria2\1.37.0-1
+Creating shim for 'aria2c'.
+```
+
 ## Bucket
 
 1. Using `scoop bucket add <bucket-name>` or `scoop bucket add <bucket-name> <url>` to add a new bucket
