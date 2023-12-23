@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "类",
+      "path": "Coding Languages/C++/OOP/类.md"
+    },
+    {
+      "basename": "类模板",
+      "path": "Coding Languages/C++/OOP/类模板.md"
+    },
+    {
+      "basename": "0 Summary",
+      "path": "Algorithm/Sort/0 Summary.md"
+    },
+    {
       "basename": "运算符重载",
       "path": "Coding Languages/C++/OOP/运算符重载.md"
     },
     {
       "basename": "类型转换",
       "path": "Coding Languages/C++/Grammars/标准数据类型/类型转换.md"
-    },
-    {
-      "basename": "类",
-      "path": "Coding Languages/C++/OOP/类.md"
     },
     {
       "basename": "重载解析",
@@ -191,14 +199,6 @@
     {
       "basename": "运算符优先级",
       "path": "01 reference/运算符优先级.md"
-    },
-    {
-      "basename": "Graph",
-      "path": "Coding Languages/C++/Data Structure/Graph.md"
-    },
-    {
-      "basename": "友元",
-      "path": "Coding Languages/C++/OOP/友元.md"
     }
   ],
   "omittedPaths": [],

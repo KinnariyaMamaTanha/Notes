@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Languages/C++/OOP/运算符重载.md",
+                "file": "Coding Languages/C++/OOP/类.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Languages/C++/OOP/运算符重载.md",
+                "file": "Coding Languages/C++/OOP/类.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Languages/C++/OOP/运算符重载.md",
+                "file": "Coding Languages/C++/OOP/类.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding Languages/C++/OOP/运算符重载.md"
+                "file": "Coding Languages/C++/OOP/类.md"
               }
             }
           },
@@ -181,9 +181,11 @@
   },
   "active": "50a255b44b0269c9",
   "lastOpenFiles": [
-    "Coding Languages/C++/Grammars/标准数据类型/类型转换.md",
+    "Coding Languages/C++/OOP/类模板.md",
+    "Algorithm/Sort/0 Summary.md",
     "Coding Languages/C++/OOP/运算符重载.md",
     "Coding Languages/C++/OOP/类.md",
+    "Coding Languages/C++/Grammars/标准数据类型/类型转换.md",
     "Coding Languages/C++/Grammars/Function/重载解析.md",
     "Apps/Scoop/Scoop(Personal Using).md",
     "Coding Languages/Python/Data structure/Iterator.md",
@@ -205,8 +207,6 @@
     "Coding Languages/C++/Grammars/标准数据类型/结构体.md",
     "Coding Languages/C++/Grammars/标准数据类型/共用体.md",
     "Coding Languages/C++/Grammars/标准数据类型/浮点数.md",
-    "Apps/Scoop/官方文档(2023年11月24日).md",
-    "Coding Languages/Python/Grammar/Function/内置函数.md",
     "01 attachment/Python函数特有方法2.png",
     "01 attachment/Python函数特有方法.png",
     "01 attachment/Python set 继承关系.png",
