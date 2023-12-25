@@ -460,6 +460,7 @@ percolateDown
 priorityQueue
 priotity
 priority
+personal
 使用类对象的程序都可以访问public部分
 使用保护访问很有用
 使用protected访问控制定义一些成员函数
@@ -5155,6 +5156,7 @@ engines
 extras
 ebp
 esp
+editors
 合并一个
 合并
 列表
@@ -5799,6 +5801,8 @@ lots
 long转换为double
 lea
 list类的实现类似于双链表类
+lib
+learning
 调用模块中的函数
 调用
 调整平衡
@@ -6238,6 +6242,7 @@ source
 stack是LIFO的
 stack抽象类
 std
+studio
 division
 dict
 double类型替换为其他标准类型或者用户自定义的类

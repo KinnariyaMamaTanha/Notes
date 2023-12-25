@@ -7,7 +7,7 @@
 using namespace std;
 int main()
 {
-	heap<int> a;
+	dheap<int> a(3);
 	int tmp;
 	for (int i = 0; i < 10; ++i)
 	{
