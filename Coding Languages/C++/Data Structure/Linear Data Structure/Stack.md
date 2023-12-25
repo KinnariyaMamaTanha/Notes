@@ -233,6 +233,7 @@ stack<int, vector<int>> s;
 	2. push()：入栈
 	3. top()：返回栈顶元素
 	4. empty()：判断栈是否为空
+	5. size()：返回栈的大小
 
 # 四、栈的应用
 

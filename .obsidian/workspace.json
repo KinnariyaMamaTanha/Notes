@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Languages/C++/OOP/类.md",
+                "file": "Coding Languages/C++/Grammars/标准数据类型/指针.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f35ab918d0534b87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coding Languages/C++/Data Structure/data_structure&algorithm/README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "四舍五入",
+                "query": "静态",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.50110244750977
+    "width": 272.50110244750977,
+    "collapsed": true
   },
   "right": {
     "id": "a997df58287d8353",
@@ -93,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Languages/C++/OOP/类.md",
+                "file": "Coding Languages/C++/Data Structure/data_structure&algorithm/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Languages/C++/OOP/类.md",
+                "file": "Coding Languages/C++/Data Structure/data_structure&algorithm/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding Languages/C++/OOP/类.md"
+                "file": "Coding Languages/C++/Data Structure/data_structure&algorithm/README.md"
               }
             }
           },
@@ -160,53 +174,56 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 256.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
+      "graph:查看关系图谱": true,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
+      "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
       "audio-recorder:开始/结束录音": false,
       "random-note:开始漫游笔记": false,
       "publish:发布更改": false,
-      "zk-prefixer:创建时间戳笔记": false,
+      "zk-prefixer:创建时间戳笔记": true,
       "markdown-importer:打开 Markdown 格式转换器": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "50a255b44b0269c9",
+  "active": "f35ab918d0534b87",
   "lastOpenFiles": [
-    "Coding Languages/C++/OOP/类模板.md",
-    "Algorithm/Sort/0 Summary.md",
-    "Coding Languages/C++/OOP/运算符重载.md",
+    "Coding Languages/C++/Data Structure/Tree/Priority Queue.md",
     "Coding Languages/C++/OOP/类.md",
+    "Coding Languages/C++/Grammars/Function/函数.md",
+    "Coding Languages/C++/Data Structure/Linear Data Structure/Queue.md",
+    "Coding Languages/C++/Data Structure/Linear Data Structure/String.md",
+    "Coding Languages/C++/Data Structure/Linear Data Structure/Stack.md",
+    "Coding Languages/C++/OOP/类模板.md",
+    "Coding Languages/C++/OOP/友元.md",
+    "Coding Languages/C++/OOP/运算符重载.md",
+    "Coding Languages/C++/Data Structure/Linear Data Structure/Linear Table.md",
+    "Coding Languages/C++/Grammars/标准数据类型/引用.md",
+    "Coding Languages/C++/Grammars/标准数据类型/指针.md",
+    "Coding Languages/C++/Grammars/标准数据类型/字符串.md",
+    "Coding Languages/C++/Grammars/多文件程序/存储类型.md",
+    "Coding Languages/C++/Grammars/标准数据类型/浮点数.md",
+    "01 attachment/C++ 栈帧.png",
+    "01 attachment/C++变量的作用域和存储类型.png",
+    "Coding Languages/C++/Grammars/说明符和限定符.md",
+    "01 reference/函数栈帧_c++ 栈帧结构.md",
+    "Coding Languages/C++/Header File/cstring.md",
+    "Coding Languages/C++/Grammars/初始化.md",
+    "Coding.md",
+    "[[Coding.md",
+    "Algorithm/Sort/0 Summary.md",
     "Coding Languages/C++/Grammars/标准数据类型/类型转换.md",
     "Coding Languages/C++/Grammars/Function/重载解析.md",
     "Apps/Scoop/Scoop(Personal Using).md",
     "Coding Languages/Python/Data structure/Iterator.md",
-    "Coding Languages/C++/Grammars/In&out put/文件输入输出.md",
-    "Coding Languages/C++/Grammars/Function/函数.md",
-    "Coding Languages/C++/Grammars/多文件程序/单独编译.md",
-    "Coding Languages/C++/Grammars/多文件程序/存储类型.md",
-    "Coding Languages/C++/Grammars/多文件程序/NameSpace.md",
-    "AI/Machine Learning/Introduction.md",
-    "Apps/Shell/Shell.md",
-    "Apps/Shell/PowerShell.md",
-    "Coding Languages/C++/Grammars/标准数据类型/char.md",
-    "Coding Languages/C++/Grammars/标准数据类型/字符串.md",
-    "Coding Languages/C++/Grammars/标准数据类型/指针.md",
-    "Coding Languages/C++/Grammars/标准数据类型/引用.md",
-    "Coding Languages/C++/Grammars/标准数据类型/枚举类型.md",
-    "Coding Languages/C++/Grammars/标准数据类型/类型别名.md",
-    "Coding Languages/C++/Grammars/标准数据类型/进制.md",
-    "Coding Languages/C++/Grammars/标准数据类型/结构体.md",
-    "Coding Languages/C++/Grammars/标准数据类型/共用体.md",
-    "Coding Languages/C++/Grammars/标准数据类型/浮点数.md",
     "01 attachment/Python函数特有方法2.png",
     "01 attachment/Python函数特有方法.png",
     "01 attachment/Python set 继承关系.png",
@@ -220,8 +237,6 @@
     "Coding Languages/Python/Module/外部模块",
     "Coding Languages/Python/Module/外部模块/NumPy",
     "01 attachment/列表和数组2.png",
-    "01 attachment/列表和数组.png",
-    "01 attachment/列表和元组的对比2.png",
     "Coding Languages/Python/Data structure/Sequence/扁平序列",
     "Coding Languages/Python/Data structure/Sequence/容器序列",
     "Coding Languages/Python/Module/内置模块",

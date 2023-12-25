@@ -149,7 +149,6 @@ void seqList<Type>::traverse() const
 
 ![[顺序表优缺点.png]]
 
----
 # 二、链表
 
 ^59c7aa
@@ -160,7 +159,8 @@ void seqList<Type>::traverse() const
 ![[单链表结构.png]]
 
 2. **单链表的插入**：
-![[单链表插入.png]]
+
+![[单链表插入.png|500]]
 
 3. 删除单链表中的点时，不要忘记释放内存
 

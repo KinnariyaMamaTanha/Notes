@@ -1,4 +1,4 @@
-1. `strcpy(str1, str2)`：把`str2`复制给`str1`
+1. `strcpy(str1, str2)`：把`str2`复制给`str1`，返回`str1`的地址（凡是涉及两个字符串参数的，都会返回第一个字符串的地址）
 2. `strcat(str1, str2)`：把`str2`拼接在`str1`末尾
 3. `str.size()`：返回`str`的长度
 4. `strlen(str)`：返回`str`的长度，从`str`的首位开始，直到遇到`\0`结束，即在str未赋值时返回随机值，但总长度不包括`\0`

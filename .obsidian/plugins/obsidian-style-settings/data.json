@@ -112,7 +112,7 @@
   "minimal-style@@table-nowrap": true,
   "minimal-style@@file-header-visibility": "minimal-tab-title-hover",
   "minimal-style@@file-header-justify": "center",
-  "minimal-style@@window-title-off": false,
+  "minimal-style@@window-title-off": true,
   "minimal-mobile@@mobile-toolbar-off": false,
   "minimal-advanced@@cursor": "default",
   "minimal-style@@image-radius": 8,

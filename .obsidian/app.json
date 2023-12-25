@@ -6,5 +6,6 @@
   "newFileFolderPath": "00 Inbox",
   "strictLineBreaks": true,
   "alwaysUpdateLinks": true,
-  "vimMode": true
+  "vimMode": true,
+  "promptDelete": false
 }
