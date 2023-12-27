@@ -35,6 +35,7 @@ conda update conda
 ```shell
 conda install python=3.9
 ```
+
 # Pytorch
 
 安装过程：

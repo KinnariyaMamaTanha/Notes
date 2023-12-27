@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "指针",
+      "path": "Coding Languages/C++/Grammars/标准数据类型/指针.md"
+    },
+    {
+      "basename": "class",
+      "path": "Coding Languages/Python/OOP/class.md"
+    },
+    {
+      "basename": "Anaconda",
+      "path": "Apps/Anaconda.md"
+    },
+    {
+      "basename": "Function",
+      "path": "Coding Languages/Python/Grammar/Function/Function.md"
+    },
+    {
       "basename": "Priority Queue",
       "path": "Coding Languages/C++/Data Structure/Tree/Priority Queue.md"
     },
@@ -47,10 +63,6 @@
     {
       "basename": "引用",
       "path": "Coding Languages/C++/Grammars/标准数据类型/引用.md"
-    },
-    {
-      "basename": "指针",
-      "path": "Coding Languages/C++/Grammars/标准数据类型/指针.md"
     },
     {
       "basename": "字符串",
@@ -161,10 +173,6 @@
       "path": "Coding Languages/Python/Module/内置模块/operator.md"
     },
     {
-      "basename": "Function",
-      "path": "Coding Languages/Python/Grammar/Function/Function.md"
-    },
-    {
       "basename": "list",
       "path": "Coding Languages/Python/Data structure/Sequence/容器序列/list.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "其它映射类型",
-      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/map/其它映射类型.md"
-    },
-    {
-      "basename": "Shell",
-      "path": "Data Analysis/IPython/Shell.md"
     }
   ],
   "omittedPaths": [],

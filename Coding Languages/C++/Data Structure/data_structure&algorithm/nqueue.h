@@ -14,8 +14,8 @@ public:
 	virtual bool push_front(const T& x);
 	virtual bool pop();
 	virtual bool pop_back();
-	virtual T front() const;
-	virtual T back() const;
+	virtual const T& front() const;
+	virtual const T& back() const;
 
 	friend std::ostream& operator<<(std::ostream& os, const nqueue<T> nq)
 	{
@@ -56,13 +56,13 @@ bool nqueue<T>::pop_back()
 }
 
 template <class T>
-T nqueue<T>::front() const
+const T& nqueue<T>::front() const
 {
 	return this->operator[](0);
 }
 
 template <class T>
-T nqueue<T>::back() const
+const T& nqueue<T>::back() const
 {
 	return this->operator[](this->length() - 1);
 }

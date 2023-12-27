@@ -443,4 +443,59 @@ const dheap<T, greater>& dheap<T, greater>::operator=(const dheap<T, greater>& d
 	return *this;
 }
 
+// Left heap class
+template <class T, bool greater = false>
+class lheap
+{
+private:
+	struct node
+	{
+		T data;
+		node* lchild, rchild;
+		int npl;
+		node(node* l = nullptr, node* r = nullptr) : lchild(l), rchild(r), npl(0) {}
+		node(const T& d, node* l = nullptr, node* r = nullptr) :data(d), lchild(l), rchild(r), npl(0) {}
+	};
+	node* root;
+	int currentSize;
+public:
+	lheap();
+	lheap(const lheap<T, greater>& lh);
+	~lheap();
+	void heapify();
+	bool pop();
+	void push(const T& x);
+	bool empty() const;
+	const T& front() const;
+	int length() const;
+	const lheap<T, greater>& operator=(const lheap<T, greater>& lh);
+
+	friend std::ostream& operator<<(std::ostream& os, const lheap<T, greater>& lh)
+	{
+		os << "left_heap(";
+		int l = lh.length();
+		for (int i = 1; i < l; ++i)
+			os << lh[i] << ", ";
+		os << lh[l] << ')';
+		return os;
+	}
+
+	T& operator[](int i);
+	const T& operator[](int i) const;
+};
+
+template <class T, bool greater>
+lheap<T, greater>::lheap(): currentSize(0)
+{
+	root = new node;
+}
+
+template <class T, bool greater>
+lheap<T, greater>::lheap(const lheap<T, greater>& lh)
+{
+	currentSize = lh.currentSize;
+	root = new node(lh.root->data);
+
+}
+
 #endif // !__heap_h__
