@@ -295,9 +295,9 @@ and here it is. Hello, world!''')
 
 # 五、字符串方法
 
-1. `center(width, ch)`：返回一个以width为宽度，ch为填充字符（默认为空格）的字符串
-2. `ljust(width, ch)`：返回一个以width为宽度，ch为填充字符（默认为空格）的字符串
-3. `rjust(width, ch)`：同`ljust()`
+1. `center(width, ch)`：将原字符串居中放置，返回一个以width为宽度，ch为填充字符（默认为空格）的字符串
+2. `ljust(width, ch)`：将原字符串靠左放置，返回一个以width为宽度，ch为填充字符（默认为空格）的字符串
+3. `rjust(width, ch)`：同`ljust()`，但将原字符串靠右放置
 4. `zfill(width, ch)`：返回原字符串的前width位，不足时用ch填充（默认为0）
 5. `find(s, begin, end)`：在原字符串中从begin处开始，到end处结束，寻找子串s，如果存在，则返回从左往右第一个字符串的第一个字符的索引，否则返回-1（不同于关键字`in`，后者只能寻找单个字符）。begin默认为0，end默认为字符串长度
 6. `rfind()`
@@ -308,19 +308,22 @@ and here it is. Hello, world!''')
 11. `endswith()`
 12. `join(list)`：合并一个**字符串**列表，并返回该字符串
 ```python
->>>seq = ['1', '2', '3', '4', '5']
->>>'+'.join(seq)
+>>> seq = ['1', '2', '3', '4', '5']
+>>> '+'.join(seq)
 '1+2+3+4+5'
->>>sep = '*'
->>>sep.join(seq)
+>>> sep = '*'
+>>> sep.join(seq)
 '1*2*3*4*5'
 ```
 
 13. `split(sep)`：将字符串按照字符`sep`拆分为序列
 ```python
->>>'1+2+3+4+5'.split('+')
+>>> '1+2+3+4+5'.split('+')
 ['1', '2', '3', '4', '5']
+>>> 'David'.split('v')
+['Da', 'id']
 ```
+
 14. `lower()`：返回字符串的小写版本
 15. `upper()`：返回字符串的大写版本
 16. `islower()`：（以`is`开头的字符串均为判定是否具有某种性质的字符串，返回bool值）

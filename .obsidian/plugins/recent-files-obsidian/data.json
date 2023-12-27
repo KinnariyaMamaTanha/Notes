@@ -5,6 +5,26 @@
       "path": "Coding Languages/C++/Grammars/标准数据类型/指针.md"
     },
     {
+      "basename": "str",
+      "path": "Coding Languages/Python/Data structure/Sequence/str.md"
+    },
+    {
+      "basename": "seq",
+      "path": "Coding Languages/Python/Data structure/Sequence/seq.md"
+    },
+    {
+      "basename": "list",
+      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/list.md"
+    },
+    {
+      "basename": "字符",
+      "path": "Coding Languages/Python/Data structure/字符.md"
+    },
+    {
+      "basename": "LaTeX",
+      "path": "Coding Languages/LaTeX.md"
+    },
+    {
       "basename": "class",
       "path": "Coding Languages/Python/OOP/class.md"
     },
@@ -173,32 +193,12 @@
       "path": "Coding Languages/Python/Module/内置模块/operator.md"
     },
     {
-      "basename": "list",
-      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/list.md"
-    },
-    {
       "basename": "random",
       "path": "Coding Languages/Python/Module/内置模块/random.md"
     },
     {
       "basename": "Files",
       "path": "Coding Languages/Python/Grammar/Files.md"
-    },
-    {
-      "basename": "字符",
-      "path": "Coding Languages/Python/Data structure/字符.md"
-    },
-    {
-      "basename": "set",
-      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/map/set.md"
-    },
-    {
-      "basename": "dict",
-      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/map/dict.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     }
   ],
   "omittedPaths": [],
