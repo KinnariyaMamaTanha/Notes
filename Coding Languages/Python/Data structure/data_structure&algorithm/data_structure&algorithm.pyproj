@@ -12,6 +12,7 @@
     <Name>data_structure&amp;algorithm</Name>
     <RootNamespace>data_structure&amp;algorithm</RootNamespace>
     <InterpreterId>CondaEnv|CondaEnv|env1</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +23,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="linked_list.py" />
+    <Compile Include="fraction.py" />
+    <Compile Include="stack.py" />
     <Compile Include="test.py" />
   </ItemGroup>
   <ItemGroup>

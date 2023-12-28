@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "timeit",
+      "path": "Coding Languages/Python/Module/内置模块/timeit.md"
+    },
+    {
+      "basename": "Statements",
+      "path": "Coding Languages/Python/Grammar/Statements.md"
+    },
+    {
+      "basename": "Abnormal",
+      "path": "Coding Languages/Python/Grammar/Abnormal.md"
+    },
+    {
+      "basename": "Files",
+      "path": "Coding Languages/Python/Grammar/Files.md"
+    },
+    {
+      "basename": "class",
+      "path": "Coding Languages/Python/OOP/class.md"
+    },
+    {
+      "basename": "类",
+      "path": "Coding Languages/C++/OOP/类.md"
+    },
+    {
       "basename": "指针",
       "path": "Coding Languages/C++/Grammars/标准数据类型/指针.md"
     },
@@ -25,10 +49,6 @@
       "path": "Coding Languages/LaTeX.md"
     },
     {
-      "basename": "class",
-      "path": "Coding Languages/Python/OOP/class.md"
-    },
-    {
       "basename": "Anaconda",
       "path": "Apps/Anaconda.md"
     },
@@ -43,10 +63,6 @@
     {
       "basename": "README",
       "path": "Coding Languages/C++/Data Structure/data_structure&algorithm/README.md"
-    },
-    {
-      "basename": "类",
-      "path": "Coding Languages/C++/OOP/类.md"
     },
     {
       "basename": "函数",
@@ -183,22 +199,6 @@
     {
       "basename": "官方文档(2023年11月24日)",
       "path": "Apps/Scoop/官方文档(2023年11月24日).md"
-    },
-    {
-      "basename": "内置函数",
-      "path": "Coding Languages/Python/Grammar/Function/内置函数.md"
-    },
-    {
-      "basename": "operator",
-      "path": "Coding Languages/Python/Module/内置模块/operator.md"
-    },
-    {
-      "basename": "random",
-      "path": "Coding Languages/Python/Module/内置模块/random.md"
-    },
-    {
-      "basename": "Files",
-      "path": "Coding Languages/Python/Grammar/Files.md"
     }
   ],
   "omittedPaths": [],
