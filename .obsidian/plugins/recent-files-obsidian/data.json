@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "0 Summary",
+      "path": "Algorithm/Sort/0 Summary.md"
+    },
+    {
+      "basename": "1 Pseudo Code Standard",
+      "path": "Algorithm/1 Pseudo Code Standard.md"
+    },
+    {
+      "basename": "0 Concepts",
+      "path": "Algorithm/0 Concepts.md"
+    },
+    {
+      "basename": "Bubble Sort",
+      "path": "Algorithm/Sort/Bubble Sort.md"
+    },
+    {
+      "basename": "Base sort",
+      "path": "Algorithm/Sort/Base sort.md"
+    },
+    {
+      "basename": "Randomized Algorithm",
+      "path": "Algorithm/Randomized Algorithm.md"
+    },
+    {
       "basename": "Tree",
       "path": "Coding Languages/Python/Data structure/Tree.md"
     },
@@ -157,10 +181,6 @@
       "path": "Coding Languages/C++/Grammars/初始化.md"
     },
     {
-      "basename": "0 Summary",
-      "path": "Algorithm/Sort/0 Summary.md"
-    },
-    {
       "basename": "类型转换",
       "path": "Coding Languages/C++/Grammars/标准数据类型/类型转换.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "文件输入输出",
       "path": "Coding Languages/C++/Grammars/In&out put/文件输入输出.md"
-    },
-    {
-      "basename": "单独编译",
-      "path": "Coding Languages/C++/Grammars/多文件程序/单独编译.md"
-    },
-    {
-      "basename": "NameSpace",
-      "path": "Coding Languages/C++/Grammars/多文件程序/NameSpace.md"
-    },
-    {
-      "basename": "Introduction",
-      "path": "AI/Machine Learning/Introduction.md"
-    },
-    {
-      "basename": "Shell",
-      "path": "Apps/Shell/Shell.md"
-    },
-    {
-      "basename": "PowerShell",
-      "path": "Apps/Shell/PowerShell.md"
     }
   ],
   "omittedPaths": [],

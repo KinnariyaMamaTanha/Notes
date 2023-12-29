@@ -27,6 +27,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="fraction.py" />
+    <Compile Include="heap.py" />
     <Compile Include="larray.py">
       <SubType>Code</SubType>
     </Compile>
