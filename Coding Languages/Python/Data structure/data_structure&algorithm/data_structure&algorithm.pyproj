@@ -23,9 +23,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="base_convert.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="fraction.py" />
-    <Compile Include="stack.py" />
+    <Compile Include="larray.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="nqueue.py" />
+    <Compile Include="nstack.py" />
     <Compile Include="test.py" />
+    <Compile Include="tree.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="CondaEnv|CondaEnv|d2l" />

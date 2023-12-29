@@ -1,24 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "timeit",
-      "path": "Coding Languages/Python/Module/内置模块/timeit.md"
-    },
-    {
-      "basename": "Statements",
-      "path": "Coding Languages/Python/Grammar/Statements.md"
+      "basename": "Tree",
+      "path": "Coding Languages/Python/Data structure/Tree.md"
     },
     {
       "basename": "Abnormal",
       "path": "Coding Languages/Python/Grammar/Abnormal.md"
     },
     {
-      "basename": "Files",
-      "path": "Coding Languages/Python/Grammar/Files.md"
+      "basename": "heap",
+      "path": "Coding Languages/Python/Data structure/heap.md"
+    },
+    {
+      "basename": "heapq",
+      "path": "Coding Languages/Python/Module/内置模块/heapq.md"
+    },
+    {
+      "basename": "Generator",
+      "path": "Coding Languages/Python/Data structure/Generator.md"
+    },
+    {
+      "basename": "类模板",
+      "path": "Coding Languages/C++/OOP/类模板.md"
     },
     {
       "basename": "class",
       "path": "Coding Languages/Python/OOP/class.md"
+    },
+    {
+      "basename": "Statements",
+      "path": "Coding Languages/Python/Grammar/Statements.md"
+    },
+    {
+      "basename": "dict",
+      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/map/dict.md"
+    },
+    {
+      "basename": "运算符重载",
+      "path": "Coding Languages/C++/OOP/运算符重载.md"
+    },
+    {
+      "basename": "循环",
+      "path": "Coding Languages/C++/Grammars/Program Structures/循环.md"
+    },
+    {
+      "basename": "list",
+      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/list.md"
+    },
+    {
+      "basename": "deque",
+      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/deque.md"
+    },
+    {
+      "basename": "Queue",
+      "path": "Coding Languages/C++/Data Structure/Linear Data Structure/Queue.md"
+    },
+    {
+      "basename": "Stack",
+      "path": "Coding Languages/C++/Data Structure/Linear Data Structure/Stack.md"
+    },
+    {
+      "basename": "timeit",
+      "path": "Coding Languages/Python/Module/内置模块/timeit.md"
+    },
+    {
+      "basename": "Files",
+      "path": "Coding Languages/Python/Grammar/Files.md"
     },
     {
       "basename": "类",
@@ -35,10 +83,6 @@
     {
       "basename": "seq",
       "path": "Coding Languages/Python/Data structure/Sequence/seq.md"
-    },
-    {
-      "basename": "list",
-      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/list.md"
     },
     {
       "basename": "字符",
@@ -69,28 +113,12 @@
       "path": "Coding Languages/C++/Grammars/Function/函数.md"
     },
     {
-      "basename": "Queue",
-      "path": "Coding Languages/C++/Data Structure/Linear Data Structure/Queue.md"
-    },
-    {
       "basename": "String",
       "path": "Coding Languages/C++/Data Structure/Linear Data Structure/String.md"
     },
     {
-      "basename": "Stack",
-      "path": "Coding Languages/C++/Data Structure/Linear Data Structure/Stack.md"
-    },
-    {
-      "basename": "类模板",
-      "path": "Coding Languages/C++/OOP/类模板.md"
-    },
-    {
       "basename": "友元",
       "path": "Coding Languages/C++/OOP/友元.md"
-    },
-    {
-      "basename": "运算符重载",
-      "path": "Coding Languages/C++/OOP/运算符重载.md"
     },
     {
       "basename": "Linear Table",
@@ -171,34 +199,6 @@
     {
       "basename": "PowerShell",
       "path": "Apps/Shell/PowerShell.md"
-    },
-    {
-      "basename": "char",
-      "path": "Coding Languages/C++/Grammars/标准数据类型/char.md"
-    },
-    {
-      "basename": "枚举类型",
-      "path": "Coding Languages/C++/Grammars/标准数据类型/枚举类型.md"
-    },
-    {
-      "basename": "类型别名",
-      "path": "Coding Languages/C++/Grammars/标准数据类型/类型别名.md"
-    },
-    {
-      "basename": "进制",
-      "path": "Coding Languages/C++/Grammars/标准数据类型/进制.md"
-    },
-    {
-      "basename": "结构体",
-      "path": "Coding Languages/C++/Grammars/标准数据类型/结构体.md"
-    },
-    {
-      "basename": "共用体",
-      "path": "Coding Languages/C++/Grammars/标准数据类型/共用体.md"
-    },
-    {
-      "basename": "官方文档(2023年11月24日)",
-      "path": "Apps/Scoop/官方文档(2023年11月24日).md"
     }
   ],
   "omittedPaths": [],
