@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "Quick sort",
+      "path": "Algorithm/Sort/Quick sort.md"
+    },
+    {
+      "basename": "Topological sort",
+      "path": "Algorithm/Sort/Topological sort.md"
+    },
+    {
+      "basename": "Shell sort",
+      "path": "Algorithm/Sort/Shell sort.md"
+    },
+    {
+      "basename": "Selection sort",
+      "path": "Algorithm/Sort/Selection sort.md"
+    },
+    {
+      "basename": "Merge sort",
+      "path": "Algorithm/Sort/Merge sort.md"
+    },
+    {
+      "basename": "Insertion sort",
+      "path": "Algorithm/Sort/Insertion sort.md"
+    },
+    {
+      "basename": "Hill sort",
+      "path": "Algorithm/Sort/Hill sort.md"
+    },
+    {
+      "basename": "Heap sort",
+      "path": "Algorithm/Sort/Heap sort.md"
+    },
+    {
       "basename": "0 Summary",
       "path": "Algorithm/Sort/0 Summary.md"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "说明符和限定符",
       "path": "Coding Languages/C++/Grammars/说明符和限定符.md"
-    },
-    {
-      "basename": "函数栈帧_c++ 栈帧结构",
-      "path": "01 reference/函数栈帧_c++ 栈帧结构.md"
-    },
-    {
-      "basename": "cstring",
-      "path": "Coding Languages/C++/Header File/cstring.md"
-    },
-    {
-      "basename": "初始化",
-      "path": "Coding Languages/C++/Grammars/初始化.md"
-    },
-    {
-      "basename": "类型转换",
-      "path": "Coding Languages/C++/Grammars/标准数据类型/类型转换.md"
-    },
-    {
-      "basename": "重载解析",
-      "path": "Coding Languages/C++/Grammars/Function/重载解析.md"
-    },
-    {
-      "basename": "Scoop(Personal Using)",
-      "path": "Apps/Scoop/Scoop(Personal Using).md"
-    },
-    {
-      "basename": "Iterator",
-      "path": "Coding Languages/Python/Data structure/Iterator.md"
-    },
-    {
-      "basename": "文件输入输出",
-      "path": "Coding Languages/C++/Grammars/In&out put/文件输入输出.md"
     }
   ],
   "omittedPaths": [],

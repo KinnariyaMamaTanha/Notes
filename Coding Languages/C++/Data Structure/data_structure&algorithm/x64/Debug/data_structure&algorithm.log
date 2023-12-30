@@ -1,9 +1,2 @@
 ﻿  test.cpp
-D:\OneDrive\OneDrive - sjtu.edu.cn\文档\Obsidian\Code\Coding Languages\C++\Data Structure\data_structure&algorithm\heap.h(286,14): warning C4244: “*=”: 从“double”转换到“int”，可能丢失数据
-D:\OneDrive\OneDrive - sjtu.edu.cn\文档\Obsidian\Code\Coding Languages\C++\Data Structure\data_structure&algorithm\heap.h(282,1): message : 在编译 类 模板 成员函数“void dheap<int,false>::expandSpace(void)”时
-D:\OneDrive\OneDrive - sjtu.edu.cn\文档\Obsidian\Code\Coding Languages\C++\Data Structure\data_structure&algorithm\heap.h(367,14): message : 请参阅 "dheap<int,false>::push" 中对 "dheap<int,false>::expandSpace" 的第一个引用
-D:\OneDrive\OneDrive - sjtu.edu.cn\文档\Obsidian\Code\Coding Languages\C++\Data Structure\data_structure&algorithm\test.cpp(15,9): message : 请参阅 "main" 中对 "dheap<int,false>::push" 的第一个引用
-D:\OneDrive\OneDrive - sjtu.edu.cn\文档\Obsidian\Code\Coding Languages\C++\Data Structure\data_structure&algorithm\heap.h(258,42): message : 在编译 类 模板 成员函数“dheap<int,false>::dheap(int,int)”时
-D:\OneDrive\OneDrive - sjtu.edu.cn\文档\Obsidian\Code\Coding Languages\C++\Data Structure\data_structure&algorithm\test.cpp(10,14): message : 请参阅 "main" 中对 "dheap<int,false>::dheap" 的第一个引用
-D:\OneDrive\OneDrive - sjtu.edu.cn\文档\Obsidian\Code\Coding Languages\C++\Data Structure\data_structure&algorithm\test.cpp(10,13): message : 查看对正在编译的 类 模板 实例化“dheap<int,false>”的引用
   data_structure&algorithm.vcxproj -> D:\OneDrive\OneDrive - sjtu.edu.cn\文档\Obsidian\Code\Coding Languages\C++\Data Structure\data_structure&algorithm\x64\Debug\data_structure&algorithm.exe

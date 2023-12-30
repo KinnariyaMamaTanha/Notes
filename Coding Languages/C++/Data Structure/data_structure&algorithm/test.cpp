@@ -4,27 +4,14 @@
 #include "nstack.h"
 #include "nqueue.h"
 #include "heap.h"
+#include "sort.h"
 using namespace std;
 int main()
 {
-	dheap<int> a(3);
-	int tmp;
+	int a[10] = { 2, -3, -1, 9, -5, 0, 2, 7, -10, 3 };
+	quick_sort(a, 10);
 	for (int i = 0; i < 10; ++i)
-	{
-		cin >> tmp;
-		a.push(tmp);
-		cout << a << endl;
-	}
-	cout << a << endl;
-	cout << a.front() << endl;
-	a.pop();
-	cout << a << endl;
-	a.push(-1);
-	cout << a << endl;
-	a[2] = 40;
-	a.heapify();
-	cout << a << endl;
-	cout << a[-6] << endl;
+		cout << a[i] << ' ';
 	return 0;
 }
 // 2 -10 20 0 -9 3 14 0 30 6

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/Sort/0 Summary.md",
+                "file": "Algorithm/Sort/Quick sort.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/Sort/0 Summary.md",
+                "file": "Algorithm/Sort/Quick sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/Sort/0 Summary.md",
+                "file": "Algorithm/Sort/Quick sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/Sort/0 Summary.md"
+                "file": "Algorithm/Sort/Quick sort.md"
               }
             }
           },
@@ -184,6 +184,22 @@
   },
   "active": "50a255b44b0269c9",
   "lastOpenFiles": [
+    "Coding Languages/C++/Data Structure/data_structure&algorithm/x64/Debug/data_str.db9c1eec.tlog/CL.write.1.tlog",
+    "Coding Languages/C++/Data Structure/data_structure&algorithm/x64/Debug/data_str.db9c1eec.tlog/CL.read.1.tlog",
+    "Coding Languages/C++/Data Structure/data_structure&algorithm/x64/Debug/test.obj",
+    "Coding Languages/C++/Data Structure/data_structure&algorithm/x64/Debug/data_str.db9c1eec.tlog/unsuccessfulbuild",
+    "Coding Languages/C++/Data Structure/data_structure&algorithm/sort.h",
+    "Coding Languages/Python/Data structure/data_structure&algorithm/__pycache__/sort.cpython-310.pyc",
+    "Coding Languages/Python/Data structure/data_structure&algorithm/sort.py",
+    "Algorithm/Sort/Topological sort.md",
+    "Algorithm/Sort/Quick sort.md",
+    "Algorithm/Sort/Shell sort.md",
+    "Algorithm/Sort/Selection sort.md",
+    "Algorithm/Sort/Merge sort.md",
+    "Algorithm/Sort/Insertion sort.md",
+    "Algorithm/Sort/Hill sort.md",
+    "Algorithm/Sort/Heap sort.md",
+    "Algorithm/Sort/0 Summary.md",
     "Coding Languages/Python/Data structure/data_structure&algorithm/__pycache__/heap.cpython-310.pyc",
     "Coding Languages/Python/Data structure/data_structure&algorithm/heap.py",
     "Algorithm/1 Pseudo Code Standard.md",
@@ -204,22 +220,6 @@
     "Coding Languages/Python/Data structure/Sequence/容器序列/map/dict.md",
     "Coding Languages/C++/OOP/运算符重载.md",
     "Coding Languages/C++/Grammars/Program Structures/循环.md",
-    "Coding Languages/Python/Data structure/data_structure&algorithm/larray.py",
-    "Coding Languages/Python/Data structure/data_structure&algorithm/__pycache__/nstack.cpython-310.pyc",
-    "Coding Languages/Python/Data structure/data_structure&algorithm/__pycache__/base_convert.cpython-310.pyc",
-    "Coding Languages/Python/Data structure/data_structure&algorithm/fraction.py",
-    "Coding Languages/Python/Data structure/data_structure&algorithm/base_convert.py",
-    "Coding Languages/Python/Data structure/data_structure&algorithm/nqueue.py",
-    "Coding Languages/Python/Data structure/data_structure&algorithm/__init__.py",
-    "Coding Languages/Python/Data structure/Sequence/容器序列/list.md",
-    "Coding Languages/Python/Data structure/Sequence/容器序列/deque.md",
-    "Coding Languages/C++/Data Structure/Linear Data Structure/Queue.md",
-    "Coding Languages/C++/Data Structure/Linear Data Structure/Stack.md",
-    "Coding Languages/Python/Module/内置模块/timeit.md",
-    "Coding Languages/Python/Grammar/Files.md",
-    "Coding Languages/C++/OOP/类.md",
-    "Coding Languages/C++/Grammars/标准数据类型/指针.md",
-    "Coding Languages/Python/Data structure/Sequence/str.md",
     "01 attachment/C++ 栈帧.png",
     "01 attachment/C++变量的作用域和存储类型.png",
     "01 attachment/Python函数特有方法2.png",

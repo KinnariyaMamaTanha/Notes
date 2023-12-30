@@ -19,6 +19,9 @@
     <Filter Include="头文件\Tree Data Structure">
       <UniqueIdentifier>{4dcf1142-bb53-4376-bf39-a1d10951de68}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Algorithm">
+      <UniqueIdentifier>{c506f025-c613-4c87-8a6d-757eeb2e7f52}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="darray.h">
@@ -35,6 +38,9 @@
     </ClInclude>
     <ClInclude Include="heap.h">
       <Filter>头文件\Tree Data Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="sort.h">
+      <Filter>头文件\Algorithm</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

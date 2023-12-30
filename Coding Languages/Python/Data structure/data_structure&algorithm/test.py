@@ -1,10 +1,5 @@
-from heap import heap
-
-a = heap(greater=True)
-for i in range(5):
-    a.push(float(input()))
-    print(a)
-
-for i in range(5):
-    print(a.pop())
-    print(a)
+import sort
+a = [2, -3, 4, -10, 5, 7, 2]
+print(a)
+sort.quick_sort(a, 0, len(a) - 1)
+print(a)
