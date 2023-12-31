@@ -1,3 +1,6 @@
+# ==============================================================================
+# Quick sort
+#===============================================================================
 def __partition(A: list, left: int, right: int):
     i, j = left, right
     while i < j:
@@ -15,4 +18,24 @@ def quick_sort(A: list, left: int, right: int):
     middle = __partition(A, left, right)
     quick_sort(A, left, middle - 1)
     quick_sort(A, middle + 1, right)
+
+
+#================================================================================
+# Counting sort
+#================================================================================
+
+def counting_sort(A: list[int], k: int):
+    C = []
+    for i in range(k + 2):
+        C.append(0)
+    B = []
+    for item in A:
+        B.append(item)
+        C[item] += 1
+    p = 0
+    for i in range(0, k + 1):
+        while C[i] > 0:
+            A[p] = i
+            p += 1
+            C[i] -= 1
     

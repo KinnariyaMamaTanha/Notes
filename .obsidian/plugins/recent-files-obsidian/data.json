@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Quick sort",
-      "path": "Algorithm/Sort/Quick sort.md"
+      "basename": "Counting sort",
+      "path": "Algorithm/Sort/Counting sort.md"
     },
     {
-      "basename": "Topological sort",
-      "path": "Algorithm/Sort/Topological sort.md"
+      "basename": "Bubble Sort",
+      "path": "Algorithm/Sort/Bubble Sort.md"
+    },
+    {
+      "basename": "0 Summary",
+      "path": "Algorithm/Sort/0 Summary.md"
+    },
+    {
+      "basename": "Base sort",
+      "path": "Algorithm/Sort/Base sort.md"
     },
     {
       "basename": "Shell sort",
@@ -15,6 +23,14 @@
     {
       "basename": "Selection sort",
       "path": "Algorithm/Sort/Selection sort.md"
+    },
+    {
+      "basename": "Quick sort",
+      "path": "Algorithm/Sort/Quick sort.md"
+    },
+    {
+      "basename": "Topological sort",
+      "path": "Algorithm/Sort/Topological sort.md"
     },
     {
       "basename": "Merge sort",
@@ -33,24 +49,12 @@
       "path": "Algorithm/Sort/Heap sort.md"
     },
     {
-      "basename": "0 Summary",
-      "path": "Algorithm/Sort/0 Summary.md"
-    },
-    {
       "basename": "1 Pseudo Code Standard",
       "path": "Algorithm/1 Pseudo Code Standard.md"
     },
     {
       "basename": "0 Concepts",
       "path": "Algorithm/0 Concepts.md"
-    },
-    {
-      "basename": "Bubble Sort",
-      "path": "Algorithm/Sort/Bubble Sort.md"
-    },
-    {
-      "basename": "Base sort",
-      "path": "Algorithm/Sort/Base sort.md"
     },
     {
       "basename": "Randomized Algorithm",
@@ -195,10 +199,6 @@
     {
       "basename": "浮点数",
       "path": "Coding Languages/C++/Grammars/标准数据类型/浮点数.md"
-    },
-    {
-      "basename": "说明符和限定符",
-      "path": "Coding Languages/C++/Grammars/说明符和限定符.md"
     }
   ],
   "omittedPaths": [],

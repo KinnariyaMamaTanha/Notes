@@ -8,8 +8,8 @@
 using namespace std;
 int main()
 {
-	int a[10] = { 2, -3, -1, 9, -5, 0, 2, 7, -10, 3 };
-	quick_sort(a, 10);
+	int a[10] = { 2, 3, 1, 9, 5, 0, 2, 7, 7, 3 };
+	counting_sort(a, 10, 10);
 	for (int i = 0; i < 10; ++i)
 		cout << a[i] << ' ';
 	return 0;
