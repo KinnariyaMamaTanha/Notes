@@ -320,6 +320,7 @@
 一般采用链表储存
 一个数组保存从堆中弹出的元素
 一个经过了
+一般当
 实现
 实际上
 实际上是m个指向
@@ -479,6 +480,8 @@ priotity
 priority
 personal
 py文件
+partially
+past
 使用类对象的程序都可以访问public部分
 使用保护访问很有用
 使用protected访问控制定义一些成员函数
@@ -4004,6 +4007,9 @@ PHP
 PUSH
 POP
 Python保证了每个hash
+Primer
+Plus
+Prata
 输入输出
 输入一个反引号
 输入一个backslash
@@ -5125,6 +5131,7 @@ xVqeo
 到其声明区域的结尾
 到形参
 到这里就完成了函数的调用过程
+到k的值出现了几次
 寻找子串s
 寻找是否有x这一数据
 寻找其一个连续的子数组
@@ -5333,6 +5340,7 @@ editors
 再按照此时的相对顺序
 再将左右两部分
 再将所有未入过队的结点中入度为
+再依次排序
 方法中调用
 方法
 方法返回的C风格字符串
@@ -5916,6 +5924,8 @@ lea
 list类的实现类似于双链表类
 lib
 learning
+look
+links
 调用模块中的函数
 调用
 调整平衡
@@ -6104,6 +6114,7 @@ STL中的字符串
 STL中的栈
 STL中的栈是一种容器适配器
 STL中的线性表
+Stephen
 operators
 or
 out
@@ -6184,6 +6195,7 @@ operate
 others
 outside
 ongoing
+opened
 symbol
 sep
 setdefault
@@ -6356,6 +6368,7 @@ stack是LIFO的
 stack抽象类
 std
 studio
+seen
 division
 dict
 double类型替换为其他标准类型或者用户自定义的类
@@ -6847,6 +6860,7 @@ deque类既可以通过下标访问
 代替它
 代码区
 代码块调用时被初始化
+代码见VS项目
 声明使用array对象
 声明函数指针
 声明必须和模板定义位于同一
@@ -7141,6 +7155,7 @@ deque类既可以通过下标访问
 或者空指针
 或原型紧跟定义
 或ASCII码
+或者采用
 需要
 需要包含头文件
 需要检查是否调整P的父结点
@@ -7426,6 +7441,7 @@ deque类既可以通过下标访问
 程序将首先调用派生类析构函数
 程序将根据其
 程序与操作系统进行交互的接口
+程序设计
 命令行参数
 命题为真
 完整形式
@@ -7730,6 +7746,7 @@ times
 计算后缀表达式的算式
 计算每个结点的入度
 计数排序
+计数排序假定输入的数据都是整数且在范围
 示例
 示例如下
 示例代码
@@ -8083,6 +8100,7 @@ z默认为
 时使用的
 时就进行了初始化
 时间复杂度为平方级别
+时使用计数排序
 词典侧面一般会将不同首字母的单词所在的块标注出来
 块内的元素可以有序也可以无序
 块的每个元素必须大于第
@@ -8101,6 +8119,7 @@ z默认为
 先来听听函数栈帧的概念
 先来看看
 先按照原来的相对顺序
+先统计每个从
 假设共有
 假设是在左子树上删除
 假设
@@ -8393,6 +8412,7 @@ Apps
 Almost
 Alternative
 Accumulator
+Another
 苏联数学家G
 Velski和E
 Very
@@ -8536,6 +8556,7 @@ LICENSE
 License
 Languages
 Lib
+LaTex
 年提出了AVL树的数据结构
 回溯
 回归问题
@@ -9900,6 +9921,7 @@ ECX
 EDX
 ESI
 EIP
+English
 Hold
 HTTP错误
 Hlb
@@ -10080,6 +10102,7 @@ Tab
 Tests
 These
 Type
+Therefore
 Notes
 Namespace
 NqN

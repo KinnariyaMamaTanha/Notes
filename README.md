@@ -12,3 +12,10 @@ p.s.:
 Some errors still remain here. Therefore, I highly recommend you to clone this repository to your PC and open it as a vault in the Obsidian for I use the app to take notes(Another important reason is that there exists some Obsidian links in my notes. If not opened in Obsidian, the links between notes can't be seen). That might be a little troublesome. Thanks for your forgiveness.
 
 10.27.2023
+
+---
+
+Happy New Year!!!
+We set out for our new journey, getting ready to meet new people, do new things, and embrace a new future!!!
+1.1.2024
+KinnariyaMamaTanha

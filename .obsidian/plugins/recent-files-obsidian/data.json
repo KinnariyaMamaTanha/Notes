@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Study Record",
+      "path": "Study Record.md"
+    },
+    {
       "basename": "Counting sort",
       "path": "Algorithm/Sort/Counting sort.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "字符串",
       "path": "Coding Languages/C++/Grammars/标准数据类型/字符串.md"
-    },
-    {
-      "basename": "存储类型",
-      "path": "Coding Languages/C++/Grammars/多文件程序/存储类型.md"
-    },
-    {
-      "basename": "浮点数",
-      "path": "Coding Languages/C++/Grammars/标准数据类型/浮点数.md"
     }
   ],
   "omittedPaths": [],
