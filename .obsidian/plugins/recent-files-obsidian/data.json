@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "运算符重载",
+      "path": "Coding Languages/C++/OOP/运算符重载.md"
+    },
+    {
+      "basename": "运算符优先级",
+      "path": "Coding Languages/C++/Grammars/运算符优先级.md"
+    },
+    {
+      "basename": "类",
+      "path": "Coding Languages/C++/OOP/类.md"
+    },
+    {
+      "basename": "类模板",
+      "path": "Coding Languages/C++/OOP/类模板.md"
+    },
+    {
+      "basename": "函数",
+      "path": "Coding Languages/C++/Grammars/Function/函数.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -89,10 +109,6 @@
       "path": "Coding Languages/Python/Data structure/Generator.md"
     },
     {
-      "basename": "类模板",
-      "path": "Coding Languages/C++/OOP/类模板.md"
-    },
-    {
       "basename": "class",
       "path": "Coding Languages/Python/OOP/class.md"
     },
@@ -103,10 +119,6 @@
     {
       "basename": "dict",
       "path": "Coding Languages/Python/Data structure/Sequence/容器序列/map/dict.md"
-    },
-    {
-      "basename": "运算符重载",
-      "path": "Coding Languages/C++/OOP/运算符重载.md"
     },
     {
       "basename": "循环",
@@ -135,10 +147,6 @@
     {
       "basename": "Files",
       "path": "Coding Languages/Python/Grammar/Files.md"
-    },
-    {
-      "basename": "类",
-      "path": "Coding Languages/C++/OOP/类.md"
     },
     {
       "basename": "指针",
@@ -177,10 +185,6 @@
       "path": "Coding Languages/C++/Data Structure/data_structure&algorithm/README.md"
     },
     {
-      "basename": "函数",
-      "path": "Coding Languages/C++/Grammars/Function/函数.md"
-    },
-    {
       "basename": "String",
       "path": "Coding Languages/C++/Data Structure/Linear Data Structure/String.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "引用",
       "path": "Coding Languages/C++/Grammars/标准数据类型/引用.md"
-    },
-    {
-      "basename": "字符串",
-      "path": "Coding Languages/C++/Grammars/标准数据类型/字符串.md"
     }
   ],
   "omittedPaths": [],
