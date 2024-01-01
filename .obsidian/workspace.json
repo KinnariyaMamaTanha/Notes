@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.50110244750977,
-    "collapsed": true
+    "width": 272.50110244750977
   },
   "right": {
     "id": "a997df58287d8353",
@@ -185,11 +184,12 @@
   },
   "active": "50a255b44b0269c9",
   "lastOpenFiles": [
+    "README.md",
+    "Coding Languages/C++/OOP/运算符重载.md",
     "Coding Languages/C++/Grammars/运算符优先级.md",
     "Coding Languages/C++/OOP/类.md",
     "Coding Languages/C++/OOP/类模板.md",
     "Coding Languages/C++/Grammars/Function/函数.md",
-    "README.md",
     "Study Record.md",
     "Algorithm/Sort/Counting sort.md",
     "Coding Languages/C++/Data Structure/data_structure&algorithm/x64/Debug/data_str.db9c1eec.tlog/link.read.2.tlog",
@@ -221,7 +221,6 @@
     "Coding Languages/Python/Grammar/Abnormal.md",
     "Coding Languages/Python/Data structure/heap.md",
     "Coding Languages/Python/Module/内置模块/heapq.md",
-    "Coding Languages/Python/Data structure/Generator.md",
     "01 attachment/C++ 栈帧.png",
     "01 attachment/C++变量的作用域和存储类型.png",
     "01 attachment/Python函数特有方法2.png",
