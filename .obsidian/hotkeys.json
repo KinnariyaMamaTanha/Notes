@@ -119,5 +119,39 @@
       ],
       "key": "ArrowRight"
     }
+  ],
+  "workspace:copy-path": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "app:show-release-notes": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "G"
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "-"
+    }
+  ],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "="
+    }
   ]
 }

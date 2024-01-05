@@ -33,6 +33,9 @@
     </Compile>
     <Compile Include="nqueue.py" />
     <Compile Include="nstack.py" />
+    <Compile Include="order_statistic.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="sort.py">
       <SubType>Code</SubType>
     </Compile>

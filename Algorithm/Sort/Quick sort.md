@@ -21,6 +21,8 @@ partition(A, p, r)
 	return i
 ```
 
+^7d2b7f
+
 `partition`函数还可以这样(Hoare划分)
 ```text
 partition(A, p, r)
@@ -60,3 +62,6 @@ randomized_quick_sort(A, p, r)
 	randomized_quick_sort(A, p, q - 1)
 	randomized_quick_sort(A, q + 1, r)
 ```
+
+^082c01
+

@@ -1,28 +1,80 @@
 {
   "recentFiles": [
     {
-      "basename": "运算符重载",
-      "path": "Coding Languages/C++/OOP/运算符重载.md"
+      "basename": "Order Statistic",
+      "path": "Algorithm/Sort/Order Statistic.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "Quick sort",
+      "path": "Algorithm/Sort/Quick sort.md"
     },
     {
-      "basename": "运算符优先级",
-      "path": "Coding Languages/C++/Grammars/运算符优先级.md"
+      "basename": "函数",
+      "path": "Coding Languages/C++/Grammars/Function/函数.md"
+    },
+    {
+      "basename": "1 Pseudo Code Standard",
+      "path": "Algorithm/1 Pseudo Code Standard.md"
     },
     {
       "basename": "类",
       "path": "Coding Languages/C++/OOP/类.md"
     },
     {
-      "basename": "类模板",
-      "path": "Coding Languages/C++/OOP/类模板.md"
+      "basename": "Bucket sort",
+      "path": "Algorithm/Sort/Bucket sort.md"
     },
     {
-      "basename": "函数",
-      "path": "Coding Languages/C++/Grammars/Function/函数.md"
+      "basename": "0 Summary",
+      "path": "Algorithm/Sort/0 Summary.md"
+    },
+    {
+      "basename": "Radix sort",
+      "path": "Algorithm/Sort/Radix sort.md"
+    },
+    {
+      "basename": "初始化",
+      "path": "Coding Languages/C++/Grammars/初始化.md"
+    },
+    {
+      "basename": "运算符优先级",
+      "path": "Coding Languages/C++/Grammars/运算符优先级.md"
+    },
+    {
+      "basename": "运算符优先级",
+      "path": "01 reference/运算符优先级.md"
+    },
+    {
+      "basename": "volatile详解",
+      "path": "01 reference/volatile详解.md"
+    },
+    {
+      "basename": "指针",
+      "path": "Coding Languages/C++/Grammars/标准数据类型/指针.md"
+    },
+    {
+      "basename": "说明符和限定符",
+      "path": "Coding Languages/C++/Grammars/说明符和限定符.md"
+    },
+    {
+      "basename": "运算符重载",
+      "path": "Coding Languages/C++/OOP/运算符重载.md"
+    },
+    {
+      "basename": "文件输入输出",
+      "path": "Coding Languages/C++/Grammars/In&out put/文件输入输出.md"
+    },
+    {
+      "basename": "cout & cin",
+      "path": "Coding Languages/C++/Grammars/In&out put/cout & cin.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "类模板",
+      "path": "Coding Languages/C++/OOP/类模板.md"
     },
     {
       "basename": "Study Record",
@@ -37,24 +89,12 @@
       "path": "Algorithm/Sort/Bubble Sort.md"
     },
     {
-      "basename": "0 Summary",
-      "path": "Algorithm/Sort/0 Summary.md"
-    },
-    {
-      "basename": "Base sort",
-      "path": "Algorithm/Sort/Base sort.md"
-    },
-    {
       "basename": "Shell sort",
       "path": "Algorithm/Sort/Shell sort.md"
     },
     {
       "basename": "Selection sort",
       "path": "Algorithm/Sort/Selection sort.md"
-    },
-    {
-      "basename": "Quick sort",
-      "path": "Algorithm/Sort/Quick sort.md"
     },
     {
       "basename": "Topological sort",
@@ -75,10 +115,6 @@
     {
       "basename": "Heap sort",
       "path": "Algorithm/Sort/Heap sort.md"
-    },
-    {
-      "basename": "1 Pseudo Code Standard",
-      "path": "Algorithm/1 Pseudo Code Standard.md"
     },
     {
       "basename": "0 Concepts",
@@ -149,10 +185,6 @@
       "path": "Coding Languages/Python/Grammar/Files.md"
     },
     {
-      "basename": "指针",
-      "path": "Coding Languages/C++/Grammars/标准数据类型/指针.md"
-    },
-    {
       "basename": "str",
       "path": "Coding Languages/Python/Data structure/Sequence/str.md"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "LaTeX",
       "path": "Coding Languages/LaTeX.md"
-    },
-    {
-      "basename": "Anaconda",
-      "path": "Apps/Anaconda.md"
-    },
-    {
-      "basename": "Function",
-      "path": "Coding Languages/Python/Grammar/Function/Function.md"
-    },
-    {
-      "basename": "Priority Queue",
-      "path": "Coding Languages/C++/Data Structure/Tree/Priority Queue.md"
-    },
-    {
-      "basename": "README",
-      "path": "Coding Languages/C++/Data Structure/data_structure&algorithm/README.md"
-    },
-    {
-      "basename": "String",
-      "path": "Coding Languages/C++/Data Structure/Linear Data Structure/String.md"
-    },
-    {
-      "basename": "友元",
-      "path": "Coding Languages/C++/OOP/友元.md"
-    },
-    {
-      "basename": "Linear Table",
-      "path": "Coding Languages/C++/Data Structure/Linear Data Structure/Linear Table.md"
-    },
-    {
-      "basename": "引用",
-      "path": "Coding Languages/C++/Grammars/标准数据类型/引用.md"
     }
   ],
   "omittedPaths": [],

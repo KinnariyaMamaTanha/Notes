@@ -1,5 +1,10 @@
 import sort
-a = [2, 3, 3, 3, 4, 5, 1, 0, 10, 5, 7, 2]
+import order_statistic
+a = [20, 3, -3, 13, 4, 5, 1, 0, 10, 15, 7, 2]
 print(a)
-sort.counting_sort(a, 10)
+print(order_statistic.order_statistic(a, 7))
+print(a)
+sort.random_quick_sort(a)
+print(a)
+sort.quick_sort(a)
 print(a)

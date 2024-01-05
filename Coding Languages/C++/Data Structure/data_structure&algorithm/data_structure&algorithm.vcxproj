@@ -132,6 +132,7 @@
     <ClInclude Include="nqueue.h" />
     <ClInclude Include="nstack.h" />
     <ClInclude Include="heap.h" />
+    <ClInclude Include="order_statistic.h" />
     <ClInclude Include="sort.h" />
   </ItemGroup>
   <ItemGroup>
