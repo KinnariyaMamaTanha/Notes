@@ -47,8 +47,11 @@ const T& random_select(T* A, int left, int right, int i)
 template <class T>
 const T& select(T* A, int left, int right, int i)
 {
-	if (left == right)
-		return A[left];
+	if (right - left <= 4) // Special conditions; otherwise, there will be a infinite recursive call of select()
+	{
+		random_quick_sort(A, left, right);
+		return A[left + i];
+	}
 	int n = (right - left) / 5 + 1;
 	T* B = new T[n];
 	for (int i = 0; i < n - 1; ++i)
@@ -67,7 +70,7 @@ const T& select(T* A, int left, int right, int i)
 }
 
 template <class T>
-const T& median(T* A, int left, int right, const T& (*func)(T* A, int left, int right, int i) = random_select)
+const T& median(T* A, int left, int right, const T& (*func)(T* A, int left, int right, int i) = select)
 {
 	return func(A, left, right, (right - left) / 2);
 }

@@ -16,12 +16,11 @@ def __partition(A: list, left: int, right: int) -> int:
 
 def __partition_for_select(A: list, left: int, right: int, x):
     i = left
-    while A[i] != x: 
+    while A[i] != x:
         i += 1
     A[i], A[left] = A[left], A[i]
     return __partition(A, left, right)
         
-
 def __quick_sort(A: list, left: int, right: int) -> None:
     if left >= right:
         return None
@@ -29,9 +28,6 @@ def __quick_sort(A: list, left: int, right: int) -> None:
     __quick_sort(A, left, middle - 1)
     __quick_sort(A, middle + 1, right)
     
-def quick_sort(A:list) -> None:
-    __quick_sort(A, 0, len(A) - 1)
-
 # ===============================================================================
 # Random Quick Sort
 # ===============================================================================
@@ -47,9 +43,8 @@ def __random_quick_sort(A: list, left: int, right: int) -> None:
     __random_quick_sort(A, left, middle - 1)
     __random_quick_sort(A, middle + 1, right)
     
-def random_quick_sort(A: list) -> None:
-    __random_quick_sort(A, 0, len(A) - 1)
-
+def quick_sort(A:list, func = __random_quick_sort) -> None:
+    func(A, 0, len(A) - 1)
 
 # ===============================================================================
 # Counting sort
