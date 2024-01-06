@@ -1,16 +1,72 @@
 {
   "recentFiles": [
     {
+      "basename": "函数",
+      "path": "Coding Languages/C++/Grammars/Function/函数.md"
+    },
+    {
+      "basename": "存储类型",
+      "path": "Coding Languages/C++/Grammars/多文件程序/存储类型.md"
+    },
+    {
+      "basename": "NameSpace",
+      "path": "Coding Languages/C++/Grammars/多文件程序/NameSpace.md"
+    },
+    {
+      "basename": "类型转换",
+      "path": "Coding Languages/C++/Grammars/标准数据类型/类型转换.md"
+    },
+    {
+      "basename": "cout.setf()",
+      "path": "01 reference/cout.setf().md"
+    },
+    {
+      "basename": "运算符优先级",
+      "path": "Coding Languages/C++/Grammars/运算符优先级.md"
+    },
+    {
+      "basename": "运算符优先级",
+      "path": "01 reference/运算符优先级.md"
+    },
+    {
+      "basename": "cout & cin",
+      "path": "Coding Languages/C++/Grammars/In&out put/cout & cin.md"
+    },
+    {
+      "basename": "文件输入输出",
+      "path": "Coding Languages/C++/Grammars/In&out put/文件输入输出.md"
+    },
+    {
+      "basename": "char",
+      "path": "Coding Languages/C++/Grammars/标准数据类型/char.md"
+    },
+    {
+      "basename": "类型别名",
+      "path": "Coding Languages/C++/Grammars/标准数据类型/类型别名.md"
+    },
+    {
+      "basename": "进制",
+      "path": "Coding Languages/C++/Grammars/标准数据类型/进制.md"
+    },
+    {
+      "basename": "整型",
+      "path": "Coding Languages/C++/Grammars/标准数据类型/整型.md"
+    },
+    {
+      "basename": "浮点数",
+      "path": "Coding Languages/C++/Grammars/标准数据类型/浮点数.md"
+    },
+    {
+      "basename": "初始化",
+      "path": "Coding Languages/C++/Grammars/初始化.md"
+    },
+    {
       "basename": "Order Statistic",
       "path": "Algorithm/Sort/Order Statistic.md"
     },
     {
       "basename": "Quick sort",
       "path": "Algorithm/Sort/Quick sort.md"
-    },
-    {
-      "basename": "函数",
-      "path": "Coding Languages/C++/Grammars/Function/函数.md"
     },
     {
       "basename": "1 Pseudo Code Standard",
@@ -33,18 +89,6 @@
       "path": "Algorithm/Sort/Radix sort.md"
     },
     {
-      "basename": "初始化",
-      "path": "Coding Languages/C++/Grammars/初始化.md"
-    },
-    {
-      "basename": "运算符优先级",
-      "path": "Coding Languages/C++/Grammars/运算符优先级.md"
-    },
-    {
-      "basename": "运算符优先级",
-      "path": "01 reference/运算符优先级.md"
-    },
-    {
       "basename": "volatile详解",
       "path": "01 reference/volatile详解.md"
     },
@@ -59,14 +103,6 @@
     {
       "basename": "运算符重载",
       "path": "Coding Languages/C++/OOP/运算符重载.md"
-    },
-    {
-      "basename": "文件输入输出",
-      "path": "Coding Languages/C++/Grammars/In&out put/文件输入输出.md"
-    },
-    {
-      "basename": "cout & cin",
-      "path": "Coding Languages/C++/Grammars/In&out put/cout & cin.md"
     },
     {
       "basename": "README",
@@ -163,42 +199,6 @@
     {
       "basename": "list",
       "path": "Coding Languages/Python/Data structure/Sequence/容器序列/list.md"
-    },
-    {
-      "basename": "deque",
-      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/deque.md"
-    },
-    {
-      "basename": "Queue",
-      "path": "Coding Languages/C++/Data Structure/Linear Data Structure/Queue.md"
-    },
-    {
-      "basename": "Stack",
-      "path": "Coding Languages/C++/Data Structure/Linear Data Structure/Stack.md"
-    },
-    {
-      "basename": "timeit",
-      "path": "Coding Languages/Python/Module/内置模块/timeit.md"
-    },
-    {
-      "basename": "Files",
-      "path": "Coding Languages/Python/Grammar/Files.md"
-    },
-    {
-      "basename": "str",
-      "path": "Coding Languages/Python/Data structure/Sequence/str.md"
-    },
-    {
-      "basename": "seq",
-      "path": "Coding Languages/Python/Data structure/Sequence/seq.md"
-    },
-    {
-      "basename": "字符",
-      "path": "Coding Languages/Python/Data structure/字符.md"
-    },
-    {
-      "basename": "LaTeX",
-      "path": "Coding Languages/LaTeX.md"
     }
   ],
   "omittedPaths": [],
