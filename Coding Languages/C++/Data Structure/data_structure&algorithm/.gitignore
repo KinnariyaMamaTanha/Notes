@@ -1,9 +1,0 @@
-# dirs to be ignored
-/.vs
-/x64
-
-# files to be ignored
-*.sln
-*.filters
-*.user
-*.vcxproj
