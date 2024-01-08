@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Git",
+      "path": "Apps/Git.md"
+    },
+    {
+      "basename": "Vim",
+      "path": "Apps/Vim.md"
+    },
+    {
       "basename": "函数",
       "path": "Coding Languages/C++/Grammars/Function/函数.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "dict",
       "path": "Coding Languages/Python/Data structure/Sequence/容器序列/map/dict.md"
-    },
-    {
-      "basename": "循环",
-      "path": "Coding Languages/C++/Grammars/Program Structures/循环.md"
     }
   ],
   "omittedPaths": [],

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Languages/C++/Grammars/Function/函数.md",
+                "file": "Apps/Git.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.50110244750977,
-    "collapsed": true
+    "width": 272.50110244750977
   },
   "right": {
     "id": "a997df58287d8353",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Languages/C++/Grammars/Function/函数.md",
+                "file": "Apps/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Languages/C++/Grammars/Function/函数.md",
+                "file": "Apps/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding Languages/C++/Grammars/Function/函数.md"
+                "file": "Apps/Git.md"
               }
             }
           },
@@ -183,10 +182,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "25aaecce91915af9",
+  "active": "c75981dbbb98944f",
   "lastOpenFiles": [
-    "2024-01-08.md",
+    "Apps/Vim.md",
     "Coding Languages/C++/Grammars/Function/函数.md",
+    "2024-01-08.md",
     "2024-01-09.md",
     "Coding Languages/C++/Grammars/运算符优先级.md",
     "Coding Languages/C++/Grammars/多文件程序/存储类型.md",
@@ -219,7 +219,6 @@
     "Algorithm/Sort/0 Summary.md",
     "Algorithm/Sort/Radix sort.md",
     "01 reference/volatile详解.md",
-    "Coding Languages/C++/Grammars/标准数据类型/指针.md",
     "01 attachment/比较排序 决策树.png",
     "Coding Languages/C++/Data Structure/data_structure&algorithm/sort.h",
     "Coding Languages/Python/Data structure/data_structure&algorithm/__pycache__/sort.cpython-310.pyc",
