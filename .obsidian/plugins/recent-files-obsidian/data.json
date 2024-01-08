@@ -5,6 +5,10 @@
       "path": "Coding Languages/C++/Grammars/Function/函数.md"
     },
     {
+      "basename": "运算符优先级",
+      "path": "Coding Languages/C++/Grammars/运算符优先级.md"
+    },
+    {
       "basename": "存储类型",
       "path": "Coding Languages/C++/Grammars/多文件程序/存储类型.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "cout.setf()",
       "path": "01 reference/cout.setf().md"
-    },
-    {
-      "basename": "运算符优先级",
-      "path": "Coding Languages/C++/Grammars/运算符优先级.md"
     },
     {
       "basename": "运算符优先级",
@@ -195,10 +195,6 @@
     {
       "basename": "循环",
       "path": "Coding Languages/C++/Grammars/Program Structures/循环.md"
-    },
-    {
-      "basename": "list",
-      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/list.md"
     }
   ],
   "omittedPaths": [],
