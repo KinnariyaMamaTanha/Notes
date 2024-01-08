@@ -1,2 +1,0 @@
-D:\OneDrive\OneDrive - sjtu.edu.cn\文档\Visual Studio 2022\Code Exercise\C++\data_structure&algorithm\x64\Debug\data_structure&algorithm.exe
-D:\OneDrive\OneDrive - sjtu.edu.cn\文档\Obsidian\Code\Coding Languages\C++\Data Structure\data_structure&algorithm\x64\Debug\data_structure&algorithm.exe
