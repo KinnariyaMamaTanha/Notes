@@ -1,8 +1,0 @@
-# dirs
-/.pytest_cache
-/.vs
-/__pycache__
-
-# files
-*.sln
-*.pyproj
