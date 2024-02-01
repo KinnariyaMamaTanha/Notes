@@ -1,0 +1,17 @@
+{
+  "showLineNumber": true,
+  "trashOption": "none",
+  "newFileLocation": "folder",
+  "attachmentFolderPath": "01 img",
+  "newFileFolderPath": "00 Inbox",
+  "strictLineBreaks": true,
+  "alwaysUpdateLinks": true,
+  "vimMode": true,
+  "promptDelete": false,
+  "useMarkdownLinks": true,
+  "newLinkFormat": "absolute",
+  "userIgnoreFilters": [
+    "Coding Languages/Python/Data structure/data_structure&algorithm/",
+    "Coding Languages/C++/Data Structure/data_structure&algorithm/"
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "ebead40fd4b97828",
+    "type": "split",
+    "children": [
+      {
+        "id": "23f312ee57c27bfd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7cc21ba0cc774dc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coding Languages/C++/Data Structure/Set/Search Table.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dcfc2d24ecaed02b",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ec0a99fb1cbb518",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "25aaecce91915af9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b22d46d99905bca0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "静态联编",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c1fd3e3a0633510e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "49ec1c5683e271e0",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 270.50110244750977
+  },
+  "right": {
+    "id": "a997df58287d8353",
+    "type": "split",
+    "children": [
+      {
+        "id": "2232a297e6778064",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ddae9ea0b1a1b34a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Coding Languages/C++/Data Structure/Set/Search Table.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "52653569c693b1de",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Coding Languages/C++/Data Structure/Set/Search Table.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "15b4a21c677ada7e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "a7c406a5dd6ba2f1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Coding Languages/C++/Data Structure/Set/Search Table.md"
+              }
+            }
+          },
+          {
+            "id": "b5ef3fe5cc0a03ac",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "32585c0a1cf28745",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 256.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": true,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": true,
+      "workspaces:管理工作区布局": false,
+      "audio-recorder:开始/结束录音": false,
+      "random-note:开始漫游笔记": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "25aaecce91915af9",
+  "lastOpenFiles": [
+    "Coding Languages/C++/Data Structure/data_structure&algorithm/x64/Debug/data_str.21BA3919.tlog/link.read.2.tlog",
+    "Coding Languages/C++/Data Structure/data_structure&algorithm/x64/Debug/data_str.21BA3919.tlog/unsuccessfulbuild",
+    "Coding Languages/C++/Data Structure/data_structure&algorithm/enc_temp_folder/e0354cc2ccf7cac127ccecd1571a30/avlTree.h",
+    "Coding Languages/C++/Data Structure/data_structure&algorithm/enc_temp_folder/e0354cc2ccf7cac127ccecd1571a30",
+    "Coding Languages/C++/Data Structure/data_structure&algorithm/enc_temp_folder",
+    "Coding Languages/C++/Data Structure/data_structure&algorithm/x64/Debug/test.obj",
+    "Coding Languages/C++/Data Structure/data_structure&algorithm/avlTree.h",
+    "Coding Languages/C++/Grammars/In&out put/cout & cin.md",
+    "Coding Languages/C++/Data Structure/Set/Search Table.md",
+    "Coding Languages/C++/Data Structure/data_structure&algorithm/BinarySearchTree.h",
+    "01 attachment/哈希 开散列表.png",
+    "Coding Languages/C++/Data Structure/data_structure&algorithm/HashTable.h",
+    "Operating Systems/Linux/Ubuntu(WSL)/programming.md",
+    "Operating Systems/Linux/Ubuntu(WSL)/Basic.md",
+    "Operating Systems/Linux/Ubuntu(WSL)/Progress.md",
+    "Coding Languages/C++/Data Structure/Tree/Priority Queue.md",
+    "Coding Languages/C++/OOP/类.md",
+    "Coding Languages/C++/Data Structure/Set/Union-Find.md",
+    "Coding Languages/C++/Data Structure/data_structure&algorithm/DisjointSet.h",
+    "Coding Languages/C++/Data Structure/Graph.md",
+    "Apps/Anaconda.md",
+    "Coding Languages/Java/OOP/Iteration.md",
+    "Coding Languages/Java/OOP/ADT & Abstract Class.md",
+    "Coding Languages/Java/OOP/Class.md",
+    "Coding Languages/Java/Package.md",
+    "Coding Languages/Java/OOP/继承.md",
+    "Coding Languages/Java/Grammars/statement.md",
+    "Coding Languages/Java/Grammars/异常.md",
+    "Coding Languages/Java/Grammars/Basic.md",
+    "Coding Languages/Java/Grammars/标准数据类型.md",
+    "Coding Languages/Java/测试代码.md",
+    "Coding Languages/Java/README.md",
+    "Apps/Git.md",
+    "Coding Languages/Java/OOP",
+    "Apps/Scoop/Scoop(Personal Using).md",
+    "Coding Languages/未命名.md",
+    "Apps/Vim.md",
+    "01 attachment/选择问题 select算法.png",
+    "01 attachment/比较排序 决策树.png",
+    "01 attachment/C++ 栈帧.png",
+    "01 attachment/C++变量的作用域和存储类型.png",
+    "01 attachment/Python函数特有方法2.png",
+    "01 attachment/Python函数特有方法.png",
+    "01 attachment/Python set 继承关系.png",
+    "01 attachment/Python映射类型2.png",
+    "01 attachment/Python映射类型.png",
+    "Study Plan.canvas"
+  ]
+}

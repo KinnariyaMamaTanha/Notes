@@ -1,0 +1,207 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Search Table",
+      "path": "Coding Languages/C++/Data Structure/Set/Search Table.md"
+    },
+    {
+      "basename": "cout & cin",
+      "path": "Coding Languages/C++/Grammars/In&out put/cout & cin.md"
+    },
+    {
+      "basename": "programming",
+      "path": "Operating Systems/Linux/Ubuntu(WSL)/programming.md"
+    },
+    {
+      "basename": "Basic",
+      "path": "Operating Systems/Linux/Ubuntu(WSL)/Basic.md"
+    },
+    {
+      "basename": "Progress",
+      "path": "Operating Systems/Linux/Ubuntu(WSL)/Progress.md"
+    },
+    {
+      "basename": "Priority Queue",
+      "path": "Coding Languages/C++/Data Structure/Tree/Priority Queue.md"
+    },
+    {
+      "basename": "类",
+      "path": "Coding Languages/C++/OOP/类.md"
+    },
+    {
+      "basename": "Union-Find",
+      "path": "Coding Languages/C++/Data Structure/Set/Union-Find.md"
+    },
+    {
+      "basename": "Graph",
+      "path": "Coding Languages/C++/Data Structure/Graph.md"
+    },
+    {
+      "basename": "Anaconda",
+      "path": "Apps/Anaconda.md"
+    },
+    {
+      "basename": "Iteration",
+      "path": "Coding Languages/Java/OOP/Iteration.md"
+    },
+    {
+      "basename": "ADT & Abstract Class",
+      "path": "Coding Languages/Java/OOP/ADT & Abstract Class.md"
+    },
+    {
+      "basename": "Class",
+      "path": "Coding Languages/Java/OOP/Class.md"
+    },
+    {
+      "basename": "Package",
+      "path": "Coding Languages/Java/Package.md"
+    },
+    {
+      "basename": "继承",
+      "path": "Coding Languages/Java/OOP/继承.md"
+    },
+    {
+      "basename": "statement",
+      "path": "Coding Languages/Java/Grammars/statement.md"
+    },
+    {
+      "basename": "异常",
+      "path": "Coding Languages/Java/Grammars/异常.md"
+    },
+    {
+      "basename": "Basic",
+      "path": "Coding Languages/Java/Grammars/Basic.md"
+    },
+    {
+      "basename": "标准数据类型",
+      "path": "Coding Languages/Java/Grammars/标准数据类型.md"
+    },
+    {
+      "basename": "测试代码",
+      "path": "Coding Languages/Java/测试代码.md"
+    },
+    {
+      "basename": "README",
+      "path": "Coding Languages/Java/README.md"
+    },
+    {
+      "basename": "Git",
+      "path": "Apps/Git.md"
+    },
+    {
+      "basename": "Scoop(Personal Using)",
+      "path": "Apps/Scoop/Scoop(Personal Using).md"
+    },
+    {
+      "basename": "Vim",
+      "path": "Apps/Vim.md"
+    },
+    {
+      "basename": "Shell",
+      "path": "Operating Systems/Linux/Ubuntu(WSL)/Shell.md"
+    },
+    {
+      "basename": "官方文档(2023年11月24日)",
+      "path": "Apps/Scoop/官方文档(2023年11月24日).md"
+    },
+    {
+      "basename": "Stack",
+      "path": "Coding Languages/C++/Data Structure/Linear Data Structure/Stack.md"
+    },
+    {
+      "basename": "Linear Table",
+      "path": "Coding Languages/C++/Data Structure/Linear Data Structure/Linear Table.md"
+    },
+    {
+      "basename": "运算符重载",
+      "path": "Coding Languages/C++/OOP/运算符重载.md"
+    },
+    {
+      "basename": "Queue",
+      "path": "Coding Languages/C++/Data Structure/Linear Data Structure/Queue.md"
+    },
+    {
+      "basename": "String",
+      "path": "Coding Languages/C++/Data Structure/Linear Data Structure/String.md"
+    },
+    {
+      "basename": "README",
+      "path": "Operating Systems/Linux/Ubuntu(WSL)/README.md"
+    },
+    {
+      "basename": "Statements",
+      "path": "Coding Languages/Python/Grammar/Statements.md"
+    },
+    {
+      "basename": "seq",
+      "path": "Coding Languages/Python/Data structure/Sequence/seq.md"
+    },
+    {
+      "basename": "tuple",
+      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/tuple.md"
+    },
+    {
+      "basename": "class",
+      "path": "Coding Languages/Python/OOP/class.md"
+    },
+    {
+      "basename": "dict",
+      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/map/dict.md"
+    },
+    {
+      "basename": "collections",
+      "path": "Coding Languages/Python/Module/内置模块/collections.md"
+    },
+    {
+      "basename": "Function",
+      "path": "Coding Languages/Python/Grammar/Function/Function.md"
+    },
+    {
+      "basename": "list",
+      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/list.md"
+    },
+    {
+      "basename": "os",
+      "path": "Coding Languages/Python/Module/内置模块/os.md"
+    },
+    {
+      "basename": "Python os 模块详解",
+      "path": "01 reference/Python os 模块详解.md"
+    },
+    {
+      "basename": "内置函数",
+      "path": "Coding Languages/Python/Grammar/Function/内置函数.md"
+    },
+    {
+      "basename": "string",
+      "path": "Coding Languages/Python/Data structure/Sequence/string.md"
+    },
+    {
+      "basename": "Basic Grammars",
+      "path": "Coding Languages/SQL/Basic Grammars.md"
+    },
+    {
+      "basename": "Basic grammars",
+      "path": "Coding Languages/Scheme/Basic grammars.md"
+    },
+    {
+      "basename": "Abnormal",
+      "path": "Coding Languages/Python/Grammar/Abnormal.md"
+    },
+    {
+      "basename": "Generator",
+      "path": "Coding Languages/Python/Data structure/Generator.md"
+    },
+    {
+      "basename": "Iterator",
+      "path": "Coding Languages/Python/Data structure/Iterator.md"
+    },
+    {
+      "basename": "fractions",
+      "path": "Coding Languages/Python/Module/内置模块/fractions.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
+}

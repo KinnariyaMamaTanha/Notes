@@ -1,0 +1,10 @@
+| 函数名/数据名   | 作用                          |
+| --------------- | ----------------------------- |
+| Template(x)     | 通过字符串x返回一个模板字符串 |
+| digits()        | 包含数字0~9的一个字符串       |
+| ascii_letters   | 包含所有ASCII字母的字符串     |
+| ascii_lowercase | 包含所有ASCII小写字母的字符串 |
+| ascii_uppercase | 包含所有ASCII大写字母的字符串 |
+| printable       | 包含所有可打印的字符的字符串  |
+| punctuation     | 包含所有ASCII标点字符的字符串 |
+| capwords()      | 将词首字母大写                              |

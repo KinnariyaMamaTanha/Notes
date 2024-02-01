@@ -1,0 +1,1 @@
+> 这是学习中科大教程[Linux 101](https://101.lug.ustc.edu.cn/)时做的笔记
