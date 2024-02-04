@@ -1,8 +1,60 @@
 {
   "recentFiles": [
     {
+      "basename": "Greedy Algorithm",
+      "path": "Algorithm/算法设计技术/Greedy Algorithm.md"
+    },
+    {
+      "basename": "vector",
+      "path": "01 reference/vector.md"
+    },
+    {
+      "basename": "iterator",
+      "path": "01 reference/iterator.md"
+    },
+    {
       "basename": "Search Table",
       "path": "Coding Languages/C++/Data Structure/Set/Search Table.md"
+    },
+    {
+      "basename": "Dynamic Programming",
+      "path": "Algorithm/算法设计技术/Dynamic Programming.md"
+    },
+    {
+      "basename": "树的双亲表示法",
+      "path": "01 attachment/树的双亲表示法.png"
+    },
+    {
+      "basename": "Critical Path",
+      "path": "Algorithm/Graph/Critical Path.md"
+    },
+    {
+      "basename": "Post Office Siting Problem",
+      "path": "Algorithm/Graph/Post Office Siting Problem.md"
+    },
+    {
+      "basename": "Randomized Algorithm",
+      "path": "Algorithm/算法设计技术/Randomized Algorithm.md"
+    },
+    {
+      "basename": "Matrix Multiplication",
+      "path": "Algorithm/Matrix/Matrix Multiplication.md"
+    },
+    {
+      "basename": "Horner's  Rule",
+      "path": "Algorithm/Polynomial/Horner's  Rule.md"
+    },
+    {
+      "basename": "Order Statistic",
+      "path": "Algorithm/Sort/Order Statistic.md"
+    },
+    {
+      "basename": "枚举类型",
+      "path": "Coding Languages/C++/Grammars/标准数据类型/枚举类型.md"
+    },
+    {
+      "basename": "共用体",
+      "path": "Coding Languages/C++/Grammars/标准数据类型/共用体.md"
     },
     {
       "basename": "cout & cin",
@@ -147,58 +199,6 @@
     {
       "basename": "dict",
       "path": "Coding Languages/Python/Data structure/Sequence/容器序列/map/dict.md"
-    },
-    {
-      "basename": "collections",
-      "path": "Coding Languages/Python/Module/内置模块/collections.md"
-    },
-    {
-      "basename": "Function",
-      "path": "Coding Languages/Python/Grammar/Function/Function.md"
-    },
-    {
-      "basename": "list",
-      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/list.md"
-    },
-    {
-      "basename": "os",
-      "path": "Coding Languages/Python/Module/内置模块/os.md"
-    },
-    {
-      "basename": "Python os 模块详解",
-      "path": "01 reference/Python os 模块详解.md"
-    },
-    {
-      "basename": "内置函数",
-      "path": "Coding Languages/Python/Grammar/Function/内置函数.md"
-    },
-    {
-      "basename": "string",
-      "path": "Coding Languages/Python/Data structure/Sequence/string.md"
-    },
-    {
-      "basename": "Basic Grammars",
-      "path": "Coding Languages/SQL/Basic Grammars.md"
-    },
-    {
-      "basename": "Basic grammars",
-      "path": "Coding Languages/Scheme/Basic grammars.md"
-    },
-    {
-      "basename": "Abnormal",
-      "path": "Coding Languages/Python/Grammar/Abnormal.md"
-    },
-    {
-      "basename": "Generator",
-      "path": "Coding Languages/Python/Data structure/Generator.md"
-    },
-    {
-      "basename": "Iterator",
-      "path": "Coding Languages/Python/Data structure/Iterator.md"
-    },
-    {
-      "basename": "fractions",
-      "path": "Coding Languages/Python/Module/内置模块/fractions.md"
     }
   ],
   "omittedPaths": [],

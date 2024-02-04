@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Languages/C++/Data Structure/Set/Search Table.md",
+                "file": "Algorithm/算法设计技术/Greedy Algorithm.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Languages/C++/Data Structure/Set/Search Table.md",
+                "file": "Algorithm/算法设计技术/Greedy Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Languages/C++/Data Structure/Set/Search Table.md",
+                "file": "Algorithm/算法设计技术/Greedy Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding Languages/C++/Data Structure/Set/Search Table.md"
+                "file": "Algorithm/算法设计技术/Greedy Algorithm.md"
               }
             }
           },
@@ -180,6 +180,31 @@
   },
   "active": "25aaecce91915af9",
   "lastOpenFiles": [
+    "01 reference/vector.md",
+    "Algorithm/算法设计技术",
+    "01 reference/iterator.md",
+    "Algorithm/算法设计技术/Greedy Algorithm.md",
+    "Coding Languages/C++/Data Structure/Set/Search Table.md",
+    "01 attachment/最优二叉树 访问期望.png",
+    "01 attachment/最优二叉树示例.png",
+    "01 attachment/最优二叉树示例.png",
+    "Algorithm/算法设计技术/Dynamic Programming.md",
+    "Pasted image 20240203133158.png",
+    "01 attachment/树的双亲表示法.png",
+    "01 attachment/LCS最优子结构.png",
+    "01 attachment/最优子结构.png",
+    "Algorithm/Graph/Critical Path.md",
+    "Algorithm/Graph/Post Office Siting Problem.md",
+    "Algorithm/算法设计技术/Randomized Algorithm.md",
+    "Algorithm/Matrix/Matrix Multiplication.md",
+    "Algorithm/Polynomial/Horner's  Rule.md",
+    "01 attachment/递归调用树.png",
+    "Algorithm/Sort/Order Statistic.md",
+    "01 attachment/顺序统计树示例.png",
+    "01 attachment/屏幕截图 2024-02-02 220506.png",
+    "未命名.md",
+    "Coding Languages/C++/Grammars/标准数据类型/枚举类型.md",
+    "Coding Languages/C++/Grammars/标准数据类型/共用体.md",
     "Coding Languages/C++/Data Structure/data_structure&algorithm/x64/Debug/data_str.21BA3919.tlog/link.read.2.tlog",
     "Coding Languages/C++/Data Structure/data_structure&algorithm/x64/Debug/data_str.21BA3919.tlog/unsuccessfulbuild",
     "Coding Languages/C++/Data Structure/data_structure&algorithm/enc_temp_folder/e0354cc2ccf7cac127ccecd1571a30/avlTree.h",
@@ -188,9 +213,7 @@
     "Coding Languages/C++/Data Structure/data_structure&algorithm/x64/Debug/test.obj",
     "Coding Languages/C++/Data Structure/data_structure&algorithm/avlTree.h",
     "Coding Languages/C++/Grammars/In&out put/cout & cin.md",
-    "Coding Languages/C++/Data Structure/Set/Search Table.md",
     "Coding Languages/C++/Data Structure/data_structure&algorithm/BinarySearchTree.h",
-    "01 attachment/哈希 开散列表.png",
     "Coding Languages/C++/Data Structure/data_structure&algorithm/HashTable.h",
     "Operating Systems/Linux/Ubuntu(WSL)/programming.md",
     "Operating Systems/Linux/Ubuntu(WSL)/Basic.md",
@@ -198,34 +221,11 @@
     "Coding Languages/C++/Data Structure/Tree/Priority Queue.md",
     "Coding Languages/C++/OOP/类.md",
     "Coding Languages/C++/Data Structure/Set/Union-Find.md",
-    "Coding Languages/C++/Data Structure/data_structure&algorithm/DisjointSet.h",
     "Coding Languages/C++/Data Structure/Graph.md",
     "Apps/Anaconda.md",
     "Coding Languages/Java/OOP/Iteration.md",
     "Coding Languages/Java/OOP/ADT & Abstract Class.md",
     "Coding Languages/Java/OOP/Class.md",
-    "Coding Languages/Java/Package.md",
-    "Coding Languages/Java/OOP/继承.md",
-    "Coding Languages/Java/Grammars/statement.md",
-    "Coding Languages/Java/Grammars/异常.md",
-    "Coding Languages/Java/Grammars/Basic.md",
-    "Coding Languages/Java/Grammars/标准数据类型.md",
-    "Coding Languages/Java/测试代码.md",
-    "Coding Languages/Java/README.md",
-    "Apps/Git.md",
-    "Coding Languages/Java/OOP",
-    "Apps/Scoop/Scoop(Personal Using).md",
-    "Coding Languages/未命名.md",
-    "Apps/Vim.md",
-    "01 attachment/选择问题 select算法.png",
-    "01 attachment/比较排序 决策树.png",
-    "01 attachment/C++ 栈帧.png",
-    "01 attachment/C++变量的作用域和存储类型.png",
-    "01 attachment/Python函数特有方法2.png",
-    "01 attachment/Python函数特有方法.png",
-    "01 attachment/Python set 继承关系.png",
-    "01 attachment/Python映射类型2.png",
-    "01 attachment/Python映射类型.png",
     "Study Plan.canvas"
   ]
 }

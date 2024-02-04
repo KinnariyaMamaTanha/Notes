@@ -584,10 +584,14 @@ bool avlTree<Key, Other>::adjust(node*& t, int subTree) // subTree = 0表示左�
 
 ## 3.3 红黑树
 
+^709adc
+
+> 红黑树是B树的一种推广，最初的名字是“对称的二叉B树”
+
 ### 3.3.1 基础性质
 
 红黑树是满足下述条件的二叉树：
-1. 每个结点被染成红色或黑色（空结点一般为黑色）
+1. 每个结点被染成红色或黑色（**空结点规定为黑色**）
 2. 根结点是黑色的
 3. 红色的结点的子结点必然是黑色的(没有连续的红结点)
 4. 任何一个结点出发到空结点的路上的必须包含相同数目的黑结点（即若忽略红结点，则红黑树是完全平衡的）
@@ -687,7 +691,7 @@ X在G的内侧：
 
 ![[红黑树LRb旋转.png]]
 
-**总结**：先使用二叉搜索树中的旋转方法调整结点的相对关系，再从当前子树的根开始逐层间隔染色（第一层位黑色）
+**总结**：先使用二叉搜索树中的旋转方法调整结点的相对关系，再从当前子树的根开始逐层间隔染色（第一层为黑色）
 
 3. 父结点的兄弟结点S为红色的
 
@@ -802,9 +806,462 @@ void RedBlackTree<Key, Other>::LR(node* gp)
 }
 ```
 
+#### `remove`
+
+采用二叉搜索树的删除方式，最后可以将删除情况归结为两种：
+1. 删除叶结点
+2. 删除只有一个孩子的结点
+
+其中，当删除叶结点且该叶结点为红色时，只需要直接将其删除。因此，可以尝试在向下寻找欲删除的结点的时候，将遇到的每一个结点都变成红色的，这样最后遇到被删结点时，其必然为红色结点，进而推出必为叶结点，直接删去即可。
+
+假设已经把遇到的P结点变为红色的，并且下一个遇到的结点X为黑色的，那么X的兄弟结点T必然为黑色的，分为以下几种情况：
+1. 情况一：X的两个子结点均为黑色的。
+	1. T的两个子结点也均为黑色的，将P, X, T重新染色即可
+	2. T的外侧子结点R为红色的，将P, T进行单旋转，再将P, X, T, R重新染色即可
+	3. T的内侧子结点R为红色的，将P, T, R进行双旋转，再将P, X, T, R重新染色即可
+2. 情况二：X至少有一个子结点为红色的。
+	1. 下一个要访问的结点 X' 为红色的，则不用处理
+	2. 下一个要访问的结点 X' 为黑色的，记 X' 的父结点为P(即为X)，兄弟结点为T，则将P, T进行一次单旋转，再对P, T重新染色，则P转化为红色，即X转化为红色，对X按照情况一进行处理即可
+
+![屏幕截图 2024-02-01 164741](01%20attachment/红黑树删除情况一.png)
+
+![屏幕截图 2024-02-01 164821](01%20attachment/红黑树删除情况二.png)
+
+![屏幕截图 2024-02-01 164900](01%20attachment/红黑树删除情况三.png)
+
+![屏幕截图 2024-02-01 164936](01%20attachment/红黑树删除情况五.png)
+
+### 3.3.4 扩展与修改
+
+红黑树还可以扩展或修改为多种数据集合，如[AA树](Coding%20Languages/C++/Data%20Structure/Set/Search%20Table.md#^74db04), [顺序统计树](Algorithm/Sort/Order%20Statistic.md#^e93850), 区间树等
+
 ## 3.4 AA树
 
+^74db04
+
+> 参考[AA 树 - OI Wiki (oi-wiki.org)](https://oi-wiki.org/ds/aa-tree/)，[Introduction to AA trees (opengenus.org)](https://iq.opengenus.org/aa-trees/)
+
+### 3.4.1 Basic
+
+> 红黑树有非常多可能的旋转，在编码时非常复杂，对其加上限制：左儿子颜色不能是红。就可以得到特殊版本的红黑树，称为AA树，比红黑树有很大的简化
+
+考虑结点的层次（而不是颜色），即：
+1. 叶子节点层次为1，空节点的层次为0
+2. 红色节点层次为其父节点的层次
+3. 黑结点的层次比父节点层次少一
+
+或表示为：
+1. 每个叶节点的level是1，空结点的level是0
+2. 每个左孩子的level是其父节点的level减一
+3. 每个右孩子的level是其父节点的level或其父节点的level减一
+4. 每个右孙子的level严格小于其祖父节点的level
+5. 每个level大于1的节点都有两个孩子
+
+将层次用图的方式表示(**水平链表示法**)，如：
+
+![AA树示例|500](01%20attachment/AA树示例.png)
+
+![](https://oi-wiki.org/ds/images/aa-tree-4.jpg)
+
+在水平链表示中，AA树是完全平衡的。称上图`30 -> 70`为右水平链接，则AA树满足：
+1. 允许单独的右水平链接，但不允许连续的右水平链接
+2. 不允许左水平链接
+
+存储实现：
+```c++
+template <class T>
+class AATree
+{
+private:
+	struct node
+	{
+		T data;
+		node* left;
+		node* right;
+		int level;
+
+		node() : left(nullptr), right(nullptr), level(1) { }
+		node(const T& d, int lev = 1, node* l = nullptr, node* r = nullptr) : data(d), level(lev), left(l), right(r) { }
+	};
+	node* root;
+
+public:
+	AATree();
+	~AATree();
+	void clear();
+	bool find(const T& x) const;
+	bool empty() const { return root == nil; }
+	void insert(const T& x);
+	void remove(const T& x);
+
+private:
+	void clear(node* t);
+	void insert(const T& x, node*& t);
+	void skew(node*& t);
+	void split(node*& t);
+	void RR(node*& t);
+	void LL(node*& t);
+	void remove(const T& x, node*& t);
+	void remove_rebalance(node*& t);
+};
+```
+
+可以采用`skew`(斜化)方法和`split`(分裂)方法来分别处理左水平链接和连续的右水平链接
+1. `skew`：将一个包含左水平链接的子树进行右旋转，以替换为一个包含右水平链接的子树
+	1. 子树的根的左孩子变为新的子树根；
+	2. 原来的子树根变为新子树根的右孩子。
+
+![屏幕截图 2024-02-02 101801|699](01%20attachment/AA树%20水平左链.png)
+
+```c++
+template <class T>
+void AATree<T>::skew(node*& t)
+{
+	if (t != nullptr && t->left != nullptr && t->left->level == t->level)
+		LL(t);
+}
+```
+```c++
+template <class T>
+void AATree<T>::LL(node*& t)
+{
+	node* tmp = t->left;
+	t->left = tmp->right;
+	tmp->right = t;
+	t = tmp;
+}
+```
+
+2. `split`：进行左旋转并增加 level，以替换一个包含两个或更多连续的右水平链接的子树，使其变为一个包含两个较少连续的右水平链接的子树
+	1. R 成为新的子树根
+	2. 原子树根 X 成为 R 的左孩子
+	3. R 的 level 加一
+
+![屏幕截图 2024-02-02 101809|600](01%20attachment/AA树%20水平右链.png)
+
+```c++
+template <class T>
+void AATree<T>::split(node*& t)
+{
+	if (t != nullptr && t->right != nullptr && t->right->right != nullptr
+		&& t->level == t->right->level && t->level == t->right->right->level)
+		RR(t);
+}
+```
+```c++
+template <class T>
+void AATree<T>::RR(node*& t)
+{ 
+	node* tmp = t->right;
+	t->right = tmp->left;
+	tmp->left = t;
+	++tmp->level;
+	t = tmp;
+}
+```
+
+### 3.4.2 `insert()`
+
+1. 先按照二叉搜索树的方式进行插入
+2. 然后调整平衡：
+	1. 首先进行`skew`操作，因为`skew`操作后，P -> X -> XR 可能成为一段连续的右水平链接，需要使用`split`操作
+	2. 再进行`split`操作
+
+```c++
+// public method
+template <class T>
+void AATree<T>::insert(const T& x)
+{
+	insert(x, root);
+}
+// private method
+template <class T>
+void AATree<T>::insert(const T& x, node*& t)
+{
+	if (t == nullptr)
+		t = new node(x, 1);
+	else if (t->data > x)
+		insert(x, t->left);
+	else if (t->data < x)
+		insert(x, t->right);
+	else
+		return;
+
+	skew(t);
+	split(t);
+}
+```
+
+### 3.4.3 `remove()`
+
+通过二叉搜索树中相同的方法，将删除情况转化为删除叶节点或只有一个孩子的节点（两者都在level 1）的情况
+1. 删除只有一个孩子的结点：由AA树的性质知，被删除节点必然为黑色节点且其孩子必为红色节点，将黑色节点删除并用其子节点代替即可
+2. 删除叶节点：
+	1. 叶节点为红色节点：直接删除即可
+	2. 叶节点为黑色节点：直接删除，然后进行调整
+3. 调整AA树平衡：在从根节点到被删除的黑色叶节点的路径上，对每个有两个子节点（level > 1）的节点 P：
+	1. 将P的level减一
+	2. 如果 P 的右孩子为红色的，则也将其level减一
+	3. 依次进行：`skew(p)`, `skew(p->right)`, `skew(p->right->right)`, `split(p)`, `split(p->right)`
+
+```c++
+// public method
+template <class T>
+void AATree<T>::remove(const T& x)
+{ 
+	remove(x, root);
+}
+// private method
+template <class T>
+void AATree<T>::remove(const T& x, node*& t)
+{
+	if (t == nullptr)
+		return;
+	
+	if (t->data == x)
+	{
+		if (t->left != nullptr && t->right != nullptr)
+		{
+			node* tmp = t->right;
+			while (tmp->left != nullptr)
+				tmp = tmp->left;
+			t->data = tmp->data;
+			remove(tmp->data, t->right);
+		}
+		else if (t->left == nullptr && t->right == nullptr)
+		{
+			delete t;
+			t = nullptr;
+		}
+		else // t must be at level 1, and have a single right child at level 1.
+		{
+			node* tmp = t->right;
+			delete t;
+			t = tmp;
+		}
+	}
+	else if (t->data > x)
+		remove(x, t->left);
+	else
+		remove(x, t->right);
+
+	remove_rebalance(t);
+}
+// rebalance
+template <class T>
+void AATree<T>::remove_rebalance(node*& t)
+{
+	if (t != nullptr &&
+		(t->left != nullptr && t->left->level < t->level - 1 || // 某一个孩子的level减一了
+		 t->right != nullptr && t->right->level < t->level - 1))
+	{
+		if (t->right->level > --t->level) // 右孩子为红色
+			t->right->level = t->level;
+		skew(t);
+		skew(t->right);
+		skew(t->right->right);
+		split(t);
+		split(t->right);
+	}
+}
+```
+
+例如，在下图中的AA树中删除节点`5`：
+
+![](https://iq.opengenus.org/content/images/2020/05/temp-10.JPG)
+
+![](https://iq.opengenus.org/content/images/2020/05/temp-11.JPG)
+
+![](https://iq.opengenus.org/content/images/2020/05/tmep.JPG)
+
+![](https://iq.opengenus.org/content/images/2020/05/temp-12.JPG)
+
+![](https://iq.opengenus.org/content/images/2020/05/tmp-1.JPG)
+
+![](https://iq.opengenus.org/content/images/2020/05/temp-13.JPG)
+
+![](https://iq.opengenus.org/content/images/2020/05/temp-14.JPG)
+
+![](https://iq.opengenus.org/content/images/2020/05/temp-15.JPG)
+
 ## 3.5 伸展树
+
+> 参考[Splay 树 - OI Wiki (oi-wiki.org)](https://oi-wiki.org/ds/splay/#splay-%E6%93%8D%E4%BD%9C)
+
+### 3.5.1 Basic
+
+>  伸展树(Splay tree)是一种不需要维护平衡的二叉搜索树，不保证$O(\log N)$的最坏时间性能，但是均摊的意义上，时间性能还是对数的
+
+
+![屏幕截图 2024-02-02 181601](01%20attachment/伸展树由来.png)
+
+![屏幕截图 2024-02-02 181731](01%20attachment/伸展树实现.png)
+
+最容易的一个办法：可以采用**向根旋转**来将频繁访问的数据向根移动，如在下述伸展树中访问`3`：
+
+![屏幕截图 2024-02-02 181941](01%20attachment/伸展树向根旋转.png)
+
+但是伸展树可能会变得很长，使得表现不出均摊的对数属性。变长的原因：单旋转不能减少树的高度。但是双旋转可以，使用双旋转的操作称为**伸展操作**(splay操作)。对于访问到的节点，都必须将其强制旋转到根节点处。
+
+存储实现：
+```c++
+template <class T>
+class SplayTree
+{
+private:
+	struct node
+	{
+		T data;
+		node* left;
+		node* right;
+
+		node(const T& d, node* l = nullptr, node* r = nullptr) : data(d), left(l), right(r) { }
+		node(node* l = nullptr, node* r = nullptr) : left(l), right(r) { }
+	};
+	node* root;
+
+public:
+	SplayTree() { root = nullptr; }
+	~SplayTree();
+	void clear();
+	bool find(const T& x);
+	void insert(const T& x);
+	void remove(const T& x);
+
+private:
+	void clear(node* t);
+	void LL(node*& t);
+	void RR(node*& t);
+	void LR(node*& t);
+	void RL(node*& t);
+	bool find(const T& x, node*& t);
+	void splay(const T& x, node*& t);
+	void insert(const T& x, node*& t);
+};
+
+```
+
+记待访问的节点为X，其父节点为P。splay操作共有三种情况：
+1. P 为根节点(zig)：直接进行一次单旋转
+2. P 不为根节点。记G为P的父节点
+	1. X和P为同侧节点(zig-zig)：先对G和P进行一次旋转，再对P和X进行一次旋转
+	2. X和P不为同侧节点(zig-zag)：对G, P和X进行双旋转
+```c++
+template <class T>
+void SplayTree<T>::splay(const T& x, node*& t)
+{
+	if (t != nullptr)
+	{
+		if (t == root)
+		{
+			if (t->left != nullptr && t->left->data == x)
+				LL(t);
+			else if (t->right != nullptr && t->right->data == x)
+				RR(t);
+		}
+	 
+		if (t->left != nullptr)
+		{
+		 
+			if (t->left->left != nullptr && t->left->left->data == x)
+				LL(t), LL(t);
+			else if (t->left->right != nullptr && t->left->right->data == x)
+				LR(t);
+		}
+		
+		if (t->right != nullptr)
+		{
+			if (t->right->right != nullptr && t->right->right->data == x)
+				RR(t), RR(t);
+			else if (t->right->left != nullptr && t->right->left->data == x)
+				RL(t);
+		}
+	}
+}
+```
+
+### 3.5.2 `insert()`
+
+先按照二叉搜索树的方式进行插入，再沿根节点到插入节点进行`splay`操作
+
+```c++
+// public method
+template <class T>
+void SplayTree<T>::insert(const T& x)
+{
+	insert(x, root);
+}
+// private method
+template <class T>
+void SplayTree<T>::insert(const T& x, node*& t)
+{ 
+	if (t == nullptr)
+		t = new node(x);
+	else if (t->data == x)
+		return;
+	else if (t->data > x)
+		insert(x, t->left);
+	else
+		insert(x, t->right);
+	splay(x, t);
+}
+```
+
+### 3.5.3 `find()`
+
+注意需要将要查找的元素通过`splay`操作转移至根结点处
+```c++
+// public method
+bool SplayTree<T>::find(const T& x)
+{
+	return find(x, root);
+}
+// private method
+template <class T>
+bool SplayTree<T>::find(const T& x, node*& t)
+{
+	bool result;
+	if (t == nullptr)
+		return false;
+	else if (t->data == x)
+		result = true;
+	else if (t->data > x)
+		result = find(x, t->left);
+	else
+		result = find(x, t->right);
+	splay(x, t);
+	return result;
+}
+```
+
+### 3.5.4 `remove()`
+
+先通过`find()`将欲删除的节点移动至根结点处（同时查看是否存在要删除的节点），然后删除根节点，再合并左右子树
+```c++
+template <class T>
+void SplayTree<T>::remove(const T& x)
+{
+	if (find(x)) // 将x旋转到根的位置
+	{
+		node* root_left = root->left;
+		node* root_right = root->right;
+		delete root;
+		if (root_left == nullptr)
+			root = root_right;
+		else if (root_right == nullptr)
+			root = root_left;
+		else
+		{
+			root = root_left;
+			node* tmp = root_left;
+			while (tmp->right != nullptr)
+				tmp = tmp->right;
+			find(tmp->data, root);
+			root->right = root_right;
+		}
+	}
+}
+```
 
 ## 3.6 散列表（哈希表）
 
@@ -1064,3 +1521,16 @@ B树是一种平衡度m叉查找树，定义：
 
 >*B树在进行顺序访问时，效率极其低下*
 
+## 3.10 最优二叉搜索树
+
+>[!question] 
+>给定n个不同关键字的升序序列 $K = (k_1, ..., k_n)$，对每个关键字 $k_i$，都有一个概率 $p_i$ 表示其搜索频率，另外有n+1个伪关键字 $D = (d_0, ..., d_n)$，$d_0$ 表示所有小于 $k_1$ 的值，$d_n$ 表示所有大于 $k_n$ 的值，对i=l, 2, …, n-l, 伪关键字 $d_i$ 表 示所有在 $k_i$ 和 $k_{i + 1}$ 之间的值。对每个伪关键字 $d_i$, 也都有一个概率 $q_i$, 表示对应的搜索频率。每个关键字 $k_i$ 是一个内部结点，而每个伪关键字 $d_i$ 是一个叶结点。每次搜索要么成功（找到某个关键字 $k_i$ )要么失败（找到某个伪关键字 $d_i$ ），构造一个二叉搜索树，使得所有搜索操作访问的节点数最少（即搜索访问的期望最小）。
+
+![最优二叉树示例](01%20attachment/最优二叉树示例.png)
+
+![最优二叉树 访问期望](01%20attachment/最优二叉树%20访问期望.png)
+
+
+## 3.11 其它动态查找表
+
+常见的有`treap`（树堆）、带权平衡树、k邻近树、替罪羊树、跳表等

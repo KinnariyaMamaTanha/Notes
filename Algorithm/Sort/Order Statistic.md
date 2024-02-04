@@ -79,3 +79,54 @@ partition(A, p, r, x)
 ```
 
 虽然使用`select`函数能让最坏时间复杂度降至$O(n)$，但是其中蕴含的常数系数往往会很大
+
+# 四、顺序统计树
+
+^e93850
+
+> Order-statistic tree[红黑树](Coding%20Languages/C++/Data%20Structure/Set/Search%20Table.md#^709adc)的一种扩张，支持一般动态集合上顺序统计操作，可以快速地找到一个集合中的第i小的数，或给出一个指定元素在集合的全序中的位置
+
+1. 通过顺序统计树，可以实现在$O(\log N)$的时间中查询到第 i 个顺序统计量
+2. 顺序统计树中关键字可以重复
+3. 每个节点存储四个信息：
+	1. `left`, `right`：左右儿子
+	2. `size`：以该节点为根的子树的大小
+	3. `color`：颜色
+	4. `parent`：父节点
+4. **关键字的秩**：其所在节点在树的中序遍历中所处的位置
+
+![屏幕截图 2024-02-02 220527](01%20attachment/顺序统计树示例.png)
+
+利用`size`信息可以进行顺序统计查询，如查询第i小关键字所在的节点
+```Pseudo
+// public method
+OS-SELECT(i):
+	OS-SELECT(i, root)
+
+// private method
+// Return the i th smallest node in the subtree rooted at t
+OS-SELECT(i, t):
+	r = t.left.size + 1
+	if r == i:
+		return t
+	elif i < r:
+		return OS-SELECT(i, t.left)
+	else
+		return OS-SELECT(i - r, t.right)
+```
+
+或者查询一个给定元素的秩
+```pseudo
+// x is a node of the tree
+OS-RANK(x):
+	r = x.left.size + 1
+	y = x
+	while y != root:
+		if y == y.parent.right：
+			r += y.parent.left.size + 1
+		y = y.parent;
+	return r
+```
+其中`while`循环表示不断求以`y`为根节点的子树中，`x`的秩，直到`y`变为`root`
+
+这样就只需要维护`size`属性，不难。
