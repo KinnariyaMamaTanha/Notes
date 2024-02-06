@@ -164,6 +164,27 @@ PRINT-LCS(X, Y, c, i, j):
 
 可以先将原序列（记为A）排序，得到升序序列B，然后对A, B进行求解最长公共子序列。时间复杂度为$O(n^2)$
 
+## 2.5 0-1背包问题
+
+>[!question] 
+>有n件商品，第 i 件商品重 $w_i$，价值为 $v_i$，但背包中至多能装下总共 $W$ 重的商品。问最多能拿价值多高的商品（每个商品必须整个拿走）？
+
+^670748
+
+记子问题 $S_{k, w}$ 为：只拿前 $k$ 个物品，背包中至多可装下重 $w$ 的商品时，求最多能拿走的总价值，并将结果记为 $dp[k][w]$，则有递推公式：
+$$
+dp[k][w]=
+\begin{cases}
+0 \quad & k=0 \thinspace \lor \thinspace w=0 \\
+\\
+\max\{dp[k-1][w-w_k]+v_k,\thinspace dp[k-1][w]\} \quad & kw \neq 0 \thinspace \land \thinspace w \ge w_k
+\end{cases}
+$$
+就可以设计动态规划算法了
+
+>[!note] 
+>与此不同的，[分数背包问题](Algorithm/算法设计技术/Greedy%20Algorithm.md#^c6bf80)则可以用贪心算法解决
+
 # 三、何时使用
 
 ## 3.1 最优子结构

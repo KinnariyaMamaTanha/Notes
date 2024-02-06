@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Graph",
+      "path": "Coding Languages/C++/Data Structure/Graph.md"
+    },
+    {
+      "basename": "Priority Queue",
+      "path": "Coding Languages/C++/Data Structure/Tree/Priority Queue.md"
+    },
+    {
+      "basename": "Search Table",
+      "path": "Coding Languages/C++/Data Structure/Set/Search Table.md"
+    },
+    {
+      "basename": "异常",
+      "path": "Coding Languages/C++/Grammars/异常.md"
+    },
+    {
       "basename": "Greedy Algorithm",
       "path": "Algorithm/算法设计技术/Greedy Algorithm.md"
+    },
+    {
+      "basename": "Dynamic Programming",
+      "path": "Algorithm/算法设计技术/Dynamic Programming.md"
+    },
+    {
+      "basename": "LaTeX",
+      "path": "Coding Languages/LaTeX.md"
     },
     {
       "basename": "vector",
@@ -11,14 +35,6 @@
     {
       "basename": "iterator",
       "path": "01 reference/iterator.md"
-    },
-    {
-      "basename": "Search Table",
-      "path": "Coding Languages/C++/Data Structure/Set/Search Table.md"
-    },
-    {
-      "basename": "Dynamic Programming",
-      "path": "Algorithm/算法设计技术/Dynamic Programming.md"
     },
     {
       "basename": "树的双亲表示法",
@@ -73,20 +89,12 @@
       "path": "Operating Systems/Linux/Ubuntu(WSL)/Progress.md"
     },
     {
-      "basename": "Priority Queue",
-      "path": "Coding Languages/C++/Data Structure/Tree/Priority Queue.md"
-    },
-    {
       "basename": "类",
       "path": "Coding Languages/C++/OOP/类.md"
     },
     {
       "basename": "Union-Find",
       "path": "Coding Languages/C++/Data Structure/Set/Union-Find.md"
-    },
-    {
-      "basename": "Graph",
-      "path": "Coding Languages/C++/Data Structure/Graph.md"
     },
     {
       "basename": "Anaconda",
@@ -191,14 +199,6 @@
     {
       "basename": "tuple",
       "path": "Coding Languages/Python/Data structure/Sequence/容器序列/tuple.md"
-    },
-    {
-      "basename": "class",
-      "path": "Coding Languages/Python/OOP/class.md"
-    },
-    {
-      "basename": "dict",
-      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/map/dict.md"
     }
   ],
   "omittedPaths": [],
