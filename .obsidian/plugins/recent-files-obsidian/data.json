@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "Basic",
+      "path": "Coding Languages/Python/IPython/Basic.md"
+    },
+    {
+      "basename": "Python os 模块详解",
+      "path": "01 reference/Python os 模块详解.md"
+    },
+    {
+      "basename": "os",
+      "path": "Coding Languages/Python/Module/内置模块/os.md"
+    },
+    {
+      "basename": "Git",
+      "path": "Apps/Git.md"
+    },
+    {
+      "basename": "官方文档(2023年11月24日)",
+      "path": "Apps/Scoop/官方文档(2023年11月24日).md"
+    },
+    {
+      "basename": "Scoop(Personal Using)",
+      "path": "Apps/Scoop/Scoop(Personal Using).md"
+    },
+    {
+      "basename": "Anaconda",
+      "path": "Apps/Anaconda.md"
+    },
+    {
+      "basename": "Basic",
+      "path": "Operating Systems/Linux/Ubuntu(WSL)/Basic.md"
+    },
+    {
+      "basename": "Search Algorithm",
+      "path": "Algorithm/Graph/Search Algorithm.md"
+    },
+    {
+      "basename": "1 Pseudo Code Standard",
+      "path": "Algorithm/1 Pseudo Code Standard.md"
+    },
+    {
+      "basename": "Introduction",
+      "path": "AI/Machine Learning/Introduction.md"
+    },
+    {
       "basename": "Graph",
       "path": "Coding Languages/C++/Data Structure/Graph.md"
     },
@@ -81,10 +125,6 @@
       "path": "Operating Systems/Linux/Ubuntu(WSL)/programming.md"
     },
     {
-      "basename": "Basic",
-      "path": "Operating Systems/Linux/Ubuntu(WSL)/Basic.md"
-    },
-    {
       "basename": "Progress",
       "path": "Operating Systems/Linux/Ubuntu(WSL)/Progress.md"
     },
@@ -95,10 +135,6 @@
     {
       "basename": "Union-Find",
       "path": "Coding Languages/C++/Data Structure/Set/Union-Find.md"
-    },
-    {
-      "basename": "Anaconda",
-      "path": "Apps/Anaconda.md"
     },
     {
       "basename": "Iteration",
@@ -145,24 +181,12 @@
       "path": "Coding Languages/Java/README.md"
     },
     {
-      "basename": "Git",
-      "path": "Apps/Git.md"
-    },
-    {
-      "basename": "Scoop(Personal Using)",
-      "path": "Apps/Scoop/Scoop(Personal Using).md"
-    },
-    {
       "basename": "Vim",
       "path": "Apps/Vim.md"
     },
     {
       "basename": "Shell",
       "path": "Operating Systems/Linux/Ubuntu(WSL)/Shell.md"
-    },
-    {
-      "basename": "官方文档(2023年11月24日)",
-      "path": "Apps/Scoop/官方文档(2023年11月24日).md"
     },
     {
       "basename": "Stack",
@@ -175,30 +199,6 @@
     {
       "basename": "运算符重载",
       "path": "Coding Languages/C++/OOP/运算符重载.md"
-    },
-    {
-      "basename": "Queue",
-      "path": "Coding Languages/C++/Data Structure/Linear Data Structure/Queue.md"
-    },
-    {
-      "basename": "String",
-      "path": "Coding Languages/C++/Data Structure/Linear Data Structure/String.md"
-    },
-    {
-      "basename": "README",
-      "path": "Operating Systems/Linux/Ubuntu(WSL)/README.md"
-    },
-    {
-      "basename": "Statements",
-      "path": "Coding Languages/Python/Grammar/Statements.md"
-    },
-    {
-      "basename": "seq",
-      "path": "Coding Languages/Python/Data structure/Sequence/seq.md"
-    },
-    {
-      "basename": "tuple",
-      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/tuple.md"
     }
   ],
   "omittedPaths": [],

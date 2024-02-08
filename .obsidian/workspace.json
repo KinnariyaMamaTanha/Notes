@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Languages/C++/Data Structure/Graph.md",
+                "file": "Coding Languages/Python/IPython/Basic.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Languages/C++/Data Structure/Graph.md",
+                "file": "Coding Languages/Python/IPython/Basic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Languages/C++/Data Structure/Graph.md",
+                "file": "Coding Languages/Python/IPython/Basic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding Languages/C++/Data Structure/Graph.md"
+                "file": "Coding Languages/Python/IPython/Basic.md"
               }
             }
           },
@@ -177,8 +177,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "25aaecce91915af9",
+  "active": "7cc21ba0cc774dc4",
   "lastOpenFiles": [
+    "01 reference/Python os 模块详解.md",
+    "Coding Languages/Python/IPython/Basic.md",
+    "Coding Languages/Python/IPython",
+    "Coding Languages/Python/未命名.md",
+    "Data Analysis/IPython/Shell.md",
+    "Coding Languages/Python/Module/内置模块/os.md",
+    "Apps/Git.md",
+    "Apps/Scoop/官方文档(2023年11月24日).md",
+    "Apps/Scoop/Scoop(Personal Using).md",
+    "Apps/Anaconda.md",
+    "Operating Systems/Linux/Ubuntu(WSL)/Basic.md",
+    "Algorithm/Graph/Search Algorithm.md",
+    "Algorithm/Graph/Minimal Spanning Tree/Kruskal.md",
+    "Algorithm/1 Pseudo Code Standard.md",
+    "AI/Machine Learning/Introduction.md",
+    "Coding Languages/C++/Data Structure/Graph.md",
     "01 attachment/有向图的表示法.png",
     "01 attachment/无向图的表示法.png",
     "Coding Languages/C++/Data Structure/Tree/Priority Queue.md",
@@ -191,10 +207,8 @@
     "01 attachment/B树示例.png",
     "Coding Languages/C++/Grammars/异常.md",
     "01 attachment/磁盘驱动器示例.png",
-    "Coding Languages/C++/Data Structure/Graph.md",
     "Algorithm/算法设计技术/Greedy Algorithm.md",
     "01 attachment/图拟阵定义.png",
-    "01 attachment/屏幕截图 2024-02-05 213832.png",
     "Algorithm/算法设计技术/Dynamic Programming.md",
     "Coding Languages/LaTeX.md",
     "01 reference/vector.md",
@@ -203,12 +217,6 @@
     "Algorithm/Graph/Critical Path.md",
     "Algorithm/Graph/Post Office Siting Problem.md",
     "Algorithm/算法设计技术/Randomized Algorithm.md",
-    "Algorithm/Matrix/Matrix Multiplication.md",
-    "Algorithm/Polynomial/Horner's  Rule.md",
-    "Algorithm/Sort/Order Statistic.md",
-    "未命名.md",
-    "Coding Languages/C++/Grammars/标准数据类型/枚举类型.md",
-    "Coding Languages/C++/Grammars/标准数据类型/共用体.md",
     "Coding Languages/C++/Data Structure/data_structure&algorithm/x64/Debug/data_str.21BA3919.tlog/link.read.2.tlog",
     "Coding Languages/C++/Data Structure/data_structure&algorithm/x64/Debug/data_str.21BA3919.tlog/unsuccessfulbuild",
     "Coding Languages/C++/Data Structure/data_structure&algorithm/enc_temp_folder/e0354cc2ccf7cac127ccecd1571a30/avlTree.h",
@@ -216,15 +224,7 @@
     "Coding Languages/C++/Data Structure/data_structure&algorithm/enc_temp_folder",
     "Coding Languages/C++/Data Structure/data_structure&algorithm/x64/Debug/test.obj",
     "Coding Languages/C++/Data Structure/data_structure&algorithm/avlTree.h",
-    "Coding Languages/C++/Grammars/In&out put/cout & cin.md",
     "Coding Languages/C++/Data Structure/data_structure&algorithm/BinarySearchTree.h",
-    "Coding Languages/C++/Data Structure/data_structure&algorithm/HashTable.h",
-    "Operating Systems/Linux/Ubuntu(WSL)/programming.md",
-    "Operating Systems/Linux/Ubuntu(WSL)/Basic.md",
-    "Operating Systems/Linux/Ubuntu(WSL)/Progress.md",
-    "Coding Languages/C++/OOP/类.md",
-    "Coding Languages/C++/Data Structure/Set/Union-Find.md",
-    "Apps/Anaconda.md",
     "Study Plan.canvas"
   ]
 }

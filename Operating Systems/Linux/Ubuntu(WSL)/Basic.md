@@ -177,7 +177,7 @@ $ tar -tv -f target.tar # 打印出文件的详细信息
 
 >使用官方软件源一般较慢，推荐换为镜像源（如中科大源、清华源）
 
-1. 方式一：进入`/etc/apt/`，使用vim等编辑器修改`source.list`文件，将其中的所有`http://archive.ubuntu.com/`替换为`http://mirrors.ustc.edu.cn`（中科大源）
+1. 方式一：进入`/etc/apt/`，使用vim等编辑器修改`sources.list`文件，将其中的所有`http://archive.ubuntu.com/`替换为`http://mirrors.ustc.edu.cn`（中科大源）
 2. 方式二：在shell中运行：`sudo sed -i 's|//.*archive.ubuntu.com|//mirrors.ustc.edu.cn|g' /etc/apt/sources.list`直接实现替换
 3. **第三方软件源**：某些软件并不在官方软件源中，但可以通过第三方软件源来下载，如`docker`官方的软件源（里面的软件比Ubuntu的官方软件源有的更新一些），参考[Linux 101](https://101.lug.ustc.edu.cn/Ch03/#third-party-software-sources)中的介绍
 

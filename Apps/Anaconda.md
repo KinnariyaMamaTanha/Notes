@@ -1,5 +1,8 @@
 # Conda
+
 >*参考[conda official guide]([User guide — conda 23.11.1.dev2 documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html))*
+
+## Environment
 
 1. 激活环境：
 ```shell
@@ -11,7 +14,8 @@ conda --version
 ```
 3. 创建新环境
 ```shell
-conda create --name <env_name> python=3.11 # 最后是版本号，可选
+conda create --name <env_name> # 不指定包安装
+conda create --name <env_name> <python=3.11> # 指定包安装，最后是版本号，可选；还可以是numpy等
 ```
 4. 激活、退出环境
 ```shell
@@ -34,13 +38,63 @@ conda update conda
 7. 更改python版本：直接安装新的版本，将覆盖原版本
 ```shell
 conda install python=3.9
+conda install --name <env> python # 下载到指定环境
 ```
 8. 删除现有环境：
 ```shell
 conda remove -n <env> --all
 ```
+9. 重命名环境(没有重命名指令，但是可以通过克隆和删除实现)
+```shell
+conda create -n <new_env> --clone <old_env>
+conda remove -n <old_env> --all
+```
+10. 使用`--help`查看帮助文档
+```shell
+conda <command> --help
+```
+11. 当显示不存在`activate`指令时，可以尝试使用
+```shell
+conda init <shell> # 如 conda init bash
+```
+来进行初始化，然后重启shell。或者使用
+```shell
+source activate <env>
+```
+代替原conda中的指令
 
-# Pytorch
+## Channel
+
+在`~/.condarc`中配置以下内容以修改全局安装源，可见于[anaconda | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/)
+
+也可以为单独的环境配置安装源，只需要在环境文件夹下配置一个`.condarc`文件即可
+
+## Package
+
+1. 下载包：
+```shell
+conda install [--name <env>] <package>[=<version>]
+```
+2. 更新包：
+```shell
+conda update [--name <env>] <package>
+```
+3. 卸载包：
+```shell
+conda remove [--name env] <package>
+```
+4. 搜索包
+```shell
+conda search <package>
+```
+5. 清除包缓存：
+```shell
+conda clean -p # 删除无用的包
+conda clean -all # 删除所有安装包和缓存
+```
+如果是pip，在Windows中，可以删除 `C:\Users\username\AppData\Local\pip\cache`中的缓存
+
+# Pytorch Download
 
 安装过程：
 1. 进入官网[https://pytorch.org/](https://pytorch.org/)
