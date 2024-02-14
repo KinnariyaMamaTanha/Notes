@@ -10,11 +10,11 @@ text
 # Grammars
 
 ## 2.1 Basic Grammars
-1. comment：begin with `%`
+1. comment: begin with `%`
 2. quotation: use  `` ` `` on the left side, and use `'` on the right side. (or double `` ` `` on the left side and double `'` on the right side)
 3. some special characters %, #, &, $: precede it with a backslash, for example \\%
 4. $: mark mathematics in text, like $\theta=x^2$
-5. 省略号：\\ldots
+5. 省略号：`\ldots`
 6. display equations: use 
 ```latex
 \begin{equation}

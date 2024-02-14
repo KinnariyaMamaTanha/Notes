@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "23f312ee57c27bfd",
+        "id": "480566087d49551a",
         "type": "tabs",
         "children": [
           {
-            "id": "7cc21ba0cc774dc4",
+            "id": "aa18d69d7b02499d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Languages/Python/IPython/Basic.md",
+                "file": "Algorithm/Graph/Max Flow.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Languages/Python/IPython/Basic.md",
+                "file": "Algorithm/Graph/Max Flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Languages/Python/IPython/Basic.md",
+                "file": "Algorithm/Graph/Max Flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding Languages/Python/IPython/Basic.md"
+                "file": "Algorithm/Graph/Max Flow.md"
               }
             }
           },
@@ -177,54 +177,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7cc21ba0cc774dc4",
+  "active": "aa18d69d7b02499d",
   "lastOpenFiles": [
-    "01 reference/Python os 模块详解.md",
+    "Algorithm/Graph/Minimum Spanning Tree.md",
+    "Algorithm/Graph/Max Flow.md",
+    "01 attachment/Kruskal算法解释.png",
+    "01 attachment/light边示例.png",
+    "01 attachment/cut.png",
+    "Algorithm/Graph/Shortest Path.md",
+    "01 attachment/DAG算法.png",
+    "01 attachment/最短路径树.png",
+    "Algorithm/Graph/Post Office Siting Problem.md",
+    "Algorithm/Graph/Shortest Path/Floyd-Walshall.md",
+    "Algorithm/Graph/Shortest Path/Bellman-Ford.md",
+    "Algorithm/Graph/Strongly Connected Component.md",
+    "Algorithm/Graph/Shortest Path",
+    "Algorithm/Graph/Minimal Spanning Tree/Prim.md",
+    "Algorithm/Graph/Minimal Spanning Tree",
+    "Algorithm/Graph/Critical Path.md",
+    "Algorithm/Graph/Search Algorithm.md",
+    "Coding Languages/LaTeX.md",
+    "Coding Languages/Python/Module/NumPy/ndarray.md",
+    "Coding Languages/Python/Module/Pandas/Data Structure/DataFrame.md",
+    "01 attachment/强连通分量示例.png",
+    "Algorithm/Sort/Topological sort.md",
+    "Coding Languages/Python/Module/Pandas/Data Structure/Series.md",
+    "01 attachment/DataFrame构造器.png",
+    "Coding Languages/Python/Module/Pandas/Data Structure",
+    "Coding Languages/Python/Module/Pandas",
+    "01 attachment/部分numpy.random函数续.png",
+    "01 attachment/部分numpy,random函数.png",
+    "Coding Languages/Python/Module/NumPy/File IO.md",
+    "Apps/Anaconda.md",
+    "01 attachment/numpy.linalg常用函数.png",
+    "Coding Languages/Python/Grammar/Files.md",
+    "AI/Deep Learning/数据处理.md",
+    "Coding Languages/Python/Module/NumPy/Basic.md",
+    "Coding Languages/Python/Module/NumPy",
+    "Coding Languages/Python/Grammar/Abnormal.md",
     "Coding Languages/Python/IPython/Basic.md",
+    "Coding Languages/Python/Data structure/Sequence/容器序列/map/set.md",
+    "01 reference/Python os 模块详解.md",
     "Coding Languages/Python/IPython",
     "Coding Languages/Python/未命名.md",
     "Data Analysis/IPython/Shell.md",
-    "Coding Languages/Python/Module/内置模块/os.md",
-    "Apps/Git.md",
-    "Apps/Scoop/官方文档(2023年11月24日).md",
-    "Apps/Scoop/Scoop(Personal Using).md",
-    "Apps/Anaconda.md",
-    "Operating Systems/Linux/Ubuntu(WSL)/Basic.md",
-    "Algorithm/Graph/Search Algorithm.md",
-    "Algorithm/Graph/Minimal Spanning Tree/Kruskal.md",
-    "Algorithm/1 Pseudo Code Standard.md",
-    "AI/Machine Learning/Introduction.md",
-    "Coding Languages/C++/Data Structure/Graph.md",
-    "01 attachment/有向图的表示法.png",
-    "01 attachment/无向图的表示法.png",
-    "Coding Languages/C++/Data Structure/Tree/Priority Queue.md",
-    "Coding Languages/C++/Data Structure/Set/Search Table.md",
-    "01 attachment/B树删除示例解释.png",
-    "01 attachment/B树删除示例2.png",
-    "01 attachment/B树删除示例1.png",
-    "01 attachment/B树插入示例.png",
-    "01 attachment/B树分裂节点示例.png",
-    "01 attachment/B树示例.png",
-    "Coding Languages/C++/Grammars/异常.md",
-    "01 attachment/磁盘驱动器示例.png",
-    "Algorithm/算法设计技术/Greedy Algorithm.md",
-    "01 attachment/图拟阵定义.png",
-    "Algorithm/算法设计技术/Dynamic Programming.md",
-    "Coding Languages/LaTeX.md",
-    "01 reference/vector.md",
     "Algorithm/算法设计技术",
-    "01 reference/iterator.md",
-    "Algorithm/Graph/Critical Path.md",
-    "Algorithm/Graph/Post Office Siting Problem.md",
-    "Algorithm/算法设计技术/Randomized Algorithm.md",
     "Coding Languages/C++/Data Structure/data_structure&algorithm/x64/Debug/data_str.21BA3919.tlog/link.read.2.tlog",
     "Coding Languages/C++/Data Structure/data_structure&algorithm/x64/Debug/data_str.21BA3919.tlog/unsuccessfulbuild",
     "Coding Languages/C++/Data Structure/data_structure&algorithm/enc_temp_folder/e0354cc2ccf7cac127ccecd1571a30/avlTree.h",
-    "Coding Languages/C++/Data Structure/data_structure&algorithm/enc_temp_folder/e0354cc2ccf7cac127ccecd1571a30",
-    "Coding Languages/C++/Data Structure/data_structure&algorithm/enc_temp_folder",
-    "Coding Languages/C++/Data Structure/data_structure&algorithm/x64/Debug/test.obj",
-    "Coding Languages/C++/Data Structure/data_structure&algorithm/avlTree.h",
-    "Coding Languages/C++/Data Structure/data_structure&algorithm/BinarySearchTree.h",
     "Study Plan.canvas"
   ]
 }

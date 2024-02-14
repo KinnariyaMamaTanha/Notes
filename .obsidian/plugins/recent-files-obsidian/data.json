@@ -1,8 +1,80 @@
 {
   "recentFiles": [
     {
+      "basename": "Max Flow",
+      "path": "Algorithm/Graph/Max Flow.md"
+    },
+    {
+      "basename": "Minimum Spanning Tree",
+      "path": "Algorithm/Graph/Minimum Spanning Tree.md"
+    },
+    {
+      "basename": "Shortest Path",
+      "path": "Algorithm/Graph/Shortest Path.md"
+    },
+    {
+      "basename": "Post Office Siting Problem",
+      "path": "Algorithm/Graph/Post Office Siting Problem.md"
+    },
+    {
+      "basename": "Strongly Connected Component",
+      "path": "Algorithm/Graph/Strongly Connected Component.md"
+    },
+    {
+      "basename": "Search Algorithm",
+      "path": "Algorithm/Graph/Search Algorithm.md"
+    },
+    {
+      "basename": "LaTeX",
+      "path": "Coding Languages/LaTeX.md"
+    },
+    {
+      "basename": "ndarray",
+      "path": "Coding Languages/Python/Module/NumPy/ndarray.md"
+    },
+    {
+      "basename": "DataFrame",
+      "path": "Coding Languages/Python/Module/Pandas/Data Structure/DataFrame.md"
+    },
+    {
+      "basename": "Topological sort",
+      "path": "Algorithm/Sort/Topological sort.md"
+    },
+    {
+      "basename": "Series",
+      "path": "Coding Languages/Python/Module/Pandas/Data Structure/Series.md"
+    },
+    {
+      "basename": "File IO",
+      "path": "Coding Languages/Python/Module/NumPy/File IO.md"
+    },
+    {
+      "basename": "Anaconda",
+      "path": "Apps/Anaconda.md"
+    },
+    {
+      "basename": "numpy.linalg常用函数",
+      "path": "01 attachment/numpy.linalg常用函数.png"
+    },
+    {
+      "basename": "Files",
+      "path": "Coding Languages/Python/Grammar/Files.md"
+    },
+    {
+      "basename": "Basic",
+      "path": "Coding Languages/Python/Module/NumPy/Basic.md"
+    },
+    {
+      "basename": "Abnormal",
+      "path": "Coding Languages/Python/Grammar/Abnormal.md"
+    },
+    {
       "basename": "Basic",
       "path": "Coding Languages/Python/IPython/Basic.md"
+    },
+    {
+      "basename": "set",
+      "path": "Coding Languages/Python/Data structure/Sequence/容器序列/map/set.md"
     },
     {
       "basename": "Python os 模块详解",
@@ -25,16 +97,8 @@
       "path": "Apps/Scoop/Scoop(Personal Using).md"
     },
     {
-      "basename": "Anaconda",
-      "path": "Apps/Anaconda.md"
-    },
-    {
       "basename": "Basic",
       "path": "Operating Systems/Linux/Ubuntu(WSL)/Basic.md"
-    },
-    {
-      "basename": "Search Algorithm",
-      "path": "Algorithm/Graph/Search Algorithm.md"
     },
     {
       "basename": "1 Pseudo Code Standard",
@@ -69,10 +133,6 @@
       "path": "Algorithm/算法设计技术/Dynamic Programming.md"
     },
     {
-      "basename": "LaTeX",
-      "path": "Coding Languages/LaTeX.md"
-    },
-    {
       "basename": "vector",
       "path": "01 reference/vector.md"
     },
@@ -83,14 +143,6 @@
     {
       "basename": "树的双亲表示法",
       "path": "01 attachment/树的双亲表示法.png"
-    },
-    {
-      "basename": "Critical Path",
-      "path": "Algorithm/Graph/Critical Path.md"
-    },
-    {
-      "basename": "Post Office Siting Problem",
-      "path": "Algorithm/Graph/Post Office Siting Problem.md"
     },
     {
       "basename": "Randomized Algorithm",
@@ -143,62 +195,6 @@
     {
       "basename": "ADT & Abstract Class",
       "path": "Coding Languages/Java/OOP/ADT & Abstract Class.md"
-    },
-    {
-      "basename": "Class",
-      "path": "Coding Languages/Java/OOP/Class.md"
-    },
-    {
-      "basename": "Package",
-      "path": "Coding Languages/Java/Package.md"
-    },
-    {
-      "basename": "继承",
-      "path": "Coding Languages/Java/OOP/继承.md"
-    },
-    {
-      "basename": "statement",
-      "path": "Coding Languages/Java/Grammars/statement.md"
-    },
-    {
-      "basename": "异常",
-      "path": "Coding Languages/Java/Grammars/异常.md"
-    },
-    {
-      "basename": "Basic",
-      "path": "Coding Languages/Java/Grammars/Basic.md"
-    },
-    {
-      "basename": "标准数据类型",
-      "path": "Coding Languages/Java/Grammars/标准数据类型.md"
-    },
-    {
-      "basename": "测试代码",
-      "path": "Coding Languages/Java/测试代码.md"
-    },
-    {
-      "basename": "README",
-      "path": "Coding Languages/Java/README.md"
-    },
-    {
-      "basename": "Vim",
-      "path": "Apps/Vim.md"
-    },
-    {
-      "basename": "Shell",
-      "path": "Operating Systems/Linux/Ubuntu(WSL)/Shell.md"
-    },
-    {
-      "basename": "Stack",
-      "path": "Coding Languages/C++/Data Structure/Linear Data Structure/Stack.md"
-    },
-    {
-      "basename": "Linear Table",
-      "path": "Coding Languages/C++/Data Structure/Linear Data Structure/Linear Table.md"
-    },
-    {
-      "basename": "运算符重载",
-      "path": "Coding Languages/C++/OOP/运算符重载.md"
     }
   ],
   "omittedPaths": [],

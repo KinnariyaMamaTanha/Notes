@@ -130,7 +130,7 @@ z
 for i in range(len(array1)):
 	print(array1[i], array2[i])
 ```
-也可以使用内置函数[[内置函数#^1a1622|zip]]
+也可以使用内置函数[[Coding Languages/Python/Grammar/Function/内置函数#^1a1622|zip]]
 
 2. 在迭代中获得索引：使用enumerate类型转换
 ```python

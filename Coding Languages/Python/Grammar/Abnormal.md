@@ -114,7 +114,7 @@ try:
 except: 
 	print('Something wrong')
 ```
-这将捕获所有异常，但不建议这样做。更好的方法是使用下面介绍的[[Abnormal#^bad66f|else语句和Exception的配合]]
+这将捕获所有异常，但不建议这样做。更好的方法是使用下面介绍的[[Coding Languages/Python/Grammar/Abnormal#^bad66f|else语句和Exception的配合]]
 
 6. `else`语句：当没有出现异常时，将运行else语句块中的代码：
 ```python
@@ -148,7 +148,7 @@ while True:
 		y = int(input('Enter the second number: ')) 
 		print(x / y)
 	except Exception as e:
-		print("Invalid input:" e)
+		print("Invalid input:", e)
 		print("Enter again!")
 	else:
 		break

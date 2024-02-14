@@ -205,7 +205,7 @@ Bod Hello
 1292896181440 1292896181440 1292896181440
 ```
 
-4. **收集参数**：使用 `*` 代表一系列元素(参考[[Statements#^abd5e6|序列解包]])
+4. **收集参数**：使用 `*` 代表一系列元素(参考[[Coding Languages/Python/Grammar/Statements#^abd5e6|序列解包]])
 ```python
 >>> def func(*nums):
 ... 	print(nums)

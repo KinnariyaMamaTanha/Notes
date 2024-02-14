@@ -118,5 +118,8 @@
   "minimal-style@@image-radius": 8,
   "minimal-style@@blockquote-border-color@@dark": "#8F2CFF",
   "minimal-style@@blockquote-border-thickness": 2,
-  "minimal-style@@folding-offset": 0
+  "minimal-style@@folding-offset": 0,
+  "obsidian-execute-code@@use-custom-error-color": true,
+  "obsidian-execute-code@@use-custom-output-color": true,
+  "obsidian-execute-code@@code-error-text-color": "#A514DF"
 }
