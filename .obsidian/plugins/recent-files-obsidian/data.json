@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Max Flow",
-      "path": "Algorithm/Graph/Max Flow.md"
+      "basename": "Study Record",
+      "path": "Study Record.md"
     },
     {
-      "basename": "Minimum Spanning Tree",
-      "path": "Algorithm/Graph/Minimum Spanning Tree.md"
+      "basename": "Linear Programming",
+      "path": "Algorithm/Linear Programming.md"
+    },
+    {
+      "basename": "Stable Matching",
+      "path": "Algorithm/Graph/Stable Matching.md"
+    },
+    {
+      "basename": "Maximum Flow",
+      "path": "Algorithm/Graph/Maximum Flow.md"
     },
     {
       "basename": "Shortest Path",
       "path": "Algorithm/Graph/Shortest Path.md"
+    },
+    {
+      "basename": "Minimum Spanning Tree",
+      "path": "Algorithm/Graph/Minimum Spanning Tree.md"
     },
     {
       "basename": "Post Office Siting Problem",
@@ -183,18 +195,6 @@
     {
       "basename": "类",
       "path": "Coding Languages/C++/OOP/类.md"
-    },
-    {
-      "basename": "Union-Find",
-      "path": "Coding Languages/C++/Data Structure/Set/Union-Find.md"
-    },
-    {
-      "basename": "Iteration",
-      "path": "Coding Languages/Java/OOP/Iteration.md"
-    },
-    {
-      "basename": "ADT & Abstract Class",
-      "path": "Coding Languages/Java/OOP/ADT & Abstract Class.md"
     }
   ],
   "omittedPaths": [],

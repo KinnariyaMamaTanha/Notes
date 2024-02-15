@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/Graph/Max Flow.md",
+                "file": "Study Record.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/Graph/Max Flow.md",
+                "file": "Study Record.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/Graph/Max Flow.md",
+                "file": "Study Record.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/Graph/Max Flow.md"
+                "file": "Study Record.md"
               }
             }
           },
@@ -179,14 +179,23 @@
   },
   "active": "aa18d69d7b02499d",
   "lastOpenFiles": [
-    "Algorithm/Graph/Minimum Spanning Tree.md",
-    "Algorithm/Graph/Max Flow.md",
-    "01 attachment/Kruskal算法解释.png",
-    "01 attachment/light边示例.png",
-    "01 attachment/cut.png",
+    "www.luogu.com.md",
+    "Study Record.md",
+    "Algorithm/Linear Programming.md",
+    "Algorithm/Graph/Stable Matching.md",
+    "Algorithm/Graph/Maximum Flow.md",
     "Algorithm/Graph/Shortest Path.md",
-    "01 attachment/DAG算法.png",
-    "01 attachment/最短路径树.png",
+    "01 attachment/屏幕截图 2024-02-15 110431.png",
+    "01 attachment/屏幕截图 2024-02-15 110254.png",
+    "01 attachment/屏幕截图 2024-02-15 105150.png",
+    "01 attachment/屏幕截图 2024-02-15 104839.png",
+    "01 attachment/屏幕截图 2024-02-15 104744.png",
+    "01 attachment/屏幕截图 2024-02-15 100117.png",
+    "01 attachment/屏幕截图 2024-02-15 100011.png",
+    "01 attachment/屏幕截图 2024-02-15 095910.png",
+    "01 attachment/最大流残余图示例.png",
+    "Pasted image 20240215094528.png",
+    "Algorithm/Graph/Minimum Spanning Tree.md",
     "Algorithm/Graph/Post Office Siting Problem.md",
     "Algorithm/Graph/Shortest Path/Floyd-Walshall.md",
     "Algorithm/Graph/Shortest Path/Bellman-Ford.md",
@@ -199,28 +208,19 @@
     "Coding Languages/LaTeX.md",
     "Coding Languages/Python/Module/NumPy/ndarray.md",
     "Coding Languages/Python/Module/Pandas/Data Structure/DataFrame.md",
-    "01 attachment/强连通分量示例.png",
     "Algorithm/Sort/Topological sort.md",
     "Coding Languages/Python/Module/Pandas/Data Structure/Series.md",
-    "01 attachment/DataFrame构造器.png",
     "Coding Languages/Python/Module/Pandas/Data Structure",
     "Coding Languages/Python/Module/Pandas",
-    "01 attachment/部分numpy.random函数续.png",
-    "01 attachment/部分numpy,random函数.png",
     "Coding Languages/Python/Module/NumPy/File IO.md",
     "Apps/Anaconda.md",
-    "01 attachment/numpy.linalg常用函数.png",
     "Coding Languages/Python/Grammar/Files.md",
     "AI/Deep Learning/数据处理.md",
     "Coding Languages/Python/Module/NumPy/Basic.md",
     "Coding Languages/Python/Module/NumPy",
     "Coding Languages/Python/Grammar/Abnormal.md",
     "Coding Languages/Python/IPython/Basic.md",
-    "Coding Languages/Python/Data structure/Sequence/容器序列/map/set.md",
-    "01 reference/Python os 模块详解.md",
     "Coding Languages/Python/IPython",
-    "Coding Languages/Python/未命名.md",
-    "Data Analysis/IPython/Shell.md",
     "Algorithm/算法设计技术",
     "Coding Languages/C++/Data Structure/data_structure&algorithm/x64/Debug/data_str.21BA3919.tlog/link.read.2.tlog",
     "Coding Languages/C++/Data Structure/data_structure&algorithm/x64/Debug/data_str.21BA3919.tlog/unsuccessfulbuild",
